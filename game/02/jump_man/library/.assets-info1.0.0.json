@@ -1,0 +1,85 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte.meta": {
+      "time": 1718260072067.955
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte": {
+      "time": 1718266919901.645,
+      "uuid": "a96d3700-0433-4d34-a3d3-efdde33a1b6a"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\PlayerController.ts.meta": {
+      "time": 1718260104156.0923
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\PlayerController.ts": {
+      "time": 1718272745956.4717,
+      "uuid": "72fa9510-5e46-4f7b-bf74-a7d473130d9c"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\scene.scene.meta": {
+      "time": 1718261904254.7031
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\scene.scene": {
+      "time": 1718272021004.078,
+      "uuid": "f35753a1-eb4b-4d37-b1de-b209d05d24f6"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Animations.meta": {
+      "time": 1718263178821.093
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Animations": {
+      "time": 1718263281205.3774,
+      "uuid": "4d4f461f-eb2c-4278-8be5-5cc3966a2ea3"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Animations\\oneStep.anim.meta": {
+      "time": 1718262724208.0366
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Animations\\oneStep.anim": {
+      "time": 1718266743263.2654,
+      "uuid": "99891237-d622-4276-bc4f-cd9b5a9903f2"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Animations\\twoStep.anim.meta": {
+      "time": 1718263281208.3672
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Animations\\twoStep.anim": {
+      "time": 1718265677131.3474,
+      "uuid": "7bf32375-a434-45b6-8cb3-7df0e89a8143"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\GameManager.ts.meta": {
+      "time": 1718266919902.4146
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\GameManager.ts": {
+      "time": 1718272707081.5708,
+      "uuid": "b5b3441d-d073-407b-9ea0-4bfa9fe708ac"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Prefabs.meta": {
+      "time": 1718267071015.9363
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Prefabs": {
+      "time": 1718267653177.7522,
+      "uuid": "736d6cff-e4d1-440b-8920-f3ddc92c4e17"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Prefabs\\Cube.prefab.meta": {
+      "time": 1718267653180.744
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Prefabs\\Cube.prefab": {
+      "time": 1718267653179.7456,
+      "uuid": "a0c2dcbf-86b9-4ae4-b492-39ab67f90408"
+    }
+  },
+  "missing": {
+    "99891237-d622-4276-bc4f-cd9b5a9903f2": {
+      "path": "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Animaons\\oneStep.anim",
+      "time": 1718263142835.0674,
+      "removeTime": 1718263223594
+    },
+    "4d4f461f-eb2c-4278-8be5-5cc3966a2ea3": {
+      "path": "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Animaons",
+      "time": 1718263182375.0388,
+      "removeTime": 1718263223594
+    },
+    "f6157967-c0d1-4ac7-91da-5f0b4010e3a0": {
+      "path": "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Prefabs\\Cube.prefab",
+      "time": 1718266963747.4182,
+      "removeTime": 1718267633304
+    }
+  }
+}

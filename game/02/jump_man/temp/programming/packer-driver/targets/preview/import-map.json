@@ -1,0 +1,56 @@
+{
+  "imports": {
+    "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
+    "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js",
+    "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/GameManager.ts": "./chunks/13/13bef6fc58c2cf6ab23dee0073f66382c25bc839.js",
+    "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/PlayerController.ts": "./chunks/d1/d197c1f4d7ef58c102a03b0a6451d3515ee4419a.js"
+  },
+  "scopes": {
+    "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js": {
+      "__unresolved_0": "cce:/internal/x/cc-fu/2d",
+      "__unresolved_1": "cce:/internal/x/cc-fu/sorting",
+      "__unresolved_10": "cce:/internal/x/cc-fu/particle",
+      "__unresolved_11": "cce:/internal/x/cc-fu/particle-2d",
+      "__unresolved_12": "cce:/internal/x/cc-fu/physics-2d-box2d",
+      "__unresolved_13": "cce:/internal/x/cc-fu/physics-2d-framework",
+      "__unresolved_14": "cce:/internal/x/cc-fu/physics-ammo",
+      "__unresolved_15": "cce:/internal/x/cc-fu/physics-framework",
+      "__unresolved_16": "cce:/internal/x/cc-fu/wait-for-ammo-instantiation",
+      "__unresolved_17": "cce:/internal/x/cc-fu/primitive",
+      "__unresolved_18": "cce:/internal/x/cc-fu/profiler",
+      "__unresolved_19": "cce:/internal/x/cc-fu/skeletal-animation",
+      "__unresolved_2": "cce:/internal/x/cc-fu/3d",
+      "__unresolved_20": "cce:/internal/x/cc-fu/spine",
+      "__unresolved_21": "cce:/internal/x/cc-fu/terrain",
+      "__unresolved_22": "cce:/internal/x/cc-fu/tiled-map",
+      "__unresolved_23": "cce:/internal/x/cc-fu/tween",
+      "__unresolved_24": "cce:/internal/x/cc-fu/ui",
+      "__unresolved_25": "cce:/internal/x/cc-fu/video",
+      "__unresolved_26": "cce:/internal/x/cc-fu/webview",
+      "__unresolved_3": "cce:/internal/x/cc-fu/animation",
+      "__unresolved_4": "cce:/internal/x/cc-fu/audio",
+      "__unresolved_5": "cce:/internal/x/cc-fu/base",
+      "__unresolved_6": "cce:/internal/x/cc-fu/dragon-bones",
+      "__unresolved_7": "cce:/internal/x/cc-fu/gfx-webgl",
+      "__unresolved_8": "cce:/internal/x/cc-fu/intersection-2d",
+      "__unresolved_9": "cce:/internal/x/cc-fu/light-probe"
+    },
+    "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
+      "__unresolved_0": "./chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js",
+      "__unresolved_1": "./chunks/13/13bef6fc58c2cf6ab23dee0073f66382c25bc839.js",
+      "__unresolved_2": "./chunks/d1/d197c1f4d7ef58c102a03b0a6451d3515ee4419a.js"
+    },
+    "./chunks/d1/d197c1f4d7ef58c102a03b0a6451d3515ee4419a.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/13/13bef6fc58c2cf6ab23dee0073f66382c25bc839.js": {
+      "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
+      "__unresolved_1": "./chunks/d1/d197c1f4d7ef58c102a03b0a6451d3515ee4419a.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js": {
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "29b025d8-971c-448d-83b6-b31c5cda2729": {
+    "assetUuid": "29b025d8-971c-448d-83b6-b31c5cda2729",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_2"
+    ]
+  },
+  "f35753a1-eb4b-4d37-b1de-b209d05d24f6": {
+    "assetUuid": "f35753a1-eb4b-4d37-b1de-b209d05d24f6",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_2",
+      "0_2_0",
+      "0_4",
+      "0_4_1"
+    ]
+  }
+}

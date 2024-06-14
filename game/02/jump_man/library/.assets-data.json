@@ -1,0 +1,82 @@
+{
+  "a96d3700-0433-4d34-a3d3-efdde33a1b6a": {
+    "url": "db://assets/Scipte",
+    "value": {},
+    "versionCode": 1
+  },
+  "72fa9510-5e46-4f7b-bf74-a7d473130d9c": {
+    "url": "db://assets/Scipte/PlayerController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f35753a1-eb4b-4d37-b1de-b209d05d24f6": {
+    "url": "db://assets/scene.scene",
+    "value": {
+      "depends": [
+        "f35753a1-eb4b-4d37-b1de-b209d05d24f6",
+        "a0c2dcbf-86b9-4ae4-b492-39ab67f90408",
+        "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@801ec",
+        "99891237-d622-4276-bc4f-cd9b5a9903f2",
+        "7bf32375-a434-45b6-8cb3-7df0e89a8143",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "72fa9510-5e46-4f7b-bf74-a7d473130d9c",
+        "b5b3441d-d073-407b-9ea0-4bfa9fe708ac"
+      ]
+    },
+    "versionCode": 1
+  },
+  "99891237-d622-4276-bc4f-cd9b5a9903f2": {
+    "url": "db://assets/Animations/oneStep.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4d4f461f-eb2c-4278-8be5-5cc3966a2ea3": {
+    "url": "db://assets/Animations",
+    "value": {},
+    "versionCode": 1
+  },
+  "7bf32375-a434-45b6-8cb3-7df0e89a8143": {
+    "url": "db://assets/Animations/twoStep.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b5b3441d-d073-407b-9ea0-4bfa9fe708ac": {
+    "url": "db://assets/Scipte/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f6157967-c0d1-4ac7-91da-5f0b4010e3a0": {
+    "url": "db://assets/Prefabs/Cube.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "736d6cff-e4d1-440b-8920-f3ddc92c4e17": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "a0c2dcbf-86b9-4ae4-b492-39ab67f90408": {
+    "url": "db://assets/Prefabs/Cube.prefab",
+    "value": {
+      "depends": [
+        "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@a804a"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  }
+}
