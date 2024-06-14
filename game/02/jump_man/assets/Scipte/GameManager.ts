@@ -1,6 +1,7 @@
-import { _decorator, Component, Node ,Prefab,instantiate,CCInteger,Vec3 } from 'cc';
+import { _decorator, Component, Node ,Prefab,instantiate,CCInteger,Vec3,Label } from 'cc';
 const { ccclass, property } = _decorator;
 import { PlayerController } from "./PlayerController";
+
 
 enum GameState{
     GS_INIT,
@@ -18,20 +19,40 @@ enum BlockType{
 
 @ccclass('GameManager')
 export class GameManager extends Component {
+    
+    //分数
+    @property({type: Label})
+    public stepsLabel: Label | null = null;
+
     @property({type: Node})
     public startMenu: Node | null = null;
 
+    // 角色
     @property({type: PlayerController})
     public playerCtrl: PlayerController | null = null;
+    
     // 赛道预制
     @property({type: Prefab})
     public cubePrfb: Prefab | null = null;
 
     // 赛道长度
     @property
-    public roadLength = 50;
-    _road: BlockType[] = [];
+    public roadLength = 10;
 
+    // 赛道轮次
+    @property
+    public roadTurn = 1;
+
+    _road: BlockType[] = [];
+    
+    // 持续时间
+    @property
+    public stayOverTime = 5
+
+    // 计时器
+    timer = 0; 
+
+    
     start() {
         
         this.curState = GameState.GS_INIT; // 初始化游戏状态
@@ -41,6 +62,11 @@ export class GameManager extends Component {
     }
     
     onPlayerJumpEnd(moveIndex: number) {
+        if (this.stepsLabel) {
+            // 因为在最后一步可能出现步伐大的跳跃，但是此时无论跳跃是步伐大还是步伐小都不应该多增加分数
+            // this.stepsLabel.string = '' + (moveIndex >= this.roadLength ? this.roadLength : moveIndex);
+            this.stepsLabel.string = '' + moveIndex;
+        }
         this.checkResult(moveIndex);
     }
 
@@ -59,6 +85,8 @@ export class GameManager extends Component {
             this.playerCtrl.node.setPosition(Vec3.ZERO);
             // 重置分数
             this.playerCtrl.reset();
+            // 重置赛道轮次
+            this.roadTurn = 1
         }
         
     }
@@ -68,13 +96,16 @@ export class GameManager extends Component {
     }
 
     checkResult(moveIndex: number) {
-        if (moveIndex < this.roadLength) {
+        if (moveIndex < this.roadLength*this.roadTurn) {
             // 跳到了坑上
             if (this._road[moveIndex] == BlockType.BT_NONE) {
                 this.curState = GameState.GS_INIT;
             }
-        } else {    // 跳过了最大长度
-            this.curState = GameState.GS_INIT;
+        } else {    
+            // 取消最大长度限制，生成新的赛道--跳过了最大长度
+            // this.curState = GameState.GS_INIT;
+            console.info("生成新的赛道");
+            this.generateRoad();
         }
     }
 
@@ -86,6 +117,9 @@ export class GameManager extends Component {
             case GameState.GS_PLAYING:
                 if (this.startMenu) {
                     this.startMenu.active = false;
+                }
+                if (this.stepsLabel) {
+                    this.stepsLabel.string = '0';   // 将步数重置为0
                 }
                 // 设置 active 为 true 时会直接开始监听鼠标事件，此时鼠标抬起事件还未派发
                 // 会出现的现象就是，游戏开始的瞬间人物已经开始移动
@@ -101,6 +135,7 @@ export class GameManager extends Component {
         }
     }
     
+    // 生成赛道
     generateRoad() {
 
         // 防止游戏重新开始时，赛道还是旧的赛道
@@ -126,7 +161,7 @@ export class GameManager extends Component {
             // 判断是否生成了道路，因为 spawnBlockByType 有可能返回坑（值为 null）
             if (block) {
                 this.node.addChild(block);
-                block.setPosition(j, -1.5, 0);
+                block.setPosition(((this.roadTurn-1)*this.roadLength)+j, -1.5, 0);
             }
         }
         
@@ -149,6 +184,14 @@ export class GameManager extends Component {
         return block;
     }
     update(deltaTime: number) {
+        // 如果在 一个位置停留时间超过 设置时间 则 gameover ok
+        // console.info("this.startMenu.active",this.startMenu.active,"deltaTime",deltaTime ,"this.playerCtrl.stayTime", this.playerCtrl.stayTime,"stayOverTime",this.stayOverTime)
+        if (!this.startMenu.active && this.playerCtrl.stayTime > this.stayOverTime ){
+            console.info("重新开始")
+            this.curState = GameState.GS_INIT;
+        }
+        
+
         
     }
 }

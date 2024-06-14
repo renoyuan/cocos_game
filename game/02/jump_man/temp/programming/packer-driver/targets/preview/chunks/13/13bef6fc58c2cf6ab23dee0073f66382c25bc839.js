@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Prefab, instantiate, Vec3, PlayerController, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, GameState, BlockType, GameManager;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, Prefab, instantiate, Vec3, Label, PlayerController, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _crd, ccclass, property, GameState, BlockType, GameManager;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -26,6 +26,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Prefab = _cc.Prefab;
       instantiate = _cc.instantiate;
       Vec3 = _cc.Vec3;
+      Label = _cc.Label;
     }, function (_unresolved_2) {
       PlayerController = _unresolved_2.PlayerController;
     }],
@@ -34,7 +35,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "b5b34Qd0HNAe56gS/qf5wis", "GameManager", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'Prefab', 'instantiate', 'CCInteger', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'Prefab', 'instantiate', 'CCInteger', 'Vec3', 'Label']);
 
       ({
         ccclass,
@@ -59,28 +60,43 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       ;
 
       _export("GameManager", GameManager = (_dec = ccclass('GameManager'), _dec2 = property({
-        type: Node
+        type: Label
       }), _dec3 = property({
+        type: Node
+      }), _dec4 = property({
         type: _crd && PlayerController === void 0 ? (_reportPossibleCrUseOfPlayerController({
           error: Error()
         }), PlayerController) : PlayerController
-      }), _dec4 = property({
+      }), _dec5 = property({
         type: Prefab
       }), _dec(_class = (_class2 = class GameManager extends Component {
         constructor() {
           super(...arguments);
 
-          _initializerDefineProperty(this, "startMenu", _descriptor, this);
+          //分数
+          _initializerDefineProperty(this, "stepsLabel", _descriptor, this);
 
-          _initializerDefineProperty(this, "playerCtrl", _descriptor2, this);
+          _initializerDefineProperty(this, "startMenu", _descriptor2, this);
+
+          // 角色
+          _initializerDefineProperty(this, "playerCtrl", _descriptor3, this);
 
           // 赛道预制
-          _initializerDefineProperty(this, "cubePrfb", _descriptor3, this);
+          _initializerDefineProperty(this, "cubePrfb", _descriptor4, this);
 
           // 赛道长度
-          _initializerDefineProperty(this, "roadLength", _descriptor4, this);
+          _initializerDefineProperty(this, "roadLength", _descriptor5, this);
+
+          // 赛道轮次
+          _initializerDefineProperty(this, "roadTurn", _descriptor6, this);
 
           this._road = [];
+
+          // 持续时间
+          _initializerDefineProperty(this, "stayOverTime", _descriptor7, this);
+
+          // 计时器
+          this.timer = 0;
         }
 
         start() {
@@ -94,6 +110,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         onPlayerJumpEnd(moveIndex) {
+          if (this.stepsLabel) {
+            // 因为在最后一步可能出现步伐大的跳跃，但是此时无论跳跃是步伐大还是步伐小都不应该多增加分数
+            // this.stepsLabel.string = '' + (moveIndex >= this.roadLength ? this.roadLength : moveIndex);
+            this.stepsLabel.string = '' + moveIndex;
+          }
+
           this.checkResult(moveIndex);
         }
 
@@ -110,10 +132,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             // 禁止接收用户操作人物移动指令
             this.playerCtrl.setInputActive(false); // 重置人物位置
 
-            this.playerCtrl.node.setPosition(Vec3.ZERO);
-          }
+            this.playerCtrl.node.setPosition(Vec3.ZERO); // 重置分数
 
-          this.playerCtrl.reset();
+            this.playerCtrl.reset(); // 重置赛道轮次
+
+            this.roadTurn = 1;
+          }
         }
 
         onStartButtonClicked() {
@@ -121,14 +145,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         checkResult(moveIndex) {
-          if (moveIndex < this.roadLength) {
+          if (moveIndex < this.roadLength * this.roadTurn) {
             // 跳到了坑上
             if (this._road[moveIndex] == BlockType.BT_NONE) {
               this.curState = GameState.GS_INIT;
             }
           } else {
-            // 跳过了最大长度
-            this.curState = GameState.GS_INIT;
+            // 取消最大长度限制，生成新的赛道--跳过了最大长度
+            // this.curState = GameState.GS_INIT;
+            console.info("生成新的赛道");
+            this.generateRoad();
           }
         }
 
@@ -141,6 +167,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             case GameState.GS_PLAYING:
               if (this.startMenu) {
                 this.startMenu.active = false;
+              }
+
+              if (this.stepsLabel) {
+                this.stepsLabel.string = '0'; // 将步数重置为0
               } // 设置 active 为 true 时会直接开始监听鼠标事件，此时鼠标抬起事件还未派发
               // 会出现的现象就是，游戏开始的瞬间人物已经开始移动
               // 因此，这里需要做延迟处理
@@ -156,7 +186,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             case GameState.GS_END:
               break;
           }
-        }
+        } // 生成赛道
+
 
         generateRoad() {
           // 防止游戏重新开始时，赛道还是旧的赛道
@@ -182,7 +213,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
             if (block) {
               this.node.addChild(block);
-              block.setPosition(j, -1.5, 0);
+              block.setPosition((this.roadTurn - 1) * this.roadLength + j, -1.5, 0);
             }
           }
         } // 生成石块
@@ -204,35 +235,63 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           return block;
         }
 
-        update(deltaTime) {}
+        update(deltaTime) {
+          // 如果在 一个位置停留时间超过 设置时间 则 gameover ok
+          // console.info("this.startMenu.active",this.startMenu.active,"deltaTime",deltaTime ,"this.playerCtrl.stayTime", this.playerCtrl.stayTime,"stayOverTime",this.stayOverTime)
+          if (!this.startMenu.active && this.playerCtrl.stayTime > this.stayOverTime) {
+            console.info("重新开始");
+            this.curState = GameState.GS_INIT;
+          }
+        }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "startMenu", [_dec2], {
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "stepsLabel", [_dec2], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "playerCtrl", [_dec3], {
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "startMenu", [_dec3], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "cubePrfb", [_dec4], {
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "playerCtrl", [_dec4], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "roadLength", [property], {
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "cubePrfb", [_dec5], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
-          return 50;
+          return null;
+        }
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "roadLength", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 10;
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "roadTurn", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 1;
+        }
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "stayOverTime", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 5;
         }
       })), _class2)) || _class));
 

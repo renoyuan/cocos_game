@@ -2,7 +2,7 @@
   "__version__": "1.0.0",
   "builder": {},
   "gizmos-infos": {
-    "is2D": true,
+    "is2D": false,
     "is3DIcon": false,
     "iconSize": 2,
     "gridVisible": true,

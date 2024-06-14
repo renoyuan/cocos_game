@@ -12,14 +12,14 @@
       "time": 1718260104156.0923
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\PlayerController.ts": {
-      "time": 1718272745956.4717,
+      "time": 1718354427043.8672,
       "uuid": "72fa9510-5e46-4f7b-bf74-a7d473130d9c"
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\scene.scene.meta": {
       "time": 1718261904254.7031
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\scene.scene": {
-      "time": 1718272021004.078,
+      "time": 1718336545324.347,
       "uuid": "f35753a1-eb4b-4d37-b1de-b209d05d24f6"
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Animations.meta": {
@@ -47,7 +47,7 @@
       "time": 1718266919902.4146
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\GameManager.ts": {
-      "time": 1718272707081.5708,
+      "time": 1718354432515.6597,
       "uuid": "b5b3441d-d073-407b-9ea0-4bfa9fe708ac"
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Prefabs.meta": {
@@ -63,6 +63,279 @@
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Prefabs\\Cube.prefab": {
       "time": 1718267653179.7456,
       "uuid": "a0c2dcbf-86b9-4ae4-b492-39ab67f90408"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos.meta": {
+      "time": 1718335182766.879
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations.meta": {
+      "time": 1718335182766.879
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations": {
+      "time": 1718335169799.735,
+      "uuid": "75b08e51-53d1-4bca-b3de-ad7713d25d2c"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos": {
+      "time": 1718335169773.834,
+      "uuid": "058d55be-8e38-4d7f-9e80-dca568c40766"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\body.mtl.meta": {
+      "time": 1718335182893.9602
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\Cocos.prefab.meta": {
+      "time": 1718335182899.9465
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01.bin.meta": {
+      "time": 1718335182905.1943
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01_baseColor.png.meta": {
+      "time": 1718335182928.9768
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01_emissive.png.meta": {
+      "time": 1718335182900.9446
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01_normal.png.meta": {
+      "time": 1718335182938.661
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01_occlusionRoughnessMetallic.png.meta": {
+      "time": 1718335182939.6582
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_02.bin.meta": {
+      "time": 1718335182927.9724
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_02_baseColor.png.meta": {
+      "time": 1718335182932.5312
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_02_normal.png.meta": {
+      "time": 1718335183084.2256
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_02_occlusionRoughnessMetallic.png.meta": {
+      "time": 1718335183096.2754
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_mesh.gltf.meta": {
+      "time": 1718335183102.7737
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_mesh_helmet.gltf.meta": {
+      "time": 1718335183105.8135
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_skel.gltf.meta": {
+      "time": 1718335183101.7725
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_skel_ibm.bin.meta": {
+      "time": 1718335183108.8037
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_squat_anim.bin.meta": {
+      "time": 1718335183115.6921
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\helmet.mtl.meta": {
+      "time": 1718335183134.6643
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_attack.bin.meta": {
+      "time": 1718335183132.6526
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_attack.gltf.meta": {
+      "time": 1718335183391.7073
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.bin.meta": {
+      "time": 1718335183138.6553
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.gltf.meta": {
+      "time": 1718335183459.1016
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_down.bin.meta": {
+      "time": 1718335183299.8271
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_down.gltf.meta": {
+      "time": 1718335183532.6108
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_hurt.bin.meta": {
+      "time": 1718335183330.4927
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_hurt.gltf.meta": {
+      "time": 1718335183614.2107
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_idle.bin.meta": {
+      "time": 1718335183460.6099
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_idle.gltf.meta": {
+      "time": 1718335183756.5388
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_jump.bin.meta": {
+      "time": 1718335183541.0957
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_jump.gltf.meta": {
+      "time": 1718335183777.576
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_run.bin.meta": {
+      "time": 1718335183665.5168
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_run.gltf.meta": {
+      "time": 1718335183818.5613
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_shoot.bin.meta": {
+      "time": 1718335183759.5293
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_shoot.gltf.meta": {
+      "time": 1718335183892.6433
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_squat.bin.meta": {
+      "time": 1718335183829.9128
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_squat.gltf.meta": {
+      "time": 1718335183952.007
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_walk.bin.meta": {
+      "time": 1718335183830.9072
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_walk.gltf.meta": {
+      "time": 1718335183983.888
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\body.mtl": {
+      "time": 1718335182884.7065,
+      "uuid": "58cf3db3-e6f4-4943-a076-26157912429c"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\Cocos.prefab": {
+      "time": 1718335182894.9602,
+      "uuid": "6cd4e8c1-b63f-4bbb-b3db-b323fa08b435"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01_emissive.png": {
+      "time": 1686821531000,
+      "uuid": "026c4a15-e07d-4053-86de-9f9fe30188e5"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01.bin": {
+      "time": 1686821531000,
+      "uuid": "b3df5b21-2fe6-410e-a10d-3df317e61bb5"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_02.bin": {
+      "time": 1686821531000,
+      "uuid": "dcab7d1f-201e-45d8-911c-833cc5427723"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01_baseColor.png": {
+      "time": 1686821531000,
+      "uuid": "5f4dd798-2ae6-4bbf-84b4-504bb6cceaed"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_02_baseColor.png": {
+      "time": 1686821531000,
+      "uuid": "8949c1f1-9b2b-418c-b150-611a94543416"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01_normal.png": {
+      "time": 1686821531000,
+      "uuid": "3af9be2f-93d2-41a0-b7b7-3cc03054b34a"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01_occlusionRoughnessMetallic.png": {
+      "time": 1686821531000,
+      "uuid": "64b1edbd-75c7-4159-a65a-f1e6d8c9812a"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_02_normal.png": {
+      "time": 1686821531000,
+      "uuid": "19819162-ce3f-4f7c-8889-8b2f35bf274c"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_02_occlusionRoughnessMetallic.png": {
+      "time": 1686821531000,
+      "uuid": "cd618de5-59fc-4899-ba4f-55195f3e24ce"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_skel.gltf": {
+      "time": 1686821531000,
+      "uuid": "90f86573-5baf-41e2-97db-8604d1f42b65"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_mesh.gltf": {
+      "time": 1686821531000,
+      "uuid": "5bee9f0c-9771-4e73-b0ea-0bbb6da67698"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_mesh_helmet.gltf": {
+      "time": 1686821531000,
+      "uuid": "fb9825a0-fd7f-48c5-b121-9af90f9f2011"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_skel_ibm.bin": {
+      "time": 1686821531000,
+      "uuid": "8d2d3098-6841-41fc-af7f-4bac9e32b080"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_squat_anim.bin": {
+      "time": 1686821531000,
+      "uuid": "b9ab6374-4e67-4db2-bb75-0256c62f6c7b"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_attack.bin": {
+      "time": 1686821531000,
+      "uuid": "73443895-6d8f-41b5-8e3f-4110d0f4dc31"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\helmet.mtl": {
+      "time": 1718335183112.8167,
+      "uuid": "7e81a899-6c7c-493d-80cf-e4f730e4f48f"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.bin": {
+      "time": 1686821531000,
+      "uuid": "d1a7cd09-b5d9-422f-a4f3-112d85f1059c"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_down.bin": {
+      "time": 1686821531000,
+      "uuid": "fe407fd3-1b9c-4fb7-9a97-edb4cdae6314"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_hurt.bin": {
+      "time": 1686821531000,
+      "uuid": "a1efb6ff-ef74-4037-8801-d310eca22fd5"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_attack.gltf": {
+      "time": 1686821531000,
+      "uuid": "a873a742-b503-4a96-8570-6fe542697035"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.gltf": {
+      "time": 1686821531000,
+      "uuid": "caf172df-03b7-4c5a-8a53-93f3e4be5146"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_idle.bin": {
+      "time": 1686821531000,
+      "uuid": "e9d41da7-da95-4119-8a6c-0937de2adb57"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_down.gltf": {
+      "time": 1686821531000,
+      "uuid": "27ac412c-9efa-4ead-8e2c-fe6533c7878f"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_jump.bin": {
+      "time": 1686821531000,
+      "uuid": "33a7dcc9-4eed-4d49-baac-d190c3d2a157"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_hurt.gltf": {
+      "time": 1686821531000,
+      "uuid": "cb2cc463-6e7a-4d17-9247-bea8f3cf7bb1"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_run.bin": {
+      "time": 1686821531000,
+      "uuid": "f1d8a0c8-d2d8-473f-a769-803842978f68"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_idle.gltf": {
+      "time": 1686821531000,
+      "uuid": "445d5d9d-c56b-4528-bc90-c847357e5d94"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_shoot.bin": {
+      "time": 1686821531000,
+      "uuid": "a9e047be-e87a-43d9-bbd5-1b3f5dbe2026"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_jump.gltf": {
+      "time": 1686821531000,
+      "uuid": "501da3c5-f2d8-45f7-bc04-5130d58811ff"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_run.gltf": {
+      "time": 1686821531000,
+      "uuid": "50735e20-7211-4e9c-b676-4d648cdc0cbb"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_squat.bin": {
+      "time": 1686821531000,
+      "uuid": "7290f264-a898-4355-8041-8514dbd0051f"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_walk.bin": {
+      "time": 1686821531000,
+      "uuid": "e08b2140-55f5-4d1f-af55-565183504a80"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_shoot.gltf": {
+      "time": 1686821531000,
+      "uuid": "1cf73293-3e10-49c1-bfa1-59daaadbd18b"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_squat.gltf": {
+      "time": 1686821531000,
+      "uuid": "58c9fdbf-de49-4141-83fa-9ad83f78591c"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_walk.gltf": {
+      "time": 1686821531000,
+      "uuid": "b1cb32e6-c8c9-40c9-9d52-119dae416b32"
     }
   },
   "missing": {

@@ -1,0 +1,51 @@
+{
+  "uuid": {
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\body.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\helmet.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ]
+  },
+  "path": {
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_mesh.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_01.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_mesh_helmet.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_02.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_hurt.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_hurt.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_idle.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_idle.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_shoot.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_shoot.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_walk.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_walk.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_skel.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_skel_ibm.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_run.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_run.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_attack.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_attack.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_jump.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_jump.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_down.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_down.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_squat.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_squat.bin"
+    ]
+  }
+}

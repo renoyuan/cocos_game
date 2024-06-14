@@ -577,7 +577,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 13593772.542700022,
+      "mTimestamp": 98028248.85530001,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -702,7 +702,7 @@
     },
     "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/PlayerController.ts": {
       "mTimestamp": {
-        "mtime": 1718272745956.4717,
+        "mtime": 1718354427043.8672,
         "uuid": "72fa9510-5e46-4f7b-bf74-a7d473130d9c"
       },
       "chunkId": "d197c1f4d7ef58c102a03b0a6451d3515ee4419a",
@@ -718,11 +718,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 89
+              "column": 107
             },
             "end": {
               "line": 1,
-              "column": 93
+              "column": 111
             }
           }
         }
@@ -754,7 +754,7 @@
     },
     "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1718272707081.5708,
+        "mtime": 1718354432515.6597,
         "uuid": "b5b3441d-d073-407b-9ea0-4bfa9fe708ac"
       },
       "chunkId": "13bef6fc58c2cf6ab23dee0073f66382c25bc839",
@@ -774,11 +774,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 79
+              "column": 85
             },
             "end": {
               "line": 1,
-              "column": 83
+              "column": 89
             }
           }
         },
