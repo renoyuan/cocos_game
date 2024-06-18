@@ -5,21 +5,21 @@
       "time": 1718260072067.955
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte": {
-      "time": 1718266919901.645,
+      "time": 1718613464534.8281,
       "uuid": "a96d3700-0433-4d34-a3d3-efdde33a1b6a"
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\PlayerController.ts.meta": {
       "time": 1718260104156.0923
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\PlayerController.ts": {
-      "time": 1718354427043.8672,
+      "time": 1718695109617.3618,
       "uuid": "72fa9510-5e46-4f7b-bf74-a7d473130d9c"
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\scene.scene.meta": {
       "time": 1718261904254.7031
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\scene.scene": {
-      "time": 1718336545324.347,
+      "time": 1718696850178.4075,
       "uuid": "f35753a1-eb4b-4d37-b1de-b209d05d24f6"
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Animations.meta": {
@@ -47,7 +47,7 @@
       "time": 1718266919902.4146
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\GameManager.ts": {
-      "time": 1718354432515.6597,
+      "time": 1718698065864.6924,
       "uuid": "b5b3441d-d073-407b-9ea0-4bfa9fe708ac"
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Prefabs.meta": {
@@ -139,7 +139,7 @@
       "time": 1718335183138.6553
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.gltf.meta": {
-      "time": 1718335183459.1016
+      "time": 1718695720759.509
     },
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_down.bin.meta": {
       "time": 1718335183299.8271
@@ -336,6 +336,34 @@
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_walk.gltf": {
       "time": 1686821531000,
       "uuid": "b1cb32e6-c8c9-40c9-9d52-119dae416b32"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\audio.meta": {
+      "time": 1718612580648.8296
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\audio": {
+      "time": 1718612569336.3442,
+      "uuid": "7888c5a4-67fd-47ab-bce1-d6b65c8f90d1"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\audio\\jump.mp3.meta": {
+      "time": 1718612580715.1018
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\audio\\score.mp3.meta": {
+      "time": 1718612580715.8245
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\audio\\jump.mp3": {
+      "time": 1601202222000,
+      "uuid": "dc194f1a-c8a5-46ca-aaf9-f03b70974af5"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\audio\\score.mp3": {
+      "time": 1601202222000,
+      "uuid": "55d110b9-bab6-4d9d-9416-03e46904fa35"
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\AudioMgr.ts.meta": {
+      "time": 1718613464535.8257
+    },
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\Scipte\\AudioMgr.ts": {
+      "time": 1718674756118.369,
+      "uuid": "0eea2eb4-b12f-486f-b7d9-468d9acd553a"
     }
   },
   "missing": {

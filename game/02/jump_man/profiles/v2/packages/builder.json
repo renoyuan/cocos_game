@@ -2,5 +2,252 @@
   "__version__": "1.3.8",
   "log": {
     "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "outputName": "web-mobile-02",
+    "useSplashScreen": false,
+    "bundleConfigs": [],
+    "mainBundleIsRemote": false,
+    "buildPath": "project://build",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1718358967206": {
+        "type": "build",
+        "id": "1718358967206",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-6-17 11:56:52 build success in 9 s!",
+        "detailMessage": "// ---- build task 整理静态模板文件 ----\r",
+        "options": {
+          "name": "jump_man",
+          "server": "",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "f35753a1-eb4b-4d37-b1de-b209d05d24f6",
+          "outputName": "02-web-desktop",
+          "taskName": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "f35753a1-eb4b-4d37-b1de-b209d05d24f6"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-desktop2024-6-14 17-56.log"
+        },
+        "time": "2024-6-17 11:56:43",
+        "dirty": false
+      },
+      "1718596713361": {
+        "type": "build",
+        "id": "1718596713361",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-6-17 11:58:42 build success in 9 s!",
+        "detailMessage": "Output asset in bundles success, progress: 24%\r",
+        "options": {
+          "name": "jump_man",
+          "server": "",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": false,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "f35753a1-eb4b-4d37-b1de-b209d05d24f6",
+          "outputName": "web-desktop",
+          "taskName": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "f35753a1-eb4b-4d37-b1de-b209d05d24f6"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-desktop2024-6-17 11-58.log"
+        },
+        "time": "2024-6-17 11:58:33",
+        "dirty": false
+      },
+      "1718696844182": {
+        "type": "build",
+        "id": "1718696844182",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-6-18 15:55:16 build success in 8 s!",
+        "detailMessage": "// ---- build task 整理部分构建选项内数据到 settings.json ----\r",
+        "options": {
+          "name": "jump_man",
+          "server": "",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": false,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "f35753a1-eb4b-4d37-b1de-b209d05d24f6",
+          "outputName": "web-desktop-001",
+          "taskName": "web-desktop-001",
+          "scenes": [
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "f35753a1-eb4b-4d37-b1de-b209d05d24f6"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-desktop2024-6-18 15-47.log"
+        },
+        "time": "2024-6-18 15:55:07",
+        "dirty": false
+      },
+      "1718697755470": {
+        "type": "build",
+        "id": "1718697755470",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-6-18 16:03:42 build success in 1 min 7 s!",
+        "detailMessage": "// ---- build task 整理静态模板文件 ----\r",
+        "options": {
+          "name": "jump_man",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "f35753a1-eb4b-4d37-b1de-b209d05d24f6",
+          "outputName": "web-mobile-02",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "f35753a1-eb4b-4d37-b1de-b209d05d24f6"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "logDest": "project://temp/builder/log/web-mobile2024-6-18 16-02.log"
+        },
+        "time": "2024-6-18 16:02:35",
+        "dirty": false
+      }
+    }
   }
 }

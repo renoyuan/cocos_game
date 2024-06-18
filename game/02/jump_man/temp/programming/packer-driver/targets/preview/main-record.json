@@ -577,7 +577,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 98028248.85530001,
+      "mTimestamp": 439115138.7469001,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -595,7 +595,7 @@
           }
         },
         {
-          "value": "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/GameManager.ts",
+          "value": "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/AudioMgr.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -604,12 +604,12 @@
             },
             "end": {
               "line": 5,
-              "column": 82
+              "column": 79
             }
           }
         },
         {
-          "value": "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/PlayerController.ts",
+          "value": "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/GameManager.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -618,6 +618,20 @@
             },
             "end": {
               "line": 6,
+              "column": 82
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/PlayerController.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
               "column": 87
             }
           }
@@ -629,6 +643,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/AudioMgr.ts"
           },
           "messages": []
         },
@@ -702,7 +723,7 @@
     },
     "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/PlayerController.ts": {
       "mTimestamp": {
-        "mtime": 1718354427043.8672,
+        "mtime": 1718695109617.3618,
         "uuid": "72fa9510-5e46-4f7b-bf74-a7d473130d9c"
       },
       "chunkId": "d197c1f4d7ef58c102a03b0a6451d3515ee4419a",
@@ -718,11 +739,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 107
+              "column": 140
             },
             "end": {
               "line": 1,
-              "column": 111
+              "column": 144
             }
           }
         }
@@ -754,7 +775,7 @@
     },
     "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1718354432515.6597,
+        "mtime": 1718698065864.6924,
         "uuid": "b5b3441d-d073-407b-9ea0-4bfa9fe708ac"
       },
       "chunkId": "13bef6fc58c2cf6ab23dee0073f66382c25bc839",
@@ -842,6 +863,58 @@
       "imports": [],
       "type": "esm",
       "resolutions": []
+    },
+    "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/AudioMgr.ts": {
+      "mTimestamp": {
+        "mtime": 1718674756118.369,
+        "uuid": "0eea2eb4-b12f-486f-b7d9-468d9acd553a"
+      },
+      "chunkId": "c6c031ef8877443b488515756780a579088d7032",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 89
+            },
+            "end": {
+              "line": 1,
+              "column": 93
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
     }
   }
 }

@@ -210,6 +210,30 @@
       "imports": {},
       "timestamp": 1718270044389
     },
+    "c6c031ef8877443b488515756780a579088d7032": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1718675063329
+    },
+    "d197c1f4d7ef58c102a03b0a6451d3515ee4419a": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1718695113612
+    },
     "6d8fd2b0177941b032ddc0733af48a561fb60657": {
       "imports": {
         "__unresolved_0": {
@@ -222,11 +246,18 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "13bef6fc58c2cf6ab23dee0073f66382c25bc839"
+            "id": "c6c031ef8877443b488515756780a579088d7032"
           },
           "messages": []
         },
         "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "13bef6fc58c2cf6ab23dee0073f66382c25bc839"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
           "resolved": {
             "type": "chunk",
             "id": "d197c1f4d7ef58c102a03b0a6451d3515ee4419a"
@@ -234,7 +265,7 @@
           "messages": []
         }
       },
-      "timestamp": 1718357192455
+      "timestamp": 1718698283109
     },
     "13bef6fc58c2cf6ab23dee0073f66382c25bc839": {
       "imports": {
@@ -260,25 +291,14 @@
           "messages": []
         }
       },
-      "timestamp": 1718357192510
-    },
-    "d197c1f4d7ef58c102a03b0a6451d3515ee4419a": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1718357192563
+      "timestamp": 1718698283213
     }
   },
   "entries": {
     "cce:/internal/x/cc": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
     "cce:/internal/x/prerequisite-imports": "6d8fd2b0177941b032ddc0733af48a561fb60657",
     "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "c8b6a709c03b1f3a3069932b4b22bfbc5834b962",
+    "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/AudioMgr.ts": "c6c031ef8877443b488515756780a579088d7032",
     "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/GameManager.ts": "13bef6fc58c2cf6ab23dee0073f66382c25bc839",
     "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/PlayerController.ts": "d197c1f4d7ef58c102a03b0a6451d3515ee4419a"
   }

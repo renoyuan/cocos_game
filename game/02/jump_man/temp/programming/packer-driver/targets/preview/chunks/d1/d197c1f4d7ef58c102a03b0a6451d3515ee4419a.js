@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, input, Input, Vec3, Animation, SkeletalAnimation, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, PlayerController;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, input, Input, Vec3, Animation, SkeletalAnimation, AudioClip, AudioSource, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _crd, ccclass, property, PlayerController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -16,18 +16,22 @@ System.register(["cc"], function (_export, _context) {
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      Node = _cc.Node;
       input = _cc.input;
       Input = _cc.Input;
       Vec3 = _cc.Vec3;
       Animation = _cc.Animation;
       SkeletalAnimation = _cc.SkeletalAnimation;
+      AudioClip = _cc.AudioClip;
+      AudioSource = _cc.AudioSource;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "72fa9UQXkZPe790p9RzEw2c", "PlayerController", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'input', 'Input', 'EventMouse', 'Vec3', 'Animation', 'SkeletalAnimation']);
+      // import {AudioMgr} from "./AudioMgr"
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'input', 'Input', 'EventMouse', 'EventTouch', 'Vec3', 'Animation', 'SkeletalAnimation', 'AudioClip', 'AudioSource']);
 
       ({
         ccclass,
@@ -38,7 +42,7 @@ System.register(["cc"], function (_export, _context) {
         type: SkeletalAnimation
       }), _dec3 = property({
         type: Animation
-      }), _dec(_class = (_class2 = class PlayerController extends Component {
+      }), _dec4 = property(AudioClip), _dec5 = property(AudioSource), _dec6 = property(Node), _dec7 = property(Node), _dec(_class = (_class2 = class PlayerController extends Component {
         constructor() {
           super(...arguments);
 
@@ -47,6 +51,18 @@ System.register(["cc"], function (_export, _context) {
           // 添加动画属性
           _initializerDefineProperty(this, "BodyAnim", _descriptor2, this);
 
+          // 跳跃音效资源
+          _initializerDefineProperty(this, "clip", _descriptor3, this);
+
+          // 音效控制
+          _initializerDefineProperty(this, "audioSource", _descriptor4, this);
+
+          // 触碰节点
+          _initializerDefineProperty(this, "OneTouch", _descriptor5, this);
+
+          _initializerDefineProperty(this, "TwoTouch", _descriptor6, this);
+
+          // private audioMgr: AudioMgr = null!;
           // 是否接收到跳跃指令
           this._startJump = false;
           // 跳跃步长
@@ -68,7 +84,13 @@ System.register(["cc"], function (_export, _context) {
           this._curMoveIndex = 0;
 
           // 停留时间
-          _initializerDefineProperty(this, "stayTime", _descriptor3, this);
+          _initializerDefineProperty(this, "stayTime", _descriptor7, this);
+        }
+
+        // 播放音效
+        playOneShot() {
+          // this.audioMgr.playOneShot(this.clip, 1);
+          this.audioSource.playOneShot(this.clip, 1);
         }
 
         start() {// input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this);
@@ -84,8 +106,12 @@ System.register(["cc"], function (_export, _context) {
         setInputActive(active) {
           if (active) {
             input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this);
+            this.OneTouch.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
+            this.TwoTouch.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
           } else {
             input.off(Input.EventType.MOUSE_UP, this.onMouseUp, this);
+            this.OneTouch.off(Input.EventType.TOUCH_START, this.onTouchStart, this);
+            this.TwoTouch.off(Input.EventType.TOUCH_START, this.onTouchStart, this);
           }
         } //   监控鼠标事件在 EventMouse
 
@@ -96,6 +122,19 @@ System.register(["cc"], function (_export, _context) {
             this.jumpByStep(1);
           } else if (event.getButton() === 2) {
             this.jumpByStep(2);
+          }
+        } // 监控触摸事件 回调
+
+
+        onTouchStart(event) {
+          var target = event.target;
+
+          if ((target == null ? void 0 : target.name) == 'OneTouch') {
+            this.jumpByStep(1);
+          } else if ((target == null ? void 0 : target.name) == 'TwoTouch') {
+            this.jumpByStep(2);
+          } else {
+            console.log("无效touch");
           }
         } //计算目标位置、速度的方法 移动 && 运行动画
 
@@ -121,6 +160,7 @@ System.register(["cc"], function (_export, _context) {
 
           if (this.CocosAnim) {
             if (step === 1 || step === 2) {
+              this.playOneShot();
               this.CocosAnim.getState('cocos_anim_jump').speed = 3.5; // 跳跃动画时间比较长，这里加速播放
 
               this.CocosAnim.play('cocos_anim_jump'); // 播放跳跃动画
@@ -139,13 +179,13 @@ System.register(["cc"], function (_export, _context) {
         } // 跳跃结束，执行待机动画
 
 
-        onOnceJumpEnd() {
+        onOnceJumpEnd(deltaTime) {
           if (this.CocosAnim) {
             this.CocosAnim.getState('cocos_anim_idle').speed = 3.5;
             this.CocosAnim.play('cocos_anim_idle');
           }
 
-          this.node.emit('JumpEnd', this._curMoveIndex);
+          this.node.emit('JumpEnd', this._curMoveIndex, deltaTime);
         } //游戏循环 
 
 
@@ -164,7 +204,7 @@ System.register(["cc"], function (_export, _context) {
 
               this._startJump = false; // 标记跳跃结束
 
-              this.onOnceJumpEnd(); // 执行待机动画
+              this.onOnceJumpEnd(deltaTime); // 执行待机动画
             } else {
               // 执行跳跃动画
               // tween
@@ -198,7 +238,35 @@ System.register(["cc"], function (_export, _context) {
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "stayTime", [property], {
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "clip", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "audioSource", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "OneTouch", [_dec6], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "TwoTouch", [_dec7], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "stayTime", [property], {
         configurable: true,
         enumerable: true,
         writable: true,

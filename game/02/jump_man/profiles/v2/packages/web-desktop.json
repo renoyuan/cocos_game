@@ -1,0 +1,38 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "outputName": "02-web-desktop",
+      "useSplashScreen": false,
+      "bundleConfigs": [],
+      "mainBundleIsRemote": false
+    },
+    "taskOptionsMap": {
+      "1718358967206": {
+        "resolution": {
+          "designWidth": 1280,
+          "designHeight": 960
+        },
+        "__version__": "1.0.1"
+      },
+      "1718596713361": {
+        "resolution": {
+          "designWidth": 1280,
+          "designHeight": 960
+        },
+        "__version__": "1.0.1"
+      },
+      "1718696844182": {
+        "resolution": {
+          "designWidth": 1280,
+          "designHeight": 960
+        },
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.8"
+  }
+}

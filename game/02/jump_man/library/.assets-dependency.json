@@ -14,9 +14,6 @@
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocos_mesh_helmet.gltf": [
       "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\cocosfinish_02.bin"
     ],
-    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.gltf": [
-      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.bin"
-    ],
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_hurt.gltf": [
       "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_hurt.bin"
     ],
@@ -46,6 +43,9 @@
     ],
     "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_squat.gltf": [
       "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_squat.bin"
+    ],
+    "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.gltf": [
+      "F:\\cocos\\cocos_game\\game\\02\\jump_man\\assets\\cocos\\animations\\cocos_anim_die.bin"
     ]
   }
 }

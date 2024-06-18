@@ -3,6 +3,7 @@
     "cce:/internal/x/cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js",
     "cce:/internal/x/prerequisite-imports": "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js",
     "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "./chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js",
+    "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/AudioMgr.ts": "./chunks/c6/c6c031ef8877443b488515756780a579088d7032.js",
     "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/GameManager.ts": "./chunks/13/13bef6fc58c2cf6ab23dee0073f66382c25bc839.js",
     "file:///F:/cocos/cocos_game/game/02/jump_man/assets/Scipte/PlayerController.ts": "./chunks/d1/d197c1f4d7ef58c102a03b0a6451d3515ee4419a.js"
   },
@@ -38,8 +39,9 @@
     },
     "./chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js": {
       "__unresolved_0": "./chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js",
-      "__unresolved_1": "./chunks/13/13bef6fc58c2cf6ab23dee0073f66382c25bc839.js",
-      "__unresolved_2": "./chunks/d1/d197c1f4d7ef58c102a03b0a6451d3515ee4419a.js"
+      "__unresolved_1": "./chunks/c6/c6c031ef8877443b488515756780a579088d7032.js",
+      "__unresolved_2": "./chunks/13/13bef6fc58c2cf6ab23dee0073f66382c25bc839.js",
+      "__unresolved_3": "./chunks/d1/d197c1f4d7ef58c102a03b0a6451d3515ee4419a.js"
     },
     "./chunks/d1/d197c1f4d7ef58c102a03b0a6451d3515ee4419a.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
@@ -47,6 +49,9 @@
     "./chunks/13/13bef6fc58c2cf6ab23dee0073f66382c25bc839.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
       "__unresolved_1": "./chunks/d1/d197c1f4d7ef58c102a03b0a6451d3515ee4419a.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/c6/c6c031ef8877443b488515756780a579088d7032.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/c8/c8b6a709c03b1f3a3069932b4b22bfbc5834b962.js": {

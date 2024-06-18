@@ -1,4 +1,5 @@
-import { _decorator, Component, Node, input, Input, EventMouse, Vec3,Animation,SkeletalAnimation    } from 'cc';
+import { _decorator, Component, Node, input, Input, EventMouse,EventTouch, Vec3,Animation,SkeletalAnimation,AudioClip,AudioSource    } from 'cc';
+// import {AudioMgr} from "./AudioMgr"
 const { ccclass, property } = _decorator;
 
 @ccclass('PlayerController')
@@ -9,6 +10,22 @@ export class PlayerController extends Component {
     @property({type: Animation})
     public BodyAnim: Animation | null = null;
 
+    // 跳跃音效资源
+    @property(AudioClip)
+    public clip: AudioClip = null!;
+    // 音效控制
+    @property(AudioSource)
+    public audioSource: AudioSource = null!;
+    
+    // 触碰节点
+    @property(Node)
+    OneTouch: Node = null;
+
+    @property(Node)
+    TwoTouch: Node = null;
+
+    // private audioMgr: AudioMgr = null!;
+    
     // 是否接收到跳跃指令
     private _startJump: boolean = false;
     // 跳跃步长
@@ -30,6 +47,11 @@ export class PlayerController extends Component {
 
     private _curMoveIndex = 0;
 
+    // 播放音效
+    playOneShot () {
+        // this.audioMgr.playOneShot(this.clip, 1);
+        this.audioSource.playOneShot(this.clip, 1);
+    }
     // 停留时间
     @property
     public stayTime = 0;
@@ -48,8 +70,12 @@ export class PlayerController extends Component {
     setInputActive(active: boolean) {
         if (active) {
             input.on(Input.EventType.MOUSE_UP, this.onMouseUp, this);
+            this.OneTouch.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
+            this.TwoTouch.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
         } else {
             input.off(Input.EventType.MOUSE_UP, this.onMouseUp, this);
+            this.OneTouch.off(Input.EventType.TOUCH_START, this.onTouchStart, this);
+            this.TwoTouch.off(Input.EventType.TOUCH_START, this.onTouchStart, this);
         }
     }
     
@@ -63,6 +89,22 @@ export class PlayerController extends Component {
             this.jumpByStep(2);
         }
 
+    }
+
+    
+ 
+
+    // 监控触摸事件 回调
+    onTouchStart(event: EventTouch) {
+        const target = event.target as Node;        
+        if (target?.name == 'OneTouch') {
+            this.jumpByStep(1);
+        } else if (target?.name == 'TwoTouch') {
+            this.jumpByStep(2);
+        }
+        else{
+            console.log("无效touch")
+        }
     }
 
     //计算目标位置、速度的方法 移动 && 运行动画
@@ -84,8 +126,10 @@ export class PlayerController extends Component {
         // 播放动画
         if (this.CocosAnim) {
             if (step === 1 || step === 2){
+                this.playOneShot()
                 this.CocosAnim.getState('cocos_anim_jump').speed = 3.5; // 跳跃动画时间比较长，这里加速播放
                 this.CocosAnim.play('cocos_anim_jump'); // 播放跳跃动画
+
             }
            
         }
@@ -102,13 +146,13 @@ export class PlayerController extends Component {
     }
 
     // 跳跃结束，执行待机动画
-    onOnceJumpEnd() {
+    onOnceJumpEnd(deltaTime) {
         
         if (this.CocosAnim) {
             this.CocosAnim.getState('cocos_anim_idle').speed = 3.5;
             this.CocosAnim.play('cocos_anim_idle');
         }
-        this.node.emit('JumpEnd', this._curMoveIndex);
+        this.node.emit('JumpEnd', this._curMoveIndex,deltaTime);
     }
 
 
@@ -127,7 +171,7 @@ export class PlayerController extends Component {
                 this.stayTime = 0;
                 this.node.setPosition(this._targetPos);  // 强制位移到目标位置
                 this._startJump = false; // 标记跳跃结束
-                this.onOnceJumpEnd(); // 执行待机动画
+                this.onOnceJumpEnd(deltaTime); // 执行待机动画
             } else { // 执行跳跃动画
                 // tween
                 this.node.getPosition(this._curPos);  // 获取当前的位置 

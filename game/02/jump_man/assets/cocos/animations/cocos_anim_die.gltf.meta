@@ -27,7 +27,7 @@
           "to": 1.6666667461395264
         },
         "events": [],
-        "wrapMode": 2
+        "wrapMode": 1
       }
     },
     "578b6": {
@@ -61,7 +61,7 @@
             "name": "cocos_anim_die",
             "from": 0,
             "to": 1.6666667461395264,
-            "wrapMode": 2,
+            "wrapMode": 1,
             "previousId": "5ecd9"
           }
         ]

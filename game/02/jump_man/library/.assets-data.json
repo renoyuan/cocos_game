@@ -18,10 +18,12 @@
         "6cd4e8c1-b63f-4bbb-b3db-b323fa08b435",
         "99891237-d622-4276-bc4f-cd9b5a9903f2",
         "7bf32375-a434-45b6-8cb3-7df0e89a8143",
+        "dc194f1a-c8a5-46ca-aaf9-f03b70974af5",
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
@@ -634,6 +636,30 @@
         "b1cb32e6-c8c9-40c9-9d52-119dae416b32@0a7b5"
       ]
     },
+    "versionCode": 1
+  },
+  "7888c5a4-67fd-47ab-bce1-d6b65c8f90d1": {
+    "url": "db://assets/audio",
+    "value": {},
+    "versionCode": 1
+  },
+  "dc194f1a-c8a5-46ca-aaf9-f03b70974af5": {
+    "url": "db://assets/audio/jump.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "55d110b9-bab6-4d9d-9416-03e46904fa35": {
+    "url": "db://assets/audio/score.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0eea2eb4-b12f-486f-b7d9-468d9acd553a": {
+    "url": "db://assets/Scipte/AudioMgr.ts",
+    "value": {},
     "versionCode": 1
   }
 }
