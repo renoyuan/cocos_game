@@ -247,6 +247,122 @@
         },
         "time": "2024-6-18 16:02:35",
         "dirty": false
+      },
+      "1718866785926": {
+        "type": "build",
+        "id": "1718866785926",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-6-20 14:59:56 build success in 10 s!",
+        "detailMessage": "// ---- build task cocos-service：onAfterCompressSettings ----\r",
+        "options": {
+          "name": "jump_man",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "f35753a1-eb4b-4d37-b1de-b209d05d24f6",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "f35753a1-eb4b-4d37-b1de-b209d05d24f6"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-mobile2024-6-20 14-59.log"
+        },
+        "time": "2024-6-20 14:59:45",
+        "dirty": false
+      },
+      "1718867430374": {
+        "type": "build",
+        "id": "1718867430374",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-6-20 15:10:43 build success in 12 s!",
+        "detailMessage": "// ---- build task cocos-service：onAfterBuild ----\r",
+        "options": {
+          "name": "jump_man",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "f35753a1-eb4b-4d37-b1de-b209d05d24f6",
+          "outputName": "web-mobile-001",
+          "taskName": "web-mobile-001",
+          "scenes": [
+            {
+              "url": "db://assets/scene.scene",
+              "uuid": "f35753a1-eb4b-4d37-b1de-b209d05d24f6"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-mobile2024-6-20 15-10.log"
+        },
+        "time": "2024-6-20 15:10:30",
+        "dirty": false
       }
     }
   }

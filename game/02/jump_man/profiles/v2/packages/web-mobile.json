@@ -15,6 +15,16 @@
         "orientation": "auto",
         "embedWebDebugger": false,
         "__version__": "1.0.1"
+      },
+      "1718866785926": {
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1718867430374": {
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
       }
     },
     "__version__": "1.3.8"
