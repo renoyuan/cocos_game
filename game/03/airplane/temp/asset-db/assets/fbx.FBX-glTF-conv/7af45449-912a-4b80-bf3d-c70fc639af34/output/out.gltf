@@ -1,0 +1,124 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 847,
+      "max": [
+        0.4389519989490509,
+        0.22435352206230164,
+        0.7804418206214905
+      ],
+      "min": [
+        -0.4389519989490509,
+        -0.09401886910200119,
+        -0.5146961808204651
+      ],
+      "name": "plane02/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 847,
+      "name": "plane02/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 847,
+      "name": "plane02/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 2316,
+      "name": "plane02/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 27104,
+      "byteStride": 32,
+      "name": "plane02",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4632,
+      "byteOffset": 27104,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 31736,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "materials": [
+    {
+      "name": "plane02",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5879999995231628,
+          0.5879999995231628,
+          0.5879999995231628,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "plane02",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "plane02",
+      "translation": [
+        -0.40433043241500854,
+        -6.493302295836753e-17,
+        -2.244485108991186e-17
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1172 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 30,
+      "max": [
+        0.09663085639476776,
+        0.05770781636238098,
+        0.1503426432609558
+      ],
+      "min": [
+        -0.09663085639476776,
+        -0.05770782381296158,
+        -0.1503426730632782
+      ],
+      "name": "stone13/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 30,
+      "name": "stone13/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 30,
+      "name": "stone13/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 30,
+      "name": "stone13/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 30,
+      "name": "stone13/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 232,
+      "max": [
+        0.3311178684234619,
+        0.1232079565525055,
+        0.3985576331615448
+      ],
+      "min": [
+        -0.33111780881881714,
+        -0.11196304112672806,
+        -0.3985575735569
+      ],
+      "name": "stone02/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 232,
+      "name": "stone02/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 232,
+      "name": "stone02/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 232,
+      "name": "stone02/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 504,
+      "name": "stone02/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 149,
+      "max": [
+        0.38487711548805237,
+        0.08166300505399704,
+        0.16815505921840668
+      ],
+      "min": [
+        -0.38487711548805237,
+        -0.08166302740573883,
+        -0.16815505921840668
+      ],
+      "name": "stone03/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 149,
+      "name": "stone03/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 149,
+      "name": "stone03/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 149,
+      "name": "stone03/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5123,
+      "count": 342,
+      "name": "stone03/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 30,
+      "max": [
+        0.0652594342827797,
+        0.04597057029604912,
+        0.08146453648805618
+      ],
+      "min": [
+        -0.0652594342827797,
+        -0.04597056284546852,
+        -0.08146453648805618
+      ],
+      "name": "stone04/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 30,
+      "name": "stone04/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 30,
+      "name": "stone04/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 30,
+      "name": "stone04/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 48,
+      "name": "stone04/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 151,
+      "max": [
+        0.21880798041820526,
+        0.11165924370288849,
+        0.3413636088371277
+      ],
+      "min": [
+        -0.21880798041820526,
+        -0.11165926605463028,
+        -0.3413636088371277
+      ],
+      "name": "stone05/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 151,
+      "name": "stone05/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 151,
+      "name": "stone05/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 151,
+      "name": "stone05/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5123,
+      "count": 264,
+      "name": "stone05/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 44,
+      "max": [
+        0.10206062346696854,
+        0.0768980160355568,
+        0.1495688557624817
+      ],
+      "min": [
+        -0.10206062346696854,
+        -0.07689802348613739,
+        -0.1495688259601593
+      ],
+      "name": "stone06/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 44,
+      "name": "stone06/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 44,
+      "name": "stone06/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 44,
+      "name": "stone06/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 78,
+      "name": "stone06/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 32,
+      "max": [
+        0.11693378537893295,
+        0.0682126060128212,
+        0.11447347700595856
+      ],
+      "min": [
+        -0.1101408377289772,
+        -0.06821262091398239,
+        -0.11447351425886154
+      ],
+      "name": "stone07/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 32,
+      "name": "stone07/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 32,
+      "name": "stone07/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 32,
+      "name": "stone07/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5123,
+      "count": 54,
+      "name": "stone07/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 224,
+      "max": [
+        0.35601893067359924,
+        0.11448553949594498,
+        0.3781673312187195
+      ],
+      "min": [
+        -0.35601890087127686,
+        -0.11448561400175095,
+        -0.37816739082336426
+      ],
+      "name": "stone08/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 224,
+      "name": "stone08/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 224,
+      "name": "stone08/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 224,
+      "name": "stone08/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5123,
+      "count": 417,
+      "name": "stone08/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 29,
+      "max": [
+        0.09528511017560959,
+        0.052737828344106674,
+        0.1034315899014473
+      ],
+      "min": [
+        -0.09528511017560959,
+        -0.052737828344106674,
+        -0.10343162715435028
+      ],
+      "name": "stone09/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 29,
+      "name": "stone09/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 29,
+      "name": "stone09/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 29,
+      "name": "stone09/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5123,
+      "count": 36,
+      "name": "stone09/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 22,
+      "max": [
+        0.14576925337314606,
+        0.05267546325922012,
+        0.1338118016719818
+      ],
+      "min": [
+        -0.14576925337314606,
+        -0.05267547443509102,
+        -0.1338118016719818
+      ],
+      "name": "stone10/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 22,
+      "name": "stone10/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 22,
+      "name": "stone10/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 22,
+      "name": "stone10/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5123,
+      "count": 36,
+      "name": "stone10/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 20,
+      "componentType": 5126,
+      "count": 122,
+      "max": [
+        0.31752991676330566,
+        0.09447285532951355,
+        0.4811631739139557
+      ],
+      "min": [
+        -0.3175298571586609,
+        -0.09447284042835236,
+        -0.4811631143093109
+      ],
+      "name": "stone11/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 122,
+      "name": "stone11/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 122,
+      "name": "stone11/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 122,
+      "name": "stone11/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 21,
+      "componentType": 5123,
+      "count": 144,
+      "name": "stone11/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 22,
+      "componentType": 5126,
+      "count": 56,
+      "max": [
+        0.17227767407894135,
+        0.07890006899833679,
+        0.13412827253341675
+      ],
+      "min": [
+        -0.17227764427661896,
+        -0.07890007644891739,
+        -0.13412834703922272
+      ],
+      "name": "stone12/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 56,
+      "name": "stone12/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 56,
+      "name": "stone12/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 56,
+      "name": "stone12/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 23,
+      "componentType": 5123,
+      "count": 60,
+      "name": "stone12/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 24,
+      "componentType": 5126,
+      "count": 224,
+      "max": [
+        0.4563380777835846,
+        0.220295712351799,
+        0.45510658621788025
+      ],
+      "min": [
+        -0.46485739946365356,
+        -6.937790431038593e-08,
+        -0.4660888910293579
+      ],
+      "name": "stone01/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 224,
+      "name": "stone01/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 224,
+      "name": "stone01/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 224,
+      "name": "stone01/COLOR_0",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 25,
+      "componentType": 5123,
+      "count": 348,
+      "name": "stone01/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1440,
+      "byteStride": 48,
+      "name": "stone13",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 60,
+      "byteOffset": 1440,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11136,
+      "byteOffset": 1500,
+      "byteStride": 48,
+      "name": "stone02",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1008,
+      "byteOffset": 12636,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7152,
+      "byteOffset": 13644,
+      "byteStride": 48,
+      "name": "stone03",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 684,
+      "byteOffset": 20796,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1440,
+      "byteOffset": 21480,
+      "byteStride": 48,
+      "name": "stone04",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 22920,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7248,
+      "byteOffset": 23016,
+      "byteStride": 48,
+      "name": "stone05",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 528,
+      "byteOffset": 30264,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2112,
+      "byteOffset": 30792,
+      "byteStride": 48,
+      "name": "stone06",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 156,
+      "byteOffset": 32904,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1536,
+      "byteOffset": 33060,
+      "byteStride": 48,
+      "name": "stone07",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 108,
+      "byteOffset": 34596,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10752,
+      "byteOffset": 34704,
+      "byteStride": 48,
+      "name": "stone08",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 834,
+      "byteOffset": 45456,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1392,
+      "byteOffset": 46290,
+      "byteStride": 48,
+      "name": "stone09",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 72,
+      "byteOffset": 47682,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1056,
+      "byteOffset": 47754,
+      "byteStride": 48,
+      "name": "stone10",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 72,
+      "byteOffset": 48810,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5856,
+      "byteOffset": 48882,
+      "byteStride": 48,
+      "name": "stone11",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 54738,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2688,
+      "byteOffset": 55026,
+      "byteStride": 48,
+      "name": "stone12",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 120,
+      "byteOffset": 57714,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10752,
+      "byteOffset": 57834,
+      "byteStride": 48,
+      "name": "stone01",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 696,
+      "byteOffset": 68586,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 69282,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "materials": [
+    {
+      "name": "stone",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5882353186607361,
+          0.5882353186607361,
+          0.5882353186607361,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "stone13",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 3,
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone02",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 8,
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 9,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone03",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 13,
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TEXCOORD_0": 12
+          },
+          "indices": 14,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone04",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 18,
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TEXCOORD_0": 17
+          },
+          "indices": 19,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone05",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 23,
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TEXCOORD_0": 22
+          },
+          "indices": 24,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone06",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 28,
+            "NORMAL": 26,
+            "POSITION": 25,
+            "TEXCOORD_0": 27
+          },
+          "indices": 29,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone07",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 33,
+            "NORMAL": 31,
+            "POSITION": 30,
+            "TEXCOORD_0": 32
+          },
+          "indices": 34,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone08",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 38,
+            "NORMAL": 36,
+            "POSITION": 35,
+            "TEXCOORD_0": 37
+          },
+          "indices": 39,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone09",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 43,
+            "NORMAL": 41,
+            "POSITION": 40,
+            "TEXCOORD_0": 42
+          },
+          "indices": 44,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone10",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 48,
+            "NORMAL": 46,
+            "POSITION": 45,
+            "TEXCOORD_0": 47
+          },
+          "indices": 49,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone11",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 53,
+            "NORMAL": 51,
+            "POSITION": 50,
+            "TEXCOORD_0": 52
+          },
+          "indices": 54,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone12",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 58,
+            "NORMAL": 56,
+            "POSITION": 55,
+            "TEXCOORD_0": 57
+          },
+          "indices": 59,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "stone01",
+      "primitives": [
+        {
+          "attributes": {
+            "COLOR_0": 63,
+            "NORMAL": 61,
+            "POSITION": 60,
+            "TEXCOORD_0": 62
+          },
+          "indices": 64,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "stone13",
+      "translation": [
+        1.0146270990371704,
+        0.05690399184823036,
+        0.3427402079105377
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "stone02",
+      "translation": [
+        0.6886279582977295,
+        0.10058693587779999,
+        -0.5666519403457642
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "stone03",
+      "translation": [
+        0.002049942035228014,
+        0.08085934817790985,
+        -1.005204200744629
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "stone04",
+      "translation": [
+        -0.47905460000038147,
+        0.05070677399635315,
+        -0.8471124172210693
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "stone05",
+      "translation": [
+        -0.7452610731124878,
+        0.1131705492734909,
+        -0.48419198393821716
+      ]
+    },
+    {
+      "mesh": 5,
+      "name": "stone06",
+      "translation": [
+        -1.130903720855713,
+        0.07938750088214874,
+        -0.3733330965042114
+      ]
+    },
+    {
+      "mesh": 6,
+      "name": "stone07",
+      "translation": [
+        -0.5699410438537598,
+        0.07294867187738419,
+        0.19118750095367432
+      ]
+    },
+    {
+      "mesh": 7,
+      "name": "stone08",
+      "translation": [
+        -0.5620825886726379,
+        0.1160961464047432,
+        0.5330126285552979
+      ]
+    },
+    {
+      "mesh": 8,
+      "name": "stone09",
+      "translation": [
+        -1.0433623790740967,
+        0.051933929324150085,
+        0.48296624422073364
+      ]
+    },
+    {
+      "mesh": 9,
+      "name": "stone10",
+      "translation": [
+        -0.27238863706588745,
+        0.051871467381715775,
+        1.078382968902588
+      ]
+    },
+    {
+      "mesh": 10,
+      "name": "stone11",
+      "translation": [
+        0.5734377503395081,
+        0.09276147186756134,
+        0.5300292372703552
+      ]
+    },
+    {
+      "mesh": 11,
+      "name": "stone12",
+      "translation": [
+        0.7369145154953003,
+        0.08016352355480194,
+        0.8387519121170044
+      ]
+    },
+    {
+      "mesh": 12,
+      "name": "stone01"
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ]
+}

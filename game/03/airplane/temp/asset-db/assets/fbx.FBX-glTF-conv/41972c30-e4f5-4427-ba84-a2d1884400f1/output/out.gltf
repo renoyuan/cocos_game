@@ -1,0 +1,124 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 342,
+      "max": [
+        0.7775129675865173,
+        0.7775129675865173,
+        0.7775129675865173
+      ],
+      "min": [
+        -0.7775129675865173,
+        -0.7775129675865173,
+        -0.7775129675865173
+      ],
+      "name": "ball/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 342,
+      "name": "ball/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 342,
+      "name": "ball/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 1584,
+      "name": "ball/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 10944,
+      "byteStride": 32,
+      "name": "ball",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3168,
+      "byteOffset": 10944,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 14112,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0
+    }
+  },
+  "materials": [
+    {
+      "name": "ball",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5882353186607361,
+          0.5882353186607361,
+          0.5882353186607361,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ball",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "ball",
+      "translation": [
+        0.0,
+        2.978040129164583e-06,
+        0.0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
