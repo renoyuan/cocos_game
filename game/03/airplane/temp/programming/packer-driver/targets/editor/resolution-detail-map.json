@@ -1,13 +1,1 @@
-{
-  "./chunks/10/1035960756f213e59e3ee3afa503fda847e0dbc0.js": {
-    "__unresolved_4": {
-      "error": "Error: 以 file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/GameManager.ts 为起点找不到模块 \"../plane/SelfPlane\"",
-      "messages": [
-        {
-          "level": "warn",
-          "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
-        }
-      ]
-    }
-  }
-}
+{}

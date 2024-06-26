@@ -1,0 +1,13 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz",
+        "version": "Windows 10 Home China"
+    },
+    "sceneListMap": {
+        "20deebcd-533e-4521-a20e-5e6d57a66d79": "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\scene.scene",
+        "1078973b-67f7-4366-8a61-e2ddd39429c8": "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\scene\\airplane.scene",
+        "de9077b2-4d7f-4d21-b1b1-d7b1cf1f2eb0": "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\scene\\aieplane.scene"
+    },
+    "deviceMd5": "34da8b85e7d81bf088096f49b8f0b9a1"
+}

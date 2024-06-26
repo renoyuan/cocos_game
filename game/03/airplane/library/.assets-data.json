@@ -527,12 +527,7 @@
   },
   "f809d213-2a06-4546-aa9d-38863d98ab68": {
     "url": "db://assets/res/effect/bullet/bullet01.mtl",
-    "value": {
-      "depends": [
-        "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
-        "9fc11a65-c4c5-403d-b2a8-ded943a0267e@6c48a"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "9fc11a65-c4c5-403d-b2a8-ded943a0267e": {
@@ -544,25 +539,12 @@
   },
   "8546c4f1-5ad0-4412-acf2-414a66a4d368": {
     "url": "db://assets/res/effect/bullet/bullet01.prefab",
-    "value": {
-      "depends": [
-        "f809d213-2a06-4546-aa9d-38863d98ab68",
-        "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
-      ],
-      "dependScripts": [
-        "016d06d9-22b9-4119-8d86-6d5199660d4c"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "e04a2c6d-f237-4313-8443-acbb640d6f13": {
     "url": "db://assets/res/effect/bullet/bullet02.mtl",
-    "value": {
-      "depends": [
-        "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
-        "06494e00-5c00-4dfd-befe-e215b58d798d@6c48a"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "06494e00-5c00-4dfd-befe-e215b58d798d": {
@@ -574,25 +556,12 @@
   },
   "34535c55-ff15-420d-b7b2-93d1c2994882": {
     "url": "db://assets/res/effect/bullet/bullet02.prefab",
-    "value": {
-      "depends": [
-        "e04a2c6d-f237-4313-8443-acbb640d6f13",
-        "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
-      ],
-      "dependScripts": [
-        "016d06d9-22b9-4119-8d86-6d5199660d4c"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "427ad71b-70b1-4ca9-bdf0-bdceeef97720": {
     "url": "db://assets/res/effect/bullet/bullet03.mtl",
-    "value": {
-      "depends": [
-        "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
-        "49e3188a-8816-4cee-8abe-e48c6718ac7d@6c48a"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "49e3188a-8816-4cee-8abe-e48c6718ac7d": {
@@ -604,25 +573,12 @@
   },
   "da39b6f9-edae-4f8f-9a7c-34b43b597ce6": {
     "url": "db://assets/res/effect/bullet/bullet03.prefab",
-    "value": {
-      "depends": [
-        "427ad71b-70b1-4ca9-bdf0-bdceeef97720",
-        "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
-      ],
-      "dependScripts": [
-        "016d06d9-22b9-4119-8d86-6d5199660d4c"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "1549fa9f-5dfc-4c76-b49f-a246ceba2b3c": {
     "url": "db://assets/res/effect/bullet/bullet04.mtl",
-    "value": {
-      "depends": [
-        "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
-        "dd27994c-a2da-4638-846d-32b58b796dec@6c48a"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "dd27994c-a2da-4638-846d-32b58b796dec": {
@@ -643,25 +599,12 @@
   },
   "04c0fb6f-655a-457f-897e-2fbc7995045b": {
     "url": "db://assets/res/effect/bullet/bullet04.prefab",
-    "value": {
-      "depends": [
-        "1549fa9f-5dfc-4c76-b49f-a246ceba2b3c",
-        "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
-      ],
-      "dependScripts": [
-        "016d06d9-22b9-4119-8d86-6d5199660d4c"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "3a3c6e07-816f-4178-8e37-d8066eb2836e": {
     "url": "db://assets/res/effect/bullet/bullet05.mtl",
-    "value": {
-      "depends": [
-        "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
-        "42a53642-c5c6-4baa-915e-c371a67accfd@6c48a"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "06494e00-5c00-4dfd-befe-e215b58d798d@6c48a": {
@@ -682,15 +625,7 @@
   },
   "31847a1b-abe1-4196-9a48-7af36ee53283": {
     "url": "db://assets/res/effect/bullet/bullet05.prefab",
-    "value": {
-      "depends": [
-        "3a3c6e07-816f-4178-8e37-d8066eb2836e",
-        "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
-      ],
-      "dependScripts": [
-        "016d06d9-22b9-4119-8d86-6d5199660d4c"
-      ]
-    },
+    "value": {},
     "versionCode": 1
   },
   "edf40a94-4067-4e25-93f0-e714ebf09943": {
@@ -1791,13 +1726,20 @@
         "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
         "71d0b0a7-6303-4317-986a-2ba0045e0560@c13c3",
         "55682fcc-f39d-4bdf-80f9-edbeb7b58803",
+        "5bab7526-d494-4984-bcbb-678c48997fc0",
+        "b554d77b-1943-4d4a-b894-18065c3a7510",
+        "8ae8ac73-ced6-4c2b-99ff-5d67c786358a",
+        "1a8f7887-e251-49ab-b6f5-267a8179ea98",
+        "b25619c8-b1ea-44b2-acaf-b4f378e5cbd4",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
       "dependScripts": [
         "96ab97d6-5201-47bb-8599-917463ee5cc7",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
-        "cd111414-b6f9-4771-a6cf-f8190cf6ebbb"
+        "cd111414-b6f9-4771-a6cf-f8190cf6ebbb",
+        "e690b574-6553-4619-a4ce-79fb8fc2244f",
+        "976af95c-04e7-4ba4-9859-2eb827b1f5cd"
       ]
     },
     "versionCode": 1
@@ -1833,6 +1775,186 @@
   "6de6c544-4452-47ef-9fa3-fff29dbdd4f1": {
     "url": "db://assets/script/ui/UIMain-001.ts",
     "value": {},
+    "versionCode": 1
+  },
+  "e0f4a0a9-3c1d-427b-9d9f-7edf844d340d": {
+    "url": "db://assets/script/ui/UIMainod.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d504c333-0620-44fd-825c-43f7905c8041": {
+    "url": "db://assets/script/bullet",
+    "value": {},
+    "versionCode": 1
+  },
+  "295751b1-8131-47f3-91db-1b15078cede9": {
+    "url": "db://assets/script/bullet/Bullet.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "a9988128-bf9d-4885-b67d-a07ad3ae106d": {
+    "url": "db://assets/res/effect/bullet/bullet01.mtl",
+    "value": {
+      "depends": [
+        "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+        "9fc11a65-c4c5-403d-b2a8-ded943a0267e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0e43c738-2ab1-460a-b20a-197c8268c097": {
+    "url": "db://assets/res/effect/bullet/physics-material.pmtl",
+    "value": {},
+    "versionCode": 1
+  },
+  "61ab321f-dcc1-48c9-be0c-a9431dbd2a53": {
+    "url": "db://assets/res/effect/bullet/bullet01.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "ad8cefb1-8d39-4645-9fc0-32ec3be3a172": {
+    "url": "db://assets/script/framework",
+    "value": {},
+    "versionCode": 1
+  },
+  "976af95c-04e7-4ba4-9859-2eb827b1f5cd": {
+    "url": "db://assets/script/framework/GameManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ec4e2351-fa16-4e4d-8f37-663c22199ab7": {
+    "url": "db://assets/res/effect/bullet/bullet02.mtl",
+    "value": {
+      "depends": [
+        "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+        "06494e00-5c00-4dfd-befe-e215b58d798d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bd6167ee-58c7-4f67-8289-8ca000fcf266": {
+    "url": "db://assets/res/effect/bullet/bullet03.mtl",
+    "value": {
+      "depends": [
+        "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+        "49e3188a-8816-4cee-8abe-e48c6718ac7d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "289671cd-ea41-4e99-9fe8-280a50db5d5c": {
+    "url": "db://assets/res/effect/bullet/bullet04.mtl",
+    "value": {
+      "depends": [
+        "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+        "dd27994c-a2da-4638-846d-32b58b796dec@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c03f6c16-269d-4db7-83c7-5bbfc20c75d4": {
+    "url": "db://assets/res/effect/bullet/bullet05.mtl",
+    "value": {
+      "depends": [
+        "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+        "42a53642-c5c6-4baa-915e-c371a67accfd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b3920659-5707-4618-8ff0-91f0590b350d": {
+    "url": "db://assets/res/effect/bullet/bullet01.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "0e4c2953-b16f-43e1-92bd-01a025a97a44": {
+    "url": "db://assets/res/effect/bullet/bullet02.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "7031a017-29f2-4cb8-9148-c6ee832ab8b3": {
+    "url": "db://assets/res/effect/bullet/bullet03.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "c1507c66-659f-40ee-9b1e-df7b45539bad": {
+    "url": "db://assets/res/effect/bullet/bullet04.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "6d6297ec-1c08-4f03-9d6a-a80f3753e6d1": {
+    "url": "db://assets/res/effect/bullet/bullet05.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "53983e4c-42ba-4d1d-a4f4-5b9049647f44": {
+    "url": "db://assets/res/effect/bullet/bullet01.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "b554d77b-1943-4d4a-b894-18065c3a7510": {
+    "url": "db://assets/res/effect/bullet/bullet02.prefab",
+    "value": {
+      "depends": [
+        "ec4e2351-fa16-4e4d-8f37-663c22199ab7",
+        "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
+      ],
+      "dependScripts": [
+        "295751b1-8131-47f3-91db-1b15078cede9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8ae8ac73-ced6-4c2b-99ff-5d67c786358a": {
+    "url": "db://assets/res/effect/bullet/bullet03.prefab",
+    "value": {
+      "depends": [
+        "bd6167ee-58c7-4f67-8289-8ca000fcf266",
+        "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
+      ],
+      "dependScripts": [
+        "295751b1-8131-47f3-91db-1b15078cede9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1a8f7887-e251-49ab-b6f5-267a8179ea98": {
+    "url": "db://assets/res/effect/bullet/bullet04.prefab",
+    "value": {
+      "depends": [
+        "289671cd-ea41-4e99-9fe8-280a50db5d5c",
+        "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
+      ],
+      "dependScripts": [
+        "295751b1-8131-47f3-91db-1b15078cede9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b25619c8-b1ea-44b2-acaf-b4f378e5cbd4": {
+    "url": "db://assets/res/effect/bullet/bullet05.prefab",
+    "value": {
+      "depends": [
+        "c03f6c16-269d-4db7-83c7-5bbfc20c75d4",
+        "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
+      ],
+      "dependScripts": [
+        "295751b1-8131-47f3-91db-1b15078cede9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5bab7526-d494-4984-bcbb-678c48997fc0": {
+    "url": "db://assets/res/effect/bullet/bullet01.prefab",
+    "value": {
+      "depends": [
+        "a9988128-bf9d-4885-b67d-a07ad3ae106d",
+        "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
+      ],
+      "dependScripts": [
+        "295751b1-8131-47f3-91db-1b15078cede9"
+      ]
+    },
     "versionCode": 1
   }
 }

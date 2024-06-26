@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, SystemEvent, GameManager, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, UIMain;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, input, Input, GameManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, UIMain;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -23,7 +23,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       _decorator = _cc._decorator;
       Component = _cc.Component;
       Node = _cc.Node;
-      SystemEvent = _cc.SystemEvent;
+      input = _cc.input;
+      Input = _cc.Input;
     }, function (_unresolved_2) {
       GameManager = _unresolved_2.GameManager;
     }],
@@ -32,7 +33,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "e690bV0ZVNGGaTOefuPwiRP", "UIMain", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'systemEvent', 'SystemEvent', 'Touch', 'EventTouch', 'Vec2']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'input', 'Input', 'Touch', 'EventTouch', 'Vec2']);
 
       ({
         ccclass,
@@ -52,82 +53,48 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _export("UIMain", UIMain = (_dec = ccclass('UIMain'), _dec2 = property(Node), _dec3 = property(_crd && GameManager === void 0 ? (_reportPossibleCrUseOfGameManager({
         error: Error()
-      }), GameManager) : GameManager), _dec4 = property(Node), _dec5 = property(Node), _dec6 = property(Node), _dec(_class = (_class2 = class UIMain extends Component {
+      }), GameManager) : GameManager), _dec(_class = (_class2 = class UIMain extends Component {
         constructor(...args) {
           super(...args);
 
-          _initializerDefineProperty(this, "planeSpeed", _descriptor, this);
+          _initializerDefineProperty(this, "spped", _descriptor, this);
 
+          // 控制飞机
           _initializerDefineProperty(this, "playerPlane", _descriptor2, this);
 
           _initializerDefineProperty(this, "gameManager", _descriptor3, this);
-
-          _initializerDefineProperty(this, "gameStart", _descriptor4, this);
-
-          _initializerDefineProperty(this, "game", _descriptor5, this);
-
-          _initializerDefineProperty(this, "gameOver", _descriptor6, this);
         }
 
         start() {
-          this.node.on(SystemEvent.EventType.TOUCH_START, this._touchStart, this);
-          this.node.on(SystemEvent.EventType.TOUCH_MOVE, this._touchMove, this);
-          this.node.on(SystemEvent.EventType.TOUCH_END, this._touchEnd, this);
-          this.gameStart.active = true;
-        } // update (deltaTime: number) {
-        //     // [4]
-        // }
+          // 监听全局事件
+          input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this); // 
 
-
-        reStart() {
-          this.gameOver.active = false;
-          this.game.active = true;
-          this.gameManager.playAudioEffect('button');
-          this.gameManager.gameReStart();
+          input.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
+          input.on(Input.EventType.TOUCH_END, this.onTouchEnd, this);
         }
 
-        returnMain() {
-          this.gameOver.active = false;
-          this.gameStart.active = true;
-          this.gameManager.playAudioEffect('button');
-          this.gameManager.returnMain();
+        onTouchStart(event) {
+          this.gameManager.isShooting(true);
         }
 
-        _touchStart(touch, event) {
-          if (this.gameManager.isGameStart) {
-            this.gameManager.isShooting(true);
-          } else {
-            this.gameStart.active = false;
-            this.game.active = true;
-            this.gameManager.playAudioEffect('button');
-            this.gameManager.gameStart();
-          }
-        }
-
-        _touchMove(touch, event) {
-          if (!this.gameManager.isGameStart) {
-            return;
-          }
-
-          const delta = touch.getDelta();
-          let pos = this.playerPlane.position;
-          this.playerPlane.setPosition(pos.x + 0.01 * this.planeSpeed * delta.x, pos.y, pos.z - 0.01 * this.planeSpeed * delta.y);
-        }
-
-        _touchEnd(touch, event) {
-          if (!this.gameManager.isGameStart) {
-            return;
-          }
-
+        onTouchEnd(event) {
           this.gameManager.isShooting(false);
         }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "planeSpeed", [property], {
+        onTouchMove(event) {
+          // 触碰移动
+          const delta = event.getDelta();
+          let pos = this.playerPlane.position;
+          this.playerPlane.setPosition(pos.x + this.spped * 0.01 * delta.x, pos.y, pos.z - 0.01 * this.spped * delta.y); //
+          // console.info(pos,"pos","delta",delta,"坐标",pos.x+(this.spped * 0.01*delta.x),pos.z- (0.01*this.spped * delta.y))
+        }
+
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "spped", [property], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function () {
-          return 1;
+          return 5;
         }
       }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "playerPlane", [_dec2], {
         configurable: true,
@@ -137,27 +104,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           return null;
         }
       }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "gameManager", [_dec3], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
-        }
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "gameStart", [_dec4], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
-        }
-      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "game", [_dec5], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function () {
-          return null;
-        }
-      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "gameOver", [_dec6], {
         configurable: true,
         enumerable: true,
         writable: true,

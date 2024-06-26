@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node, systemEvent, SystemEvent, Touch, EventTouch, Vec2 } from 'cc';
+import { _decorator, Component, Node, input, Input, Touch, EventTouch, Vec2 } from 'cc';
 import { GameManager } from '../framework/GameManager';
 const { ccclass, property } = _decorator;
 
@@ -18,75 +18,37 @@ const { ccclass, property } = _decorator;
 @ccclass('UIMain')
 export class UIMain extends Component {
     @property
-    public planeSpeed = 1;
-
+    public spped = 5;
+    // 控制飞机
     @property(Node)
     public playerPlane: Node = null;
 
     @property(GameManager)
     public gameManager: GameManager = null;
+    
 
-    @property(Node)
-    public gameStart: Node = null;
-    @property(Node)
-    public game: Node = null;
-    @property(Node)
-    public gameOver: Node = null;
-
-    start () {
-        this.node.on(SystemEvent.EventType.TOUCH_START, this._touchStart, this);
-        this.node.on(SystemEvent.EventType.TOUCH_MOVE, this._touchMove, this);
-        this.node.on(SystemEvent.EventType.TOUCH_END, this._touchEnd, this);
-
-        this.gameStart.active  = true;
+    start() {
+        // 监听全局事件
+        input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
+        // 
+        input.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
+        input.on(Input.EventType.TOUCH_END, this.onTouchEnd, this);
     }
-
-    // update (deltaTime: number) {
-    //     // [4]
-    // }
-
-    public reStart(){
-        this.gameOver.active = false;
-        this.game.active = true;
-        this.gameManager.playAudioEffect('button');
-        this.gameManager.gameReStart();
-    }
-
-    public returnMain(){
-        this.gameOver.active = false;
-        this.gameStart.active = true;
-        this.gameManager.playAudioEffect('button');
-        this.gameManager.returnMain();
-    }
-
-    _touchStart(touch: Touch, event: EventTouch){
-        if (this.gameManager.isGameStart) {
-            this.gameManager.isShooting(true);
-        } else {
-            this.gameStart.active = false;
-            this.game.active = true;
-            this.gameManager.playAudioEffect('button');
-            this.gameManager.gameStart();
-        }
+    
+    onTouchStart(event: EventTouch){
+        this.gameManager.isShooting(true);
 
     }
-
-    _touchMove(touch: Touch, event: EventTouch){
-        if (!this.gameManager.isGameStart) {
-            return;
-        }
-
-        const delta = touch.getDelta();
-        let pos = this.playerPlane.position;
-        this.playerPlane.setPosition(pos.x + 0.01 * this.planeSpeed * delta.x, pos.y, pos.z - 0.01 * this.planeSpeed * delta.y);
-    }
-
-    _touchEnd(touch: Touch, event: EventTouch){
-        if (!this.gameManager.isGameStart) {
-            return;
-        }
-
+    onTouchEnd(event: EventTouch){
         this.gameManager.isShooting(false);
+    }
+    onTouchMove(  event: EventTouch){
+        // 触碰移动
+        const delta = event.getDelta();
+        let pos = this.playerPlane.position;
+        this.playerPlane.setPosition(pos.x+(this.spped * 0.01*delta.x),pos.y, pos.z- (0.01*this.spped * delta.y)) //
+        // console.info(pos,"pos","delta",delta,"坐标",pos.x+(this.spped * 0.01*delta.x),pos.z- (0.01*this.spped * delta.y))
+        
     }
 }
 

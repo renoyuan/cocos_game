@@ -1,144 +1,64 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
+System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider, Constant, PoolManager, _dec, _class, _crd, ccclass, property, Bullet;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, _dec, _class, _class2, _descriptor, _crd, ccclass, property, OUTRANGE, Bullet;
 
-  function _reportPossibleCrUseOfConstant(extras) {
-    _reporterNs.report("Constant", "../framework/Constant", _context.meta, extras);
-  }
+  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
-  function _reportPossibleCrUseOfPoolManager(extras) {
-    _reporterNs.report("PoolManager", "../framework/PoolManager", _context.meta, extras);
-  }
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
 
   return {
-    setters: [function (_unresolved_) {
-      _reporterNs = _unresolved_;
-    }, function (_cc) {
+    setters: [function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
       Component = _cc.Component;
-      Collider = _cc.Collider;
-    }, function (_unresolved_2) {
-      Constant = _unresolved_2.Constant;
-    }, function (_unresolved_3) {
-      PoolManager = _unresolved_3.PoolManager;
     }],
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "016d0bZIrlBGY2GbVGZZg1M", "Bullet", undefined);
+      _cclegacy._RF.push({}, "29575GxgTFH85HbGxUHjO3p", "Bullet", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'Collider', 'ITriggerEvent']);
+      __checkObsolete__(['_decorator', 'Component', 'Node']);
 
       ({
         ccclass,
         property
       } = _decorator);
-      /**
-       * Predefined variables
-       * Name = Bullet
-       * DateTime = Mon Nov 15 2021 14:58:43 GMT+0800 (China Standard Time)
-       * Author = mywayday
-       * FileBasename = Bullet.ts
-       * FileBasenameNoExtension = Bullet
-       * URL = db://assets/script/bullet/Bullet.ts
-       * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
-       *
-       */
+      OUTRANGE = 80;
 
-      _export("Bullet", Bullet = (_dec = ccclass('Bullet'), _dec(_class = class Bullet extends Component {
+      _export("Bullet", Bullet = (_dec = ccclass('Bullet'), _dec(_class = (_class2 = class Bullet extends Component {
         constructor() {
           super(...arguments);
-          this._bulletSpeed = 0;
-          this._direction = (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
-            error: Error()
-          }), Constant) : Constant).Direction.MIDDLE;
-          this._isEnemyBullet = false;
+
+          _initializerDefineProperty(this, "bulletSpeed", _descriptor, this);
         }
 
-        onEnable() {
-          var collider = this.getComponent(Collider);
-          collider.on('onTriggerEnter', this._onTriggerEnter, this);
-        }
-
-        onDisable() {
-          var collider = this.getComponent(Collider);
-          collider.off('onTriggerEnter', this._onTriggerEnter, this);
-        }
+        start() {}
 
         update(deltaTime) {
           var pos = this.node.position;
-          var moveLength = 0;
+          var moveZ = pos.z - this.bulletSpeed;
+          this.node.setPosition(pos.x, pos.y, moveZ); // 移动子弹位置
 
-          if (this._isEnemyBullet) {
-            moveLength = pos.z + this._bulletSpeed;
-            this.node.setPosition(pos.x, pos.y, moveLength);
+          if (moveZ > OUTRANGE) {
+            this.node.destroy(); //销毁子弹
 
-            if (moveLength > 50) {
-              // this.node.destroy();
-              (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
-                error: Error()
-              }), PoolManager) : PoolManager).instance().putNode(this.node); // console.log('bullet destroy');
-            }
-          } else {
-            moveLength = pos.z - this._bulletSpeed;
-
-            if (this._direction === (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
-              error: Error()
-            }), Constant) : Constant).Direction.LEFT) {
-              this.node.setPosition(pos.x - this._bulletSpeed * 0.2, pos.y, moveLength);
-            } else if (this._direction === (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
-              error: Error()
-            }), Constant) : Constant).Direction.RIGHT) {
-              this.node.setPosition(pos.x + this._bulletSpeed * 0.2, pos.y, moveLength);
-            } else {
-              this.node.setPosition(pos.x, pos.y, moveLength);
-            }
-
-            if (moveLength < -50) {
-              // this.node.destroy();
-              (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
-                error: Error()
-              }), PoolManager) : PoolManager).instance().putNode(this.node); // console.log('bullet destroy');
-            }
+            console.info("bullet destroy", moveZ, OUTRANGE);
           }
         }
 
-        show(speed, isEnemyBullet, direction) {
-          if (direction === void 0) {
-            direction = (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
-              error: Error()
-            }), Constant) : Constant).Direction.MIDDLE;
-          }
-
-          this._bulletSpeed = speed;
-          this._isEnemyBullet = isEnemyBullet;
-          this._direction = direction;
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "bulletSpeed", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 0;
         }
-
-        _onTriggerEnter(event) {
-          // console.log('trigger  bullet destroy');
-          // this.node.destroy();
-          (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
-            error: Error()
-          }), PoolManager) : PoolManager).instance().putNode(this.node);
-        }
-
-      }) || _class));
-      /**
-       * [1] Class member could be defined like this.
-       * [2] Use `property` decorator if your want the member to be serializable.
-       * [3] Your initialization goes here.
-       * [4] Your update function goes here.
-       *
-       * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/en/scripting/
-       * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/en/scripting/ccclass.html
-       * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/en/scripting/life-cycle-callbacks.html
-       */
-
+      })), _class2)) || _class));
 
       _cclegacy._RF.pop();
 
