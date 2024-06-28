@@ -394,7 +394,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             prefab = this.bulletPropH;
           } else if (randomProp === (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
             error: Error()
-          }), Constant) : Constant).BulletPropType.BULLET_H) {
+          }), Constant) : Constant).BulletPropType.BULLET_S) {
             prefab = this.bulletPropS;
           } else {
             prefab = this.bulletPropM;
@@ -415,8 +415,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           console.log("_bulletType", this._bulletType);
         }
 
-        _modeChanged() {// this._combinationInterval ++; // update combination
-          // this.createBulletProp();    // update 
+        _modeChanged() {
+          this._combinationInterval++; // update combination
+
+          this.createBulletProp(); // update 
         }
 
         addScore() {

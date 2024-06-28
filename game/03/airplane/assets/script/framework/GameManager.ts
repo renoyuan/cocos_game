@@ -304,10 +304,11 @@ export class GameManager extends Component {
     public createBulletProp(){
         // 这一块的逻辑可能需要更改 道具也许不应该是 永久的
         const randomProp = math.randomRangeInt(1, 4);
+        
         let prefab: Prefab = null;
         if(randomProp === Constant.BulletPropType.BULLET_H){
             prefab = this.bulletPropH;
-        } else if(randomProp === Constant.BulletPropType.BULLET_H){
+        } else if(randomProp === Constant.BulletPropType.BULLET_S){
             prefab = this.bulletPropS;
         } else {
             prefab = this.bulletPropM;
@@ -328,8 +329,8 @@ export class GameManager extends Component {
     }
 
     private _modeChanged(){
-        // this._combinationInterval ++; // update combination
-        // this.createBulletProp();    // update 
+        this._combinationInterval ++; // update combination
+        this.createBulletProp();    // update 
     }
 
     public addScore(){

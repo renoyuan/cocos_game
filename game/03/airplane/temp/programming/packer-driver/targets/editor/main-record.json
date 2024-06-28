@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3114769.7687999997,
+      "mTimestamp": 3766673.525,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -1306,7 +1306,7 @@
     },
     "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1719570939423.7605,
+        "mtime": 1719571588195.614,
         "uuid": "976af95c-04e7-4ba4-9859-2eb827b1f5cd"
       },
       "chunkId": "1035960756f213e59e3ee3afa503fda847e0dbc0",
