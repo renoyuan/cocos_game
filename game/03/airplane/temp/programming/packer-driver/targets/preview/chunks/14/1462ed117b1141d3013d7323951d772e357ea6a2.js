@@ -15,59 +15,41 @@ System.register(["cc"], function (_export, _context) {
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "9ba7ak0TVBK4bJaIq49qiJK", "Constant", undefined);
+      _cclegacy._RF.push({}, "66a7fesKfFNA76VRc1TtzxM", "Constant", undefined);
 
       __checkObsolete__(['_decorator', 'Component', 'Node']);
 
       ({
         ccclass,
         property
-      } = _decorator);
-      /**
-       * Predefined variables
-       * Name = Constant
-       * DateTime = Mon Nov 15 2021 18:26:06 GMT+0800 (China Standard Time)
-       * Author = mywayday
-       * FileBasename = Constant.ts
-       * FileBasenameNoExtension = Constant
-       * URL = db://assets/script/framework/Constant.ts
-       * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
-       *
-       */
+      } = _decorator); // 游戏内的类型
 
       _export("Constant", Constant = class Constant {});
-      /**
-       * [1] Class member could be defined like this.
-       * [2] Use `property` decorator if your want the member to be serializable.
-       * [3] Your initialization goes here.
-       * [4] Your update function goes here.
-       *
-       * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/en/scripting/
-       * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/en/scripting/ccclass.html
-       * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/en/scripting/life-cycle-callbacks.html
-       */
 
-
+      // 敌机类型
       Constant.EnemyType = {
         TYPE1: 1,
         TYPE2: 2
       };
+      // 敌机组合类型 组合一 单架飞机 组合间隔 1 开始出现时间 0 组合二 一字型（5） 组合间隔 0.8 开始出现时间11 组合三 v字型（7） 组合间隔 0.6 开始出现时间20+ 
       Constant.Combination = {
         PLAN1: 1,
         PLAN2: 2,
         PLAN3: 3
       };
-      Constant.CollisionType = {
-        SELF_PLANE: 1 << 1,
-        ENEMY_PLANE: 1 << 2,
-        SELF_BULLET: 1 << 3,
+      // 顺序要和设置的碰撞矩阵一致 且要是二进制
+      Constant.ColliderType = {
+        PLAYER: 1 << 1,
+        ENEMY: 1 << 2,
+        BULLET: 1 << 3,
         ENEMY_BULLET: 1 << 4,
         BULLET_PROP: 1 << 5
       };
       Constant.BulletPropType = {
         BULLET_M: 1,
         BULLET_H: 2,
-        BULLET_S: 3
+        BULLET_S: 3,
+        BULLET_INIT: 4
       };
       Constant.Direction = {
         LEFT: 1,

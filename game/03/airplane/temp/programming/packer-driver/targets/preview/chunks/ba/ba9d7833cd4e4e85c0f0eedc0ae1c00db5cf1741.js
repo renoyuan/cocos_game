@@ -85,6 +85,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           // 触碰移动
           var delta = event.getDelta();
           var pos = this.playerPlane.position;
+          console.info("self palne pos", pos);
           this.playerPlane.setPosition(pos.x + this.spped * 0.01 * delta.x, pos.y, pos.z - 0.01 * this.spped * delta.y); //
           // console.info(pos,"pos","delta",delta,"坐标",pos.x+(this.spped * 0.01*delta.x),pos.z- (0.01*this.spped * delta.y))
         }

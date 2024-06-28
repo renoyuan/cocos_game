@@ -46,6 +46,7 @@ export class UIMain extends Component {
         // 触碰移动
         const delta = event.getDelta();
         let pos = this.playerPlane.position;
+        console.info("self palne pos",pos)
         this.playerPlane.setPosition(pos.x+(this.spped * 0.01*delta.x),pos.y, pos.z- (0.01*this.spped * delta.y)) //
         // console.info(pos,"pos","delta",delta,"坐标",pos.x+(this.spped * 0.01*delta.x),pos.z- (0.01*this.spped * delta.y))
         

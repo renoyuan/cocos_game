@@ -1034,7 +1034,7 @@
         "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
       ],
       "dependScripts": [
-        "83e2fd0e-eb12-4c53-b2d7-64c6eff10f14"
+        "7d351556-0d50-4f38-bdb9-838fcfe71256"
       ]
     },
     "versionCode": 1
@@ -1066,7 +1066,7 @@
         "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
       ],
       "dependScripts": [
-        "83e2fd0e-eb12-4c53-b2d7-64c6eff10f14"
+        "7d351556-0d50-4f38-bdb9-838fcfe71256"
       ]
     },
     "versionCode": 1
@@ -1089,7 +1089,7 @@
         "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
       ],
       "dependScripts": [
-        "83e2fd0e-eb12-4c53-b2d7-64c6eff10f14"
+        "7d351556-0d50-4f38-bdb9-838fcfe71256"
       ]
     },
     "versionCode": 1
@@ -1238,7 +1238,7 @@
       ],
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
-        "e4b84198-863f-481e-8587-e26ac02de628"
+        "1f3cc6e7-ebb5-424f-9e20-eab29e42fffd"
       ]
     },
     "versionCode": 1
@@ -1293,7 +1293,7 @@
       ],
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
-        "e4b84198-863f-481e-8587-e26ac02de628"
+        "1f3cc6e7-ebb5-424f-9e20-eab29e42fffd"
       ]
     },
     "versionCode": 1
@@ -1731,6 +1731,11 @@
         "8ae8ac73-ced6-4c2b-99ff-5d67c786358a",
         "1a8f7887-e251-49ab-b6f5-267a8179ea98",
         "b25619c8-b1ea-44b2-acaf-b4f378e5cbd4",
+        "f88d2816-bd0b-42d6-aaa1-45b2395169ce",
+        "c6ccf2b2-61d9-4166-a528-99e9a6ba035e",
+        "0fe48e89-2886-4bff-8da1-efa36f997bef",
+        "96a0c966-6337-4c77-af42-e6b5924f60c1",
+        "460a19c1-f6a7-4f12-a0c0-533af944f5ee",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
@@ -1955,6 +1960,21 @@
         "295751b1-8131-47f3-91db-1b15078cede9"
       ]
     },
+    "versionCode": 1
+  },
+  "1f3cc6e7-ebb5-424f-9e20-eab29e42fffd": {
+    "url": "db://assets/script/plane/EnemyPlane.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "66a7f7ac-29f1-4d03-be95-45cd53b73c4c": {
+    "url": "db://assets/script/framework/Constant.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7d351556-0d50-4f38-bdb9-838fcfe71256": {
+    "url": "db://assets/script/bullet/BulletProp.ts",
+    "value": {},
     "versionCode": 1
   }
 }

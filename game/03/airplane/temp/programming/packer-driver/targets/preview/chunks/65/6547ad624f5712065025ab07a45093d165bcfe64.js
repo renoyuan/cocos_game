@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider, Constant, PoolManager, _dec, _class, _crd, ccclass, property, BulletProp;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider, Constant, _dec, _class, _crd, ccclass, property, BulletProp;
 
   function _reportPossibleCrUseOfConstant(extras) {
     _reporterNs.report("Constant", "../framework/Constant", _context.meta, extras);
@@ -9,10 +9,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
 
   function _reportPossibleCrUseOfGameManager(extras) {
     _reporterNs.report("GameManager", "../framework/GameManager", _context.meta, extras);
-  }
-
-  function _reportPossibleCrUseOfPoolManager(extras) {
-    _reporterNs.report("PoolManager", "../framework/PoolManager", _context.meta, extras);
   }
 
   return {
@@ -27,13 +23,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       Collider = _cc.Collider;
     }, function (_unresolved_2) {
       Constant = _unresolved_2.Constant;
-    }, function (_unresolved_3) {
-      PoolManager = _unresolved_3.PoolManager;
     }],
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "83e2f0O6xJMU7LXZMbv8Q8U", "BulletProp", undefined);
+      _cclegacy._RF.push({}, "7d351VWDVBPOL25g4/P5xJW", "BulletProp", undefined);
 
       __checkObsolete__(['_decorator', 'Component', 'Node', 'Collider', 'ITriggerEvent']);
 
@@ -41,17 +35,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
         ccclass,
         property
       } = _decorator);
-      /**
-       * Predefined variables
-       * Name = BulletProp
-       * DateTime = Thu Nov 18 2021 19:53:50 GMT+0800 (China Standard Time)
-       * Author = mywayday
-       * FileBasename = BulletProp.ts
-       * FileBasenameNoExtension = BulletProp
-       * URL = db://assets/script/bullet/BulletProp.ts
-       * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
-       *
-       */
 
       _export("BulletProp", BulletProp = (_dec = ccclass('BulletProp'), _dec(_class = class BulletProp extends Component {
         constructor() {
@@ -71,23 +54,23 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           collider.off('onTriggerEnter', this._onTriggerEnter, this);
         }
 
+        start() {}
+
         update(deltaTime) {
           var pos = this.node.position;
 
           if (pos.x >= 15) {
-            this._propXSpeed = this._propSpeed;
-          } else if (pos.x <= -15) {
             this._propXSpeed = -this._propSpeed;
+          } else if (pos.x <= -15) {
+            this._propXSpeed = this._propSpeed;
           }
 
-          this.node.setPosition(pos.x + this._propXSpeed, pos.y, pos.z - this._propSpeed);
+          this.node.setPosition(pos.x + this._propXSpeed, pos.y, pos.z + this._propSpeed);
           pos = this.node.position;
 
-          if (pos.z > 50) {
-            // this.node.destroy();
-            (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
-              error: Error()
-            }), PoolManager) : PoolManager).instance().putNode(this.node);
+          if (pos.z > 40) {
+            console.log("BulletProp destroy");
+            this.node.destroy();
           }
         }
 
@@ -111,26 +94,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             this._gameManager.changeBulletType((_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
               error: Error()
             }), Constant) : Constant).BulletPropType.BULLET_M);
-          } // this.node.destroy();
+          }
 
-
-          (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
-            error: Error()
-          }), PoolManager) : PoolManager).instance().putNode(this.node);
+          this.node.destroy();
         }
 
       }) || _class));
-      /**
-       * [1] Class member could be defined like this.
-       * [2] Use `property` decorator if your want the member to be serializable.
-       * [3] Your initialization goes here.
-       * [4] Your update function goes here.
-       *
-       * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/en/scripting/
-       * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/en/scripting/ccclass.html
-       * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/en/scripting/life-cycle-callbacks.html
-       */
-
 
       _cclegacy._RF.pop();
 

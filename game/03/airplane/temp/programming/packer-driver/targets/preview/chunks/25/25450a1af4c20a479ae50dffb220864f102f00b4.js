@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider, Constant, PoolManager, _dec, _class, _class2, _descriptor, _crd, ccclass, property, OUTOFBOUNCE, EnemyPlane;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider, Constant, _dec, _class, _class2, _descriptor, _crd, ccclass, property, OUTOFBOUNCE, EnemyPlane;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,10 +17,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
     _reporterNs.report("GameManager", "../framework/GameManager", _context.meta, extras);
   }
 
-  function _reportPossibleCrUseOfPoolManager(extras) {
-    _reporterNs.report("PoolManager", "../framework/PoolManager", _context.meta, extras);
-  }
-
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;
@@ -33,33 +29,19 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
       Collider = _cc.Collider;
     }, function (_unresolved_2) {
       Constant = _unresolved_2.Constant;
-    }, function (_unresolved_3) {
-      PoolManager = _unresolved_3.PoolManager;
     }],
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "e4b84GYhj9IHoWH4mrALeYo", "EnemyPlane", undefined);
+      _cclegacy._RF.push({}, "1f3ccbn67VCT54g6rKeQv/9", "EnemyPlane", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'sp', 'ITriggerEvent', 'Collider']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'Collider', 'ITriggerEvent']);
 
       ({
         ccclass,
         property
       } = _decorator);
-      /**
-       * Predefined variables
-       * Name = EnemyPlane
-       * DateTime = Mon Nov 15 2021 18:00:28 GMT+0800 (China Standard Time)
-       * Author = mywayday
-       * FileBasename = EnemyPlane.ts
-       * FileBasenameNoExtension = EnemyPlane
-       * URL = db://assets/script/plane/EnemyPlane.ts
-       * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
-       *
-       */
-
-      OUTOFBOUNCE = 50;
+      OUTOFBOUNCE = 40;
 
       _export("EnemyPlane", EnemyPlane = (_dec = ccclass('EnemyPlane'), _dec(_class = (_class2 = class EnemyPlane extends Component {
         constructor() {
@@ -73,15 +55,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this._currCreateBulletTime = 0;
         }
 
-        onEnable() {
-          var collider = this.getComponent(Collider);
-          collider.on('onTriggerEnter', this._onTriggerEnter, this);
-        }
-
-        onDisable() {
-          var collider = this.getComponent(Collider);
-          collider.off('onTriggerEnter', this._onTriggerEnter, this);
-        }
+        start() {}
 
         update(deltaTime) {
           var pos = this.node.position;
@@ -94,14 +68,13 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
             if (this._currCreateBulletTime > this.createBulletTime) {
               this._gameManager.createEnemyBullet(this.node.position);
 
+              console.log("createEnemyBullet");
               this._currCreateBulletTime = 0;
             }
           }
 
           if (movePos > OUTOFBOUNCE) {
-            (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
-              error: Error()
-            }), PoolManager) : PoolManager).instance().putNode(this.node); // this.node.destroy();
+            this.node.destroy();
           }
         }
 
@@ -111,24 +84,29 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           this._needBullet = needBullet;
         }
 
+        onDisable() {
+          var collider = this.getComponent(Collider);
+          collider.off('onTriggerEnter', this._onTriggerEnter, this);
+          console.log("enemy onTriggerEnter");
+        }
+
+        onEnable() {
+          var collider = this.getComponent(Collider);
+          collider.on('onTriggerEnter', this._onTriggerEnter, this);
+        }
+
         _onTriggerEnter(event) {
           var collisionGroup = event.otherCollider.getGroup();
 
-          if (collisionGroup === (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
+          if (collisionGroup == (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
             error: Error()
-          }), Constant) : Constant).CollisionType.SELF_PLANE || collisionGroup === (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
+          }), Constant) : Constant).ColliderType.PLAYER || collisionGroup == (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
             error: Error()
-          }), Constant) : Constant).CollisionType.SELF_BULLET) {
-            // console.log('trigger enemy destroy');
-            this._gameManager.playAudioEffect('enemy');
-
-            (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
-              error: Error()
-            }), PoolManager) : PoolManager).instance().putNode(this.node); // this.node.destroy();
+          }), Constant) : Constant).ColliderType.BULLET) {
+            console.log("BOOM destroy  enemy");
+            this.node.destroy();
 
             this._gameManager.addScore();
-
-            this._gameManager.createEnemyEffect(this.node.position);
           }
         }
 
@@ -140,17 +118,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], fu
           return 0.5;
         }
       })), _class2)) || _class));
-      /**
-       * [1] Class member could be defined like this.
-       * [2] Use `property` decorator if your want the member to be serializable.
-       * [3] Your initialization goes here.
-       * [4] Your update function goes here.
-       *
-       * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/en/scripting/
-       * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/en/scripting/ccclass.html
-       * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/en/scripting/life-cycle-callbacks.html
-       */
-
 
       _cclegacy._RF.pop();
 

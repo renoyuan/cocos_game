@@ -21,14 +21,13 @@
     "expandLevels": [
       "0",
       "0_0",
-      "0_1",
-      "0_2",
+      "0_1_0",
+      "0_1_1",
       "0_2_0",
-      "0_2_1",
-      "0_3",
-      "0_3_0",
+      "0_4",
       "0_5",
-      "0_6"
+      "0_6",
+      "0_7"
     ]
   },
   "53983e4c-42ba-4d1d-a4f4-5b9049647f44": {
@@ -40,6 +39,71 @@
   },
   "5bab7526-d494-4984-bcbb-678c48997fc0": {
     "assetUuid": "5bab7526-d494-4984-bcbb-678c48997fc0",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "96a0c966-6337-4c77-af42-e6b5924f60c1": {
+    "assetUuid": "96a0c966-6337-4c77-af42-e6b5924f60c1",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_0"
+    ]
+  },
+  "460a19c1-f6a7-4f12-a0c0-533af944f5ee": {
+    "assetUuid": "460a19c1-f6a7-4f12-a0c0-533af944f5ee",
+    "animationUuid": "",
+    "expandLevels": [
+      "0",
+      "0_0"
+    ]
+  },
+  "0fe48e89-2886-4bff-8da1-efa36f997bef": {
+    "assetUuid": "0fe48e89-2886-4bff-8da1-efa36f997bef",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "f88d2816-bd0b-42d6-aaa1-45b2395169ce": {
+    "assetUuid": "f88d2816-bd0b-42d6-aaa1-45b2395169ce",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "c6ccf2b2-61d9-4166-a528-99e9a6ba035e": {
+    "assetUuid": "c6ccf2b2-61d9-4166-a528-99e9a6ba035e",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "b554d77b-1943-4d4a-b894-18065c3a7510": {
+    "assetUuid": "b554d77b-1943-4d4a-b894-18065c3a7510",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "8ae8ac73-ced6-4c2b-99ff-5d67c786358a": {
+    "assetUuid": "8ae8ac73-ced6-4c2b-99ff-5d67c786358a",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "b25619c8-b1ea-44b2-acaf-b4f378e5cbd4": {
+    "assetUuid": "b25619c8-b1ea-44b2-acaf-b4f378e5cbd4",
+    "animationUuid": "",
+    "expandLevels": [
+      "0"
+    ]
+  },
+  "1a8f7887-e251-49ab-b6f5-267a8179ea98": {
+    "assetUuid": "1a8f7887-e251-49ab-b6f5-267a8179ea98",
     "animationUuid": "",
     "expandLevels": [
       "0"

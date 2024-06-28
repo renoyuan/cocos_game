@@ -1,64 +1,116 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, _dec, _class, _class2, _descriptor, _crd, ccclass, property, OUTRANGE, Bullet;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Collider, Component, Constant, _dec, _class, _crd, ccclass, property, OUTRANGE, ENEMYOUTRANGE, Bullet;
 
-  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
-
-  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
-
-  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
+  function _reportPossibleCrUseOfConstant(extras) {
+    _reporterNs.report("Constant", "../framework/Constant", _context.meta, extras);
+  }
 
   return {
-    setters: [function (_cc) {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       __checkObsolete__ = _cc.__checkObsolete__;
       __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
       _decorator = _cc._decorator;
+      Collider = _cc.Collider;
       Component = _cc.Component;
+    }, function (_unresolved_2) {
+      Constant = _unresolved_2.Constant;
     }],
     execute: function () {
       _crd = true;
 
       _cclegacy._RF.push({}, "29575GxgTFH85HbGxUHjO3p", "Bullet", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node']);
+      __checkObsolete__(['_decorator', 'Collider', 'Component', 'ITriggerEvent', 'Node']);
 
       ({
         ccclass,
         property
       } = _decorator);
-      OUTRANGE = 80;
+      OUTRANGE = -40;
+      ENEMYOUTRANGE = 40;
 
-      _export("Bullet", Bullet = (_dec = ccclass('Bullet'), _dec(_class = (_class2 = class Bullet extends Component {
+      _export("Bullet", Bullet = (_dec = ccclass('Bullet'), _dec(_class = class Bullet extends Component {
         constructor() {
           super(...arguments);
+          this.bulletSpeed = 0;
+          this._direction = (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
+            error: Error()
+          }), Constant) : Constant).Direction.MIDDLE;
+          this._isEnemyBullet = false;
+        }
 
-          _initializerDefineProperty(this, "bulletSpeed", _descriptor, this);
+        onEnable() {
+          var collider = this.getComponent(Collider);
+          collider.on('onTriggerEnter', this._onTriggerEnter, this);
+        }
+
+        onDisable() {
+          var collider = this.getComponent(Collider);
+          collider.off('onTriggerEnter', this._onTriggerEnter, this);
         }
 
         start() {}
 
         update(deltaTime) {
           var pos = this.node.position;
-          var moveZ = pos.z - this.bulletSpeed;
-          this.node.setPosition(pos.x, pos.y, moveZ); // 移动子弹位置
+          var moveLength = 0;
 
-          if (moveZ > OUTRANGE) {
-            this.node.destroy(); //销毁子弹
+          if (this._isEnemyBullet) {
+            // 往 +z 方向
+            moveLength = pos.z + this.bulletSpeed;
+            this.node.setPosition(pos.x, pos.y, moveLength);
 
-            console.info("bullet destroy", moveZ, OUTRANGE);
+            if (moveLength > ENEMYOUTRANGE) {
+              this.node.destroy();
+              console.log('enemy bullet destroy');
+            }
+          } else {
+            // 往 -z 方向
+            moveLength = pos.z - this.bulletSpeed; // console.info("bullet moveZ" ,moveLength,OUTRANGE)
+            // bullet move
+
+            if (this._direction === (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
+              error: Error()
+            }), Constant) : Constant).Direction.LEFT) {
+              this.node.setPosition(pos.x - this.bulletSpeed * 0.2, pos.y, moveLength);
+            } else if (this._direction === (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
+              error: Error()
+            }), Constant) : Constant).Direction.RIGHT) {
+              this.node.setPosition(pos.x + this.bulletSpeed * 0.2, pos.y, moveLength);
+            } else {
+              this.node.setPosition(pos.x, pos.y, moveLength);
+            }
+
+            if (moveLength < OUTRANGE) {
+              this.node.destroy(); //销毁子弹
+              // console.info("bullet destroy" ,moveLength,OUTRANGE)
+            }
           }
         }
 
-      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "bulletSpeed", [property], {
-        configurable: true,
-        enumerable: true,
-        writable: true,
-        initializer: function initializer() {
-          return 0;
+        show(speed, isEnemyBullet, direction) {
+          if (direction === void 0) {
+            direction = (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
+              error: Error()
+            }), Constant) : Constant).Direction.MIDDLE;
+          }
+
+          this.bulletSpeed = speed;
+          this._isEnemyBullet = isEnemyBullet;
+          this._direction = direction;
         }
-      })), _class2)) || _class));
+
+        _onTriggerEnter(event) {
+          console.log('trigger  bullet destroy');
+          this.node.destroy();
+        }
+
+      }) || _class));
 
       _cclegacy._RF.pop();
 
