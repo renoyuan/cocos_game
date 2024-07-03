@@ -1,6 +1,7 @@
 import { _decorator, Component, Node,Collider,ITriggerEvent } from 'cc';
 import { Constant } from '../framework/Constant';
 import { GameManager } from '../framework/GameManager';
+import { PoolManager } from '../framework/PoolManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('BulletProp')
@@ -34,8 +35,9 @@ export class BulletProp extends Component {
         this.node.setPosition(pos.x + this._propXSpeed, pos.y, pos.z + this._propSpeed);
         pos = this.node.position;
         if(pos.z > 40){
-            console.log("BulletProp destroy")
-            this.node.destroy();
+            // console.log("BulletProp destroy")
+            // this.node.destroy();
+            PoolManager.instance().putNode(this.node);
         }
     }
 

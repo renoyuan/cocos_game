@@ -3,18 +3,19 @@
     "__type__": "cc.Prefab",
     "_name": "explodeSmall",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_native": "",
     "data": {
       "__id__": 1
     },
     "optimizationPolicy": 0,
-    "asyncLoadAssets": false,
     "persistent": false
   },
   {
     "__type__": "cc.Node",
     "_name": "explodeSmall",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": null,
     "_children": [
       {
@@ -58,6 +59,7 @@
       "y": 1,
       "z": 1
     },
+    "_mobility": 0,
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
@@ -71,6 +73,7 @@
     "__type__": "cc.Node",
     "_name": "genericexplosionbigsheet",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -103,6 +106,7 @@
       "y": 2,
       "z": 2
     },
+    "_mobility": 0,
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
@@ -116,6 +120,7 @@
     "__type__": "cc.ParticleSystem",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 2
     },
@@ -187,6 +192,13 @@
         "__id__": 18
       }
     ],
+    "_renderCulling": false,
+    "_cullingMode": 0,
+    "_aabbHalfX": 0,
+    "_aabbHalfY": 0,
+    "_aabbHalfZ": 0,
+    "_dataCulling": false,
+    "enableCulling": false,
     "_colorOverLifetimeModule": {
       "__id__": 20
     },
@@ -211,13 +223,13 @@
     "_textureAnimationModule": {
       "__id__": 51
     },
+    "_noiseModule": null,
     "_trailModule": {
       "__id__": 55
     },
     "renderer": {
       "__id__": 60
     },
-    "enableCulling": false,
     "_prewarm": false,
     "_capacity": 100,
     "_simulationSpace": 1,
@@ -749,11 +761,17 @@
     "_velocityScale": 1,
     "_lengthScale": 1,
     "_mesh": null,
+    "_cpuMaterial": {
+      "__uuid__": "fc4a1b6f-8577-4615-8096-9a292926ee32",
+      "__expectedType__": "cc.Material"
+    },
+    "_gpuMaterial": null,
     "_mainTexture": {
       "__uuid__": "5b04aabd-c660-4a01-b251-a9cf1803b10a@6c48a",
       "__expectedType__": "cc.Texture2D"
     },
-    "_useGPU": false
+    "_useGPU": false,
+    "_alignSpace": 2
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -763,12 +781,16 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "267Wb8y3RMk5kVVaFaQv+9"
+    "fileId": "267Wb8y3RMk5kVVaFaQv+9",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
     "_name": "fxcloudwhite",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -801,6 +823,7 @@
       "y": 2,
       "z": 2
     },
+    "_mobility": 0,
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
@@ -887,6 +910,13 @@
         "__id__": 78
       }
     ],
+    "_renderCulling": false,
+    "_cullingMode": 0,
+    "_aabbHalfX": 0,
+    "_aabbHalfY": 0,
+    "_aabbHalfZ": 0,
+    "_dataCulling": false,
+    "enableCulling": false,
     "_colorOverLifetimeModule": {
       "__id__": 80
     },
@@ -911,13 +941,13 @@
     "_textureAnimationModule": {
       "__id__": 117
     },
+    "_noiseModule": null,
     "_trailModule": {
       "__id__": 121
     },
     "renderer": {
       "__id__": 126
     },
-    "enableCulling": false,
     "_prewarm": false,
     "_capacity": 100,
     "_simulationSpace": 1,
@@ -1550,11 +1580,17 @@
     "_velocityScale": 1,
     "_lengthScale": 1,
     "_mesh": null,
+    "_cpuMaterial": {
+      "__uuid__": "5cb88c10-4144-4f77-9f9f-037eeaefe6b7",
+      "__expectedType__": "cc.Material"
+    },
+    "_gpuMaterial": null,
     "_mainTexture": {
       "__uuid__": "c2b2405f-b0fe-4f55-a18e-35a863d7251e@6c48a",
       "__expectedType__": "cc.Texture2D"
     },
-    "_useGPU": false
+    "_useGPU": false,
+    "_alignSpace": 2
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -1564,12 +1600,16 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "3ab/rH1SxBb7kO1U9M9G33"
+    "fileId": "3ab/rH1SxBb7kO1U9M9G33",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
     "_name": "flarecore04",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -1602,6 +1642,7 @@
       "y": 2,
       "z": 2
     },
+    "_mobility": 0,
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
@@ -1615,6 +1656,7 @@
     "__type__": "cc.ParticleSystem",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 128
     },
@@ -1686,6 +1728,13 @@
         "__id__": 144
       }
     ],
+    "_renderCulling": false,
+    "_cullingMode": 0,
+    "_aabbHalfX": 0,
+    "_aabbHalfY": 0,
+    "_aabbHalfZ": 0,
+    "_dataCulling": false,
+    "enableCulling": false,
     "_colorOverLifetimeModule": {
       "__id__": 146
     },
@@ -1710,13 +1759,13 @@
     "_textureAnimationModule": {
       "__id__": 180
     },
+    "_noiseModule": null,
     "_trailModule": {
       "__id__": 184
     },
     "renderer": {
       "__id__": 189
     },
-    "enableCulling": false,
     "_prewarm": false,
     "_capacity": 100,
     "_simulationSpace": 1,
@@ -2270,11 +2319,17 @@
     "_velocityScale": 1,
     "_lengthScale": 1,
     "_mesh": null,
+    "_cpuMaterial": {
+      "__uuid__": "103d9cf9-ee77-4c02-8d4c-72b7e2d1c74e",
+      "__expectedType__": "cc.Material"
+    },
+    "_gpuMaterial": null,
     "_mainTexture": {
       "__uuid__": "19a03ed4-c94b-4f78-b8ff-961154d70254@6c48a",
       "__expectedType__": "cc.Texture2D"
     },
-    "_useGPU": false
+    "_useGPU": false,
+    "_alignSpace": 2
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -2284,12 +2339,16 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "08SbK8wPhMbZJRE5lJgG5K"
+    "fileId": "08SbK8wPhMbZJRE5lJgG5K",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
     "__type__": "cc.Node",
     "_name": "path",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "_parent": {
       "__id__": 1
     },
@@ -2322,6 +2381,7 @@
       "y": 2,
       "z": 2
     },
+    "_mobility": 0,
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
@@ -2335,6 +2395,7 @@
     "__type__": "cc.ParticleSystem",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 191
     },
@@ -2406,6 +2467,13 @@
         "__id__": 207
       }
     ],
+    "_renderCulling": false,
+    "_cullingMode": 0,
+    "_aabbHalfX": 0,
+    "_aabbHalfY": 0,
+    "_aabbHalfZ": 0,
+    "_dataCulling": false,
+    "enableCulling": false,
     "_colorOverLifetimeModule": {
       "__id__": 209
     },
@@ -2430,13 +2498,13 @@
     "_textureAnimationModule": {
       "__id__": 238
     },
+    "_noiseModule": null,
     "_trailModule": {
       "__id__": 242
     },
     "renderer": {
       "__id__": 247
     },
-    "enableCulling": false,
     "_prewarm": false,
     "_capacity": 100,
     "_simulationSpace": 1,
@@ -3010,11 +3078,17 @@
     "_velocityScale": 0.05,
     "_lengthScale": 0.2,
     "_mesh": null,
+    "_cpuMaterial": {
+      "__uuid__": "d83a1f35-893d-4ac1-a2f4-a4b2d72c97aa",
+      "__expectedType__": "cc.Material"
+    },
+    "_gpuMaterial": null,
     "_mainTexture": {
       "__uuid__": "d7e0de69-fffb-4fc2-b86a-ef68170f5dd0@6c48a",
       "__expectedType__": "cc.Texture2D"
     },
-    "_useGPU": false
+    "_useGPU": false,
+    "_alignSpace": 2
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3024,12 +3098,16 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "d7DKfmEdtFWoSpbVS3JOcD"
+    "fileId": "d7DKfmEdtFWoSpbVS3JOcD",
+    "instance": null,
+    "targetOverrides": null,
+    "nestedPrefabInstanceRoots": null
   },
   {
-    "__type__": "aa341Z9YJdBX5Rd640Hxh42",
+    "__type__": "e037bMZpfBLIohQ1nrMcvMt",
     "_name": "",
     "_objFlags": 0,
+    "__editorExtras__": {},
     "node": {
       "__id__": 1
     },
@@ -3041,7 +3119,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "bep2h6sFxK44f9XUkNHKO4"
+    "fileId": "45qJf4qs1HlZQhCNRiMMyF"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -3051,6 +3129,8 @@
     "asset": {
       "__id__": 0
     },
-    "fileId": "47IEk+eA5LILpt3hnD2gLT"
+    "fileId": "47IEk+eA5LILpt3hnD2gLT",
+    "instance": null,
+    "targetOverrides": null
   }
 ]

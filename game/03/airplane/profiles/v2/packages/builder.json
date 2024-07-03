@@ -8,11 +8,70 @@
       "asyncFunctions": true
     },
     "buildPath": "project://build",
-    "outputName": "android",
+    "outputName": "web-mobile03",
     "mainBundleCompressionType": "merge_dep",
-    "platform": "android"
+    "platform": "web-mobile",
+    "useSplashScreen": true
   },
   "BuildTaskManager": {
-    "taskMap": {}
+    "taskMap": {
+      "1719911366337": {
+        "type": "build",
+        "id": "1719911366337",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-7-2 17:48:03 build success in 10 s!",
+        "detailMessage": "// ---- build task 给所有的资源加上 MD5 后缀 ----\r",
+        "options": {
+          "name": "airplane",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "de9077b2-4d7f-4d21-b1b1-d7b1cf1f2eb0",
+          "outputName": "web-mobile03",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/scene/aieplane.scene",
+              "uuid": "de9077b2-4d7f-4d21-b1b1-d7b1cf1f2eb0"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.8",
+          "logDest": "project://temp/builder/log/web-mobile2024-7-2 17-09.log"
+        },
+        "time": "2024-7-2 17:47:53",
+        "dirty": false
+      }
+    }
   }
 }

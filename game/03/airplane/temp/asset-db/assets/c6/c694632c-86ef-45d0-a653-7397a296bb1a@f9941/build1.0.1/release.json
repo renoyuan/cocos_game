@@ -1,0 +1,113 @@
+[
+    1,
+    [
+        "c6lGMshu9F0KZTc5eilrsa@6c48a"
+    ],
+    [
+        "_textureSource"
+    ],
+    [
+        "cc.SpriteFrame"
+    ],
+    0,
+    [
+        {
+            "name": "fightBtn01",
+            "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 373,
+                "height": 105
+            },
+            "offset": {
+                "x": 0,
+                "y": 0
+            },
+            "originalSize": {
+                "width": 373,
+                "height": 105
+            },
+            "rotated": false,
+            "capInsets": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "vertices": {
+                "rawPosition": [
+                    -186.5,
+                    -52.5,
+                    0,
+                    186.5,
+                    -52.5,
+                    0,
+                    -186.5,
+                    52.5,
+                    0,
+                    186.5,
+                    52.5,
+                    0
+                ],
+                "indexes": [
+                    0,
+                    1,
+                    2,
+                    2,
+                    1,
+                    3
+                ],
+                "uv": [
+                    0,
+                    105,
+                    373,
+                    105,
+                    0,
+                    0,
+                    373,
+                    0
+                ],
+                "nuv": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1
+                ],
+                "minPos": {
+                    "x": -186.5,
+                    "y": -52.5,
+                    "z": 0
+                },
+                "maxPos": {
+                    "x": 186.5,
+                    "y": 52.5,
+                    "z": 0
+                }
+            },
+            "packable": true,
+            "pixelsToUnit": 100,
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "meshType": 0
+        }
+    ],
+    [
+        0
+    ],
+    0,
+    [
+        0
+    ],
+    [
+        0
+    ],
+    [
+        0
+    ]
+]

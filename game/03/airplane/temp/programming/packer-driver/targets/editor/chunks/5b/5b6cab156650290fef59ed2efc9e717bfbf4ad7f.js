@@ -15,7 +15,7 @@ System.register(["cc"], function (_export, _context) {
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "f490aFvLS9C/bqwLGmSZgIL", "PoolManager", undefined);
+      _cclegacy._RF.push({}, "1482enZD6NCXp6EeUK9uCNj", "PoolManager", undefined);
 
       __checkObsolete__(['_decorator', 'Component', 'Node', 'Prefab', 'NodePool', 'instantiate']);
 
@@ -23,17 +23,6 @@ System.register(["cc"], function (_export, _context) {
         ccclass,
         property
       } = _decorator);
-      /**
-       * Predefined variables
-       * Name = PoolManager
-       * DateTime = Fri Nov 26 2021 18:00:45 GMT+0800 (China Standard Time)
-       * Author = mywayday
-       * FileBasename = PoolManager.ts
-       * FileBasenameNoExtension = PoolManager
-       * URL = db://assets/script/framework/PoolManager.ts
-       * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
-       *
-       */
 
       _export("PoolManager", PoolManager = (_dec = ccclass('PoolManager'), _dec(_class = (_class2 = class PoolManager {
         constructor() {
@@ -42,6 +31,7 @@ System.register(["cc"], function (_export, _context) {
         }
 
         static instance() {
+          // 单例模式
           if (!this._instance) {
             this._instance = new PoolManager();
           }
@@ -85,17 +75,6 @@ System.register(["cc"], function (_export, _context) {
         }
 
       }, _class2._instance = void 0, _class2)) || _class));
-      /**
-       * [1] Class member could be defined like this.
-       * [2] Use `property` decorator if your want the member to be serializable.
-       * [3] Your initialization goes here.
-       * [4] Your update function goes here.
-       *
-       * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/en/scripting/
-       * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/en/scripting/ccclass.html
-       * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/en/scripting/life-cycle-callbacks.html
-       */
-
 
       _cclegacy._RF.pop();
 

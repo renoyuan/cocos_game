@@ -726,7 +726,7 @@
         "d7e0de69-fffb-4fc2-b86a-ef68170f5dd0@6c48a"
       ],
       "dependScripts": [
-        "aa34167d-6097-415f-945d-eb8d07c61e36"
+        "e037b319-a5f0-4b22-8850-d67acc72f32d"
       ]
     },
     "versionCode": 1
@@ -1724,8 +1724,29 @@
         "de9077b2-4d7f-4d21-b1b1-d7b1cf1f2eb0",
         "5c95ed96-74a8-41fc-8edc-487b8024dc85",
         "1263d74c-8167-4928-91a6-4e2672411f47@2e76e",
+        "4dbfed0e-c6d3-4b12-90ae-85228a98e915",
+        "34ba6b58-cba0-4e32-8257-34ec4e4874bb",
         "71d0b0a7-6303-4317-986a-2ba0045e0560@c13c3",
         "55682fcc-f39d-4bdf-80f9-edbeb7b58803",
+        "cc4ed36a-1bdc-4019-af98-0f617aca3b6d",
+        "f2441dc5-2e3e-4561-809a-a970669adc42",
+        "48fc96e1-330c-43a1-bb09-c89e3bd31e41",
+        "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
+        "f88a2d5b-5e71-480a-b3d6-4b41869514c7",
+        "79c83ec5-d0e3-4528-8c76-a85352ec3b5e",
+        "63e607b1-28e9-4113-8921-732d31ff1de2@f9941",
+        "bda4ec6f-b81f-4727-a41c-9c8e8978864d@f9941",
+        "ef871ffb-7b74-4fee-878d-7fe9780a1f50@f9941",
+        "c694632c-86ef-45d0-a653-7397a296bb1a@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "53ace68b-408a-4ce9-9ddf-574bd583a7e0@f9941",
+        "0a6a7a6b-e884-4c1b-ac89-2f6c954f5002@f9941",
+        "85961562-cd9f-46d3-b38c-244b3e47b126",
+        "96a0c966-6337-4c77-af42-e6b5924f60c1",
+        "460a19c1-f6a7-4f12-a0c0-533af944f5ee",
+        "cdc690dc-3f58-444c-a776-8dd19d2f982f",
         "5bab7526-d494-4984-bcbb-678c48997fc0",
         "b554d77b-1943-4d4a-b894-18065c3a7510",
         "8ae8ac73-ced6-4c2b-99ff-5d67c786358a",
@@ -1734,17 +1755,22 @@
         "f88d2816-bd0b-42d6-aaa1-45b2395169ce",
         "c6ccf2b2-61d9-4166-a528-99e9a6ba035e",
         "0fe48e89-2886-4bff-8da1-efa36f997bef",
-        "96a0c966-6337-4c77-af42-e6b5924f60c1",
-        "460a19c1-f6a7-4f12-a0c0-533af944f5ee",
+        "58fe4ce0-d561-4149-a051-952a4e688dbb",
+        "af55ae53-397c-404c-ae3d-f7c7300146f0",
+        "be29a96a-2a67-4b1e-8fd7-0dd2bb10afdc",
+        "42fd9447-3d0f-489c-ac39-abc62455bca0",
+        "451875d4-a1b1-465a-a9e9-f9dabd464c8a",
+        "edf40a94-4067-4e25-93f0-e714ebf09943",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
       "dependScripts": [
-        "96ab97d6-5201-47bb-8599-917463ee5cc7",
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
+        "96ab97d6-5201-47bb-8599-917463ee5cc7",
         "cd111414-b6f9-4771-a6cf-f8190cf6ebbb",
         "e690b574-6553-4619-a4ce-79fb8fc2244f",
-        "976af95c-04e7-4ba4-9859-2eb827b1f5cd"
+        "976af95c-04e7-4ba4-9859-2eb827b1f5cd",
+        "21e149af-dd29-4b85-b0e4-2ec75bd8cb99"
       ]
     },
     "versionCode": 1
@@ -1773,7 +1799,7 @@
     "versionCode": 1
   },
   "cd111414-b6f9-4771-a6cf-f8190cf6ebbb": {
-    "url": "db://assets/script/plane/SlefPlane.ts",
+    "url": "db://assets/script/plane/SelfPlane.ts",
     "value": {},
     "versionCode": 1
   },
@@ -1974,6 +2000,26 @@
   },
   "7d351556-0d50-4f38-bdb9-838fcfe71256": {
     "url": "db://assets/script/bullet/BulletProp.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dec2d938-063a-42e9-8346-93775b31519b": {
+    "url": "db://assets/res/animation.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "21e149af-dd29-4b85-b0e4-2ec75bd8cb99": {
+    "url": "db://assets/script/framework/AudioManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1482e9d9-0fa3-425e-9e84-7942bdb82363": {
+    "url": "db://assets/script/framework/PoolManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e037b319-a5f0-4b22-8850-d67acc72f32d": {
+    "url": "db://assets/script/Explode.ts",
     "value": {},
     "versionCode": 1
   }

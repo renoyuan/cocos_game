@@ -2,6 +2,7 @@ import { _decorator, Component, Node,Collider,ITriggerEvent } from 'cc';
 const { ccclass, property } = _decorator;
 import { Constant } from '../framework/Constant';
 import { GameManager } from '../framework/GameManager';
+import { PoolManager } from '../framework/PoolManager';
 
 const OUTOFBOUNCE=40;
 @ccclass('EnemyPlane')
@@ -26,13 +27,14 @@ export class EnemyPlane extends Component {
             this._currCreateBulletTime += deltaTime;
             if(this._currCreateBulletTime > this.createBulletTime){
                 this._gameManager.createEnemyBullet(this.node.position);
-                console.log("createEnemyBullet")
+                // console.log("createEnemyBullet")
                 this._currCreateBulletTime = 0;
             }
         }
 
         if(movePos > OUTOFBOUNCE){
-            this.node.destroy();
+            PoolManager.instance().putNode(this.node);
+            // this.node.destroy();
         }
     }
     show(gameManager: GameManager, speed: number, needBullet: boolean){
@@ -56,8 +58,11 @@ export class EnemyPlane extends Component {
         const collisionGroup = event.otherCollider.getGroup();
         if(collisionGroup==Constant.ColliderType.PLAYER ||collisionGroup==Constant.ColliderType.BULLET ){
             console.log("BOOM destroy  enemy")
-            this.node.destroy();
+            this._gameManager.playAudioEffect('enemy');
+            PoolManager.instance().putNode(this.node);
+            // this.node.destroy();
             this._gameManager.addScore();
+            this._gameManager.createEnemyEffect(this.node.position);
             
         }
 

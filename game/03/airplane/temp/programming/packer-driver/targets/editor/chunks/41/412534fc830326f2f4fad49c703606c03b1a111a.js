@@ -22,7 +22,7 @@ System.register(["cc"], function (_export, _context) {
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "cf05c4BsxJE975rw6fkExNU", "AudioManager", undefined);
+      _cclegacy._RF.push({}, "21e14mv3SlLhbDkLsdb2MuZ", "AudioManager", undefined);
 
       __checkObsolete__(['_decorator', 'Component', 'Node', 'AudioClip', 'AudioSource']);
 
@@ -30,17 +30,6 @@ System.register(["cc"], function (_export, _context) {
         ccclass,
         property
       } = _decorator);
-      /**
-       * Predefined variables
-       * Name = AudioManager
-       * DateTime = Fri Nov 26 2021 16:11:32 GMT+0800 (China Standard Time)
-       * Author = mywayday
-       * FileBasename = AudioManager.ts
-       * FileBasenameNoExtension = AudioManager
-       * URL = db://assets/script/framework/AudioManager.ts
-       * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
-       *
-       */
 
       _export("AudioManager", AudioManager = (_dec = ccclass('AudioManager'), _dec2 = property([AudioClip]), _dec(_class = (_class2 = class AudioManager extends Component {
         constructor(...args) {
@@ -67,8 +56,7 @@ System.register(["cc"], function (_export, _context) {
           if (audioClip !== undefined) {
             this._audioSource.playOneShot(audioClip);
           }
-        } // update (deltaTime: number) {
-        //     // [4]
+        } // update(deltaTime: number) {
         // }
 
 
@@ -80,17 +68,6 @@ System.register(["cc"], function (_export, _context) {
           return [];
         }
       })), _class2)) || _class));
-      /**
-       * [1] Class member could be defined like this.
-       * [2] Use `property` decorator if your want the member to be serializable.
-       * [3] Your initialization goes here.
-       * [4] Your update function goes here.
-       *
-       * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/en/scripting/
-       * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/en/scripting/ccclass.html
-       * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/en/scripting/life-cycle-callbacks.html
-       */
-
 
       _cclegacy._RF.pop();
 

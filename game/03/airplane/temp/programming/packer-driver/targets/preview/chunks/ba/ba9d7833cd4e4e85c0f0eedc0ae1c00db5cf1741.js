@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, input, Input, GameManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, UIMain;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, input, Input, GameManager, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _crd, ccclass, property, UIMain;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -53,7 +53,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _export("UIMain", UIMain = (_dec = ccclass('UIMain'), _dec2 = property(Node), _dec3 = property(_crd && GameManager === void 0 ? (_reportPossibleCrUseOfGameManager({
         error: Error()
-      }), GameManager) : GameManager), _dec(_class = (_class2 = class UIMain extends Component {
+      }), GameManager) : GameManager), _dec4 = property(Node), _dec5 = property(Node), _dec6 = property(Node), _dec(_class = (_class2 = class UIMain extends Component {
         constructor() {
           super(...arguments);
 
@@ -63,31 +63,71 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           _initializerDefineProperty(this, "playerPlane", _descriptor2, this);
 
           _initializerDefineProperty(this, "gameManager", _descriptor3, this);
+
+          _initializerDefineProperty(this, "gameStart", _descriptor4, this);
+
+          _initializerDefineProperty(this, "game", _descriptor5, this);
+
+          _initializerDefineProperty(this, "gameOver", _descriptor6, this);
         }
 
         start() {
           // 监听全局事件
+          input.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
           input.on(Input.EventType.TOUCH_MOVE, this.onTouchMove, this); // 
 
-          input.on(Input.EventType.TOUCH_START, this.onTouchStart, this);
           input.on(Input.EventType.TOUCH_END, this.onTouchEnd, this);
+          this.gameStart.active = true;
+          this.gameOver.active = false; // console.info("active gameStart", this.gameStart, this.gameStart.getPosition())
         }
 
         onTouchStart(event) {
-          this.gameManager.isShooting(true);
+          if (this.gameManager.isGameStart) {
+            // console.info("isGameStart",this.gameManager.isGameStart)
+            this.gameManager.isShooting(true);
+          } else {
+            this.gameStart.active = false;
+            this.game.active = true;
+            this.gameManager.playAudioEffect('button');
+            this.gameManager.gameStart();
+          }
         }
 
         onTouchEnd(event) {
+          if (!this.gameManager.isGameStart) {
+            return;
+          }
+
           this.gameManager.isShooting(false);
         }
 
         onTouchMove(event) {
-          // 触碰移动
+          if (!this.gameManager.isGameStart) {
+            return;
+          } // 触碰移动
+
+
           var delta = event.getDelta();
-          var pos = this.playerPlane.position;
-          console.info("self palne pos", pos);
+          var pos = this.playerPlane.position; // console.info("self palne pos",pos)
+
           this.playerPlane.setPosition(pos.x + this.spped * 0.01 * delta.x, pos.y, pos.z - 0.01 * this.spped * delta.y); //
           // console.info(pos,"pos","delta",delta,"坐标",pos.x+(this.spped * 0.01*delta.x),pos.z- (0.01*this.spped * delta.y))
+        }
+
+        reStart() {
+          // console.info("reStart")
+          this.gameOver.active = false;
+          this.game.active = true;
+          this.gameManager.playAudioEffect('button');
+          this.gameManager.gameReStart();
+        }
+
+        returnMain() {
+          // console.info("returnMain")
+          this.gameOver.active = false;
+          this.gameStart.active = true;
+          this.gameManager.playAudioEffect('button');
+          this.gameManager.returnMain();
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "spped", [property], {
@@ -105,6 +145,27 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           return null;
         }
       }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "gameManager", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "gameStart", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "game", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "gameOver", [_dec6], {
         configurable: true,
         enumerable: true,
         writable: true,

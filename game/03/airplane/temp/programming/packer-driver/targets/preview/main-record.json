@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 8543.918199999986,
+      "mTimestamp": 7417.412500023842,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -577,7 +577,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3766807.5494,
+      "mTimestamp": 86335254.14120004,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -595,7 +595,7 @@
           }
         },
         {
-          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/MovingSceneBg.ts",
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/Explode.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -604,12 +604,12 @@
             },
             "end": {
               "line": 5,
-              "column": 84
+              "column": 78
             }
           }
         },
         {
-          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/bullet/Bullet.ts",
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/MovingSceneBg.ts",
           "resolved": "__unresolved_2",
           "loc": {
             "start": {
@@ -623,7 +623,7 @@
           }
         },
         {
-          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/bullet/BulletProp.ts",
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/bullet/Bullet.ts",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
@@ -632,12 +632,12 @@
             },
             "end": {
               "line": 7,
-              "column": 88
+              "column": 84
             }
           }
         },
         {
-          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/Constant.ts",
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/bullet/BulletProp.ts",
           "resolved": "__unresolved_4",
           "loc": {
             "start": {
@@ -646,12 +646,12 @@
             },
             "end": {
               "line": 8,
-              "column": 89
+              "column": 88
             }
           }
         },
         {
-          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/GameManager.ts",
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/AudioManager.ts",
           "resolved": "__unresolved_5",
           "loc": {
             "start": {
@@ -660,12 +660,12 @@
             },
             "end": {
               "line": 9,
-              "column": 92
+              "column": 93
             }
           }
         },
         {
-          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/EnemyPlane.ts",
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/Constant.ts",
           "resolved": "__unresolved_6",
           "loc": {
             "start": {
@@ -674,12 +674,12 @@
             },
             "end": {
               "line": 10,
-              "column": 87
+              "column": 89
             }
           }
         },
         {
-          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/SlefPlane.ts",
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/GameManager.ts",
           "resolved": "__unresolved_7",
           "loc": {
             "start": {
@@ -688,12 +688,12 @@
             },
             "end": {
               "line": 11,
-              "column": 86
+              "column": 92
             }
           }
         },
         {
-          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/ui/UIMain.ts",
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/PoolManager.ts",
           "resolved": "__unresolved_8",
           "loc": {
             "start": {
@@ -702,6 +702,48 @@
             },
             "end": {
               "line": 12,
+              "column": 92
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/EnemyPlane.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 87
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/SelfPlane.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/ui/UIMain.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
               "column": 80
             }
           }
@@ -713,6 +755,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/Explode.ts"
           },
           "messages": []
         },
@@ -740,6 +789,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/AudioManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/Constant.ts"
           },
           "messages": []
@@ -754,6 +810,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/PoolManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/EnemyPlane.ts"
           },
           "messages": []
@@ -761,7 +824,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/SlefPlane.ts"
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/SelfPlane.ts"
           },
           "messages": []
         },
@@ -828,8 +891,8 @@
     },
     "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/Explode.ts": {
       "mTimestamp": {
-        "mtime": 1677637498000,
-        "uuid": "aa34167d-6097-415f-945d-eb8d07c61e36"
+        "mtime": 1719908576726.08,
+        "uuid": "e037b319-a5f0-4b22-8850-d67acc72f32d"
       },
       "chunkId": "761fc962e1dd693fd19cf6c2a7f61bdad13fdd2b",
       "imports": [
@@ -847,11 +910,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 2,
+              "line": 1,
               "column": 44
             },
             "end": {
-              "line": 2,
+              "line": 1,
               "column": 48
             }
           }
@@ -861,11 +924,11 @@
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
-              "line": 3,
+              "line": 2,
               "column": 28
             },
             "end": {
-              "line": 3,
+              "line": 2,
               "column": 53
             }
           }
@@ -911,7 +974,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1719567826476,
+      "mTimestamp": 1719827304379,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -971,7 +1034,7 @@
     },
     "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/bullet/Bullet.ts": {
       "mTimestamp": {
-        "mtime": 1719570020374.378,
+        "mtime": 1719908842444.9236,
         "uuid": "295751b1-8131-47f3-91db-1b15078cede9"
       },
       "chunkId": "3d066e09c21b41646e5a3a6857e5e4058f896294",
@@ -1012,6 +1075,20 @@
               "column": 48
             }
           }
+        },
+        {
+          "value": "../framework/PoolManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 54
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1050,12 +1127,19 @@
             "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/Constant.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/PoolManager.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/Constant.ts": {
       "mTimestamp": {
-        "mtime": 1719560631046.1204,
+        "mtime": 1719912986166.3337,
         "uuid": "66a7f7ac-29f1-4d03-be95-45cd53b73c4c"
       },
       "chunkId": "1462ed117b1141d3013d7323951d772e357ea6a2",
@@ -1107,7 +1191,7 @@
     },
     "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/bullet/BulletProp.ts": {
       "mTimestamp": {
-        "mtime": 1719562695770.444,
+        "mtime": 1719908881447.8276,
         "uuid": "7d351556-0d50-4f38-bdb9-838fcfe71256"
       },
       "chunkId": "6547ad624f5712065025ab07a45093d165bcfe64",
@@ -1148,6 +1232,20 @@
               "column": 48
             }
           }
+        },
+        {
+          "value": "../framework/PoolManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 28
+            },
+            "end": {
+              "line": 4,
+              "column": 54
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1186,13 +1284,20 @@
             "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/Constant.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/PoolManager.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/AudioManager.ts": {
       "mTimestamp": {
-        "mtime": 1677637498000,
-        "uuid": "cf05ce01-b312-44f7-be6b-c3a7e4131354"
+        "mtime": 1719902164601.0444,
+        "uuid": "21e149af-dd29-4b85-b0e4-2ec75bd8cb99"
       },
       "chunkId": "412534fc830326f2f4fad49c703606c03b1a111a",
       "imports": [
@@ -1206,12 +1311,12 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 2,
-              "column": 68
+              "line": 1,
+              "column": 67
             },
             "end": {
-              "line": 2,
-              "column": 72
+              "line": 1,
+              "column": 71
             }
           }
         }
@@ -1243,7 +1348,7 @@
     },
     "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/GameManager.ts": {
       "mTimestamp": {
-        "mtime": 1719571588195.614,
+        "mtime": 1719912975828.9617,
         "uuid": "976af95c-04e7-4ba4-9859-2eb827b1f5cd"
       },
       "chunkId": "1035960756f213e59e3ee3afa503fda847e0dbc0",
@@ -1263,11 +1368,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 83
+              "column": 100
             },
             "end": {
               "line": 1,
-              "column": 87
+              "column": 104
             }
           }
         },
@@ -1300,30 +1405,72 @@
           }
         },
         {
-          "value": "./Constant",
+          "value": "../plane/EnemyPlane",
           "resolved": "__unresolved_3",
           "loc": {
             "start": {
               "line": 4,
-              "column": 25
+              "column": 27
             },
             "end": {
               "line": 4,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../plane/SelfPlane",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 26
+            },
+            "end": {
+              "line": 5,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "./AudioManager",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 29
+            },
+            "end": {
+              "line": 6,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "./Constant",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 25
+            },
+            "end": {
+              "line": 7,
               "column": 37
             }
           }
         },
         {
-          "value": "../plane/EnemyPlane",
-          "resolved": "__unresolved_4",
+          "value": "./PoolManager",
+          "resolved": "__unresolved_7",
           "loc": {
             "start": {
-              "line": 5,
-              "column": 27
+              "line": 8,
+              "column": 28
             },
             "end": {
-              "line": 5,
-              "column": 48
+              "line": 8,
+              "column": 43
             }
           }
         }
@@ -1375,6 +1522,27 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/EnemyPlane.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/SelfPlane.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/AudioManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/Constant.ts"
           },
           "messages": []
@@ -1382,7 +1550,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/EnemyPlane.ts"
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/PoolManager.ts"
           },
           "messages": []
         }
@@ -1390,7 +1558,7 @@
     },
     "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/EnemyPlane.ts": {
       "mTimestamp": {
-        "mtime": 1719570828092.7124,
+        "mtime": 1719908356081.3833,
         "uuid": "1f3cc6e7-ebb5-424f-9e20-eab29e42fffd"
       },
       "chunkId": "25450a1af4c20a479ae50dffb220864f102f00b4",
@@ -1431,6 +1599,20 @@
               "column": 48
             }
           }
+        },
+        {
+          "value": "../framework/PoolManager",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 28
+            },
+            "end": {
+              "line": 5,
+              "column": 54
+            }
+          }
         }
       ],
       "type": "esm",
@@ -1469,12 +1651,19 @@
             "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/Constant.ts"
           },
           "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/PoolManager.ts"
+          },
+          "messages": []
         }
       ]
     },
     "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/ui/UIMain.ts": {
       "mTimestamp": {
-        "mtime": 1719476114821.5835,
+        "mtime": 1719912451310.74,
         "uuid": "e690b574-6553-4619-a4ce-79fb8fc2244f"
       },
       "chunkId": "ba9d7833cd4e4e85c0f0eedc0ae1c00db5cf1741",
@@ -1939,6 +2128,194 @@
           "resolved": {
             "type": "module",
             "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/GameManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/plane/SelfPlane.ts": {
+      "mTimestamp": {
+        "mtime": 1719913638419.8096,
+        "uuid": "cd111414-b6f9-4771-a6cf-f8190cf6ebbb"
+      },
+      "chunkId": "b474d1c30e60d5875bb3437aa68cf6aaf68a7c1e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 126
+            },
+            "end": {
+              "line": 1,
+              "column": 130
+            }
+          }
+        },
+        {
+          "value": "../framework/Constant",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/Constant.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/PollManager.ts": {
+      "mTimestamp": {
+        "mtime": 1719901460893.4324,
+        "uuid": "1482e9d9-0fa3-425e-9e84-7942bdb82363"
+      },
+      "chunkId": "6b2169724d46ee6aa334831063958e0ff2a7b5ef",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/03/airplane/assets/script/framework/PoolManager.ts": {
+      "mTimestamp": {
+        "mtime": 1719907386956.914,
+        "uuid": "1482e9d9-0fa3-425e-9e84-7942bdb82363"
+      },
+      "chunkId": "5b6cab156650290fef59ed2efc9e717bfbf4ad7f",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 75
+            },
+            "end": {
+              "line": 1,
+              "column": 79
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }

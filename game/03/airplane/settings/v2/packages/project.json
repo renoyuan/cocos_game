@@ -31,5 +31,12 @@
       "4": 2,
       "5": 2
     }
-  }
+  },
+  "general": {
+    "designResolution": {
+      "height": 1280,
+      "width": 720
+    }
+  },
+  "custom_joint_texture_layouts": []
 }

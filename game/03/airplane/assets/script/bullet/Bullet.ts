@@ -1,5 +1,6 @@
 import { _decorator, Collider, Component, ITriggerEvent, Node } from 'cc';
 import { Constant } from '../framework/Constant';
+import { PoolManager } from '../framework/PoolManager';
 const { ccclass, property } = _decorator;
 
 const OUTRANGE = -40;
@@ -31,8 +32,9 @@ export class Bullet extends Component {
             moveLength = pos.z + this.bulletSpeed;
             this.node.setPosition(pos.x, pos.y, moveLength);
             if (moveLength > ENEMYOUTRANGE) {
-                this.node.destroy();
-                console.log('enemy bullet destroy');
+                PoolManager.instance().putNode(this.node);
+                // this.node.destroy();
+                // console.log('enemy bullet destroy');
             }
         } else { // 往 -z 方向
             moveLength = pos.z-this.bulletSpeed;  
@@ -48,7 +50,8 @@ export class Bullet extends Component {
             }
             
             if (moveLength<OUTRANGE){
-                this.node.destroy();//销毁子弹
+                PoolManager.instance().putNode(this.node);
+                // this.node.destroy();//销毁子弹
                 // console.info("bullet destroy" ,moveLength,OUTRANGE)
             }
         }
@@ -62,8 +65,9 @@ export class Bullet extends Component {
     }
 
     private _onTriggerEnter(event: ITriggerEvent){
-        console.log('trigger  bullet destroy');
-        this.node.destroy();
+        // console.log('trigger  bullet destroy');
+        // this.node.destroy();
+        PoolManager.instance().putNode(this.node);
     }
 
 }

@@ -1,10 +1,14 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Collider, Component, Constant, _dec, _class, _crd, ccclass, property, OUTRANGE, ENEMYOUTRANGE, Bullet;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Collider, Component, Constant, PoolManager, _dec, _class, _crd, ccclass, property, OUTRANGE, ENEMYOUTRANGE, Bullet;
 
   function _reportPossibleCrUseOfConstant(extras) {
     _reporterNs.report("Constant", "../framework/Constant", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfPoolManager(extras) {
+    _reporterNs.report("PoolManager", "../framework/PoolManager", _context.meta, extras);
   }
 
   return {
@@ -19,6 +23,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Component = _cc.Component;
     }, function (_unresolved_2) {
       Constant = _unresolved_2.Constant;
+    }, function (_unresolved_3) {
+      PoolManager = _unresolved_3.PoolManager;
     }],
     execute: function () {
       _crd = true;
@@ -66,8 +72,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             this.node.setPosition(pos.x, pos.y, moveLength);
 
             if (moveLength > ENEMYOUTRANGE) {
-              this.node.destroy();
-              console.log('enemy bullet destroy');
+              (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
+                error: Error()
+              }), PoolManager) : PoolManager).instance().putNode(this.node); // this.node.destroy();
+              // console.log('enemy bullet destroy');
             }
           } else {
             // 往 -z 方向
@@ -87,7 +95,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             }
 
             if (moveLength < OUTRANGE) {
-              this.node.destroy(); //销毁子弹
+              (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
+                error: Error()
+              }), PoolManager) : PoolManager).instance().putNode(this.node); // this.node.destroy();//销毁子弹
               // console.info("bullet destroy" ,moveLength,OUTRANGE)
             }
           }
@@ -106,8 +116,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         _onTriggerEnter(event) {
-          console.log('trigger  bullet destroy');
-          this.node.destroy();
+          // console.log('trigger  bullet destroy');
+          // this.node.destroy();
+          (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
+            error: Error()
+          }), PoolManager) : PoolManager).instance().putNode(this.node);
         }
 
       }) || _class));

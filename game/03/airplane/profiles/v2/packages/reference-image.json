@@ -2,7 +2,14 @@
   "__version__": "1.0.0",
   "config": {
     "images": [],
-    "sceneUUID": {},
+    "sceneUUID": {
+      "de9077b2-4d7f-4d21-b1b1-d7b1cf1f2eb0": {
+        "path": ""
+      }
+    },
     "scene": "de9077b2-4d7f-4d21-b1b1-d7b1cf1f2eb0"
-  }
+  },
+  "show": true,
+  "root-path": "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\cloud",
+  "opacity": 0
 }

@@ -1,0 +1,96 @@
+[
+    1,
+    [
+        "494xiKiBZM7oq+5IxnGKx9@6c48a",
+        "a3zQCfCrBCDZJ4uf2rk5u8"
+    ],
+    [
+        "mainTexture",
+        "_effectAsset"
+    ],
+    [
+        [
+            "cc.Material",
+            [
+                "_name",
+                "_techIdx",
+                "_states",
+                "_defines",
+                "_props"
+            ],
+            -1,
+            12
+        ]
+    ],
+    [
+        [
+            0,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    ],
+    [
+        [
+            0,
+            "bullet03",
+            3,
+            [
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                },
+                {
+                    "rasterizerState": {},
+                    "depthStencilState": {},
+                    "blendState": {
+                        "targets": [
+                            {}
+                        ]
+                    }
+                }
+            ],
+            [
+                {
+                    "USE_TEXTURE": true
+                },
+                {}
+            ],
+            [
+                [
+                    [
+                        {},
+                        "mainTexture",
+                        6,
+                        0
+                    ],
+                    {}
+                ],
+                11,
+                0
+            ]
+        ]
+    ],
+    0,
+    0,
+    [
+        0,
+        0
+    ],
+    [
+        0,
+        1
+    ],
+    [
+        0,
+        1
+    ]
+]

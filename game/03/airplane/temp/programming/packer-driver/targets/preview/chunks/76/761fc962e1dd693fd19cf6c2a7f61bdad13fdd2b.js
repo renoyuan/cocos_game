@@ -22,7 +22,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "aa341Z9YJdBX5Rd640Hxh42", "Explode", undefined);
+      _cclegacy._RF.push({}, "e037bMZpfBLIohQ1nrMcvMt", "Explode", undefined);
 
       __checkObsolete__(['_decorator', 'Component', 'Node']);
 
@@ -30,24 +30,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         ccclass,
         property
       } = _decorator);
-      /**
-       * Predefined variables
-       * Name = Explode
-       * DateTime = Sun Dec 05 2021 17:42:54 GMT+0800 (China Standard Time)
-       * Author = mywayday
-       * FileBasename = Explode.ts
-       * FileBasenameNoExtension = Explode
-       * URL = db://assets/script/Explode.ts
-       * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
-       *
-       */
 
       _export("Explode", Explode = (_dec = ccclass('Explode'), _dec(_class = class Explode extends Component {
-        // [1]
-        // dummy = '';
-        // [2]
-        // @property
-        // serializableDummy = 0;
+        // start() {
+        // }
         onEnable() {
           this.scheduleOnce(this._putBack, 1);
         }
@@ -56,23 +42,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
             error: Error()
           }), PoolManager) : PoolManager).instance().putNode(this.node);
-        } // update (deltaTime: number) {
-        //     // [4]
+        } // update(deltaTime: number) {
         // }
 
 
       }) || _class));
-      /**
-       * [1] Class member could be defined like this.
-       * [2] Use `property` decorator if your want the member to be serializable.
-       * [3] Your initialization goes here.
-       * [4] Your update function goes here.
-       *
-       * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/en/scripting/
-       * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/en/scripting/ccclass.html
-       * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/en/scripting/life-cycle-callbacks.html
-       */
-
 
       _cclegacy._RF.pop();
 

@@ -31,25 +31,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
     execute: function () {
       _crd = true;
 
-      _cclegacy._RF.push({}, "c839482eSFDR5T6mXfibPxw", "SelfPlane", undefined);
+      _cclegacy._RF.push({}, "cd111QUtvlHcabP+BkM9uu7", "SelfPlane", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'Collider', 'ITriggerEvent', 'AudioSource']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'Touch', 'EventTouch', 'EventTarget', 'input', 'Input', 'Collider', 'AudioSource', 'ITriggerEvent']);
 
       ({
         ccclass,
         property
       } = _decorator);
-      /**
-       * Predefined variables
-       * Name = SelfPlane
-       * DateTime = Mon Nov 15 2021 10:27:19 GMT+0800 (China Standard Time)
-       * Author = mywayday
-       * FileBasename = SelfPlane.ts
-       * FileBasenameNoExtension = SelfPlane
-       * URL = db://assets/script/SelfPlane.ts
-       * ManualUrl = https://docs.cocos.com/creator/3.3/manual/en/
-       *
-       */
 
       _export("SelfPlane", SelfPlane = (_dec = ccclass('SelfPlane'), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Node), _dec(_class = (_class2 = class SelfPlane extends Component {
         constructor() {
@@ -67,8 +56,23 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this._audioEffect = null;
         }
 
+        init() {
+          this._currLife = this.lifeValue;
+          this.isDie = false;
+          this.explode.active = false;
+          this.blood.active = true;
+          this.bloodFace.setScale(1, 1, 1);
+        }
+
         start() {
           this._audioEffect = this.getComponent(AudioSource);
+        } // update(deltaTime: number) {
+        // }
+
+
+        onDisable() {
+          var collider = this.getComponent(Collider);
+          collider.off('onTriggerEnter', this._onTriggerEnter, this);
         }
 
         onEnable() {
@@ -76,38 +80,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           collider.on('onTriggerEnter', this._onTriggerEnter, this);
         }
 
-        onDisable() {
-          var collider = this.getComponent(Collider);
-          collider.off('onTriggerEnter', this._onTriggerEnter, this);
-        } // update (deltaTime: number) {
-        //     // [4]
-        // }
-
-
-        init() {
-          this._currLife = this.lifeValue;
-          this.isDie = false;
-          this.explode.active = false;
-          this.bloodFace.setScale(1, 1, 1);
-        }
-
         _onTriggerEnter(event) {
-          // some trick to fix "trigger vs trigger problem" in physx
-          if (event.otherCollider.material.friction == 100) {
-            return;
-          }
-
           var collisionGroup = event.otherCollider.getGroup();
 
-          if (collisionGroup === (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
+          if (collisionGroup == (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
             error: Error()
-          }), Constant) : Constant).CollisionType.ENEMY_PLANE || collisionGroup === (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
+          }), Constant) : Constant).ColliderType.ENEMY || collisionGroup == (_crd && Constant === void 0 ? (_reportPossibleCrUseOfConstant({
             error: Error()
-          }), Constant) : Constant).CollisionType.ENEMY_BULLET) {
-            if (this._currLife === this.lifeValue) {
-              this.blood.active = true;
-            }
-
+          }), Constant) : Constant).ColliderType.ENEMY_BULLET) {
             this._currLife--;
             this.bloodFace.setScale(this._currLife / this.lifeValue, 1, 1);
 
@@ -117,8 +97,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               this._audioEffect.play();
 
               this.explode.active = true;
-              this.blood.active = false;
-              console.log('self plane is die');
+              this.blood.active = false; // console.log('self plane is die');
             }
           }
         }
@@ -145,17 +124,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           return null;
         }
       })), _class2)) || _class));
-      /**
-       * [1] Class member could be defined like this.
-       * [2] Use `property` decorator if your want the member to be serializable.
-       * [3] Your initialization goes here.
-       * [4] Your update function goes here.
-       *
-       * Learn more about scripting: https://docs.cocos.com/creator/3.3/manual/en/scripting/
-       * Learn more about CCClass: https://docs.cocos.com/creator/3.3/manual/en/scripting/ccclass.html
-       * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.3/manual/en/scripting/life-cycle-callbacks.html
-       */
-
 
       _cclegacy._RF.pop();
 

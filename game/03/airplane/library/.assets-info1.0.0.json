@@ -86,7 +86,7 @@
       "time": 1719383344842.6426
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res": {
-      "time": 1718951916563.0286,
+      "time": 1719805709659.9485,
       "uuid": "6da3add8-40c3-482c-a0a4-75fa82429fa3"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\scene": {
@@ -94,7 +94,7 @@
       "uuid": "ab5a63fb-9b25-40c0-aa5a-2ffe41a08304"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script": {
-      "time": 1719386658770.6404,
+      "time": 1719908518984.5325,
       "uuid": "9ce80d00-468c-4b27-aa96-536680f27682"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\audio": {
@@ -122,7 +122,7 @@
       "uuid": "2d6c50e8-92fb-49c8-98eb-f54fa856154b"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\plane": {
-      "time": 1719459497384.776,
+      "time": 1719813593893.5745,
       "uuid": "49c2841a-4b64-4ef7-8374-e2cc428c149e"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\ui": {
@@ -190,7 +190,7 @@
       "uuid": "ce486068-806f-416e-b8f4-daccf36e37f2"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\ui\\UIMain.ts": {
-      "time": 1719476114821.5835,
+      "time": 1719912451310.74,
       "uuid": "e690b574-6553-4619-a4ce-79fb8fc2244f"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\plane01.prefab.meta": {
@@ -565,11 +565,11 @@
       "uuid": "42a53642-c5c6-4baa-915e-c371a67accfd"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\explode\\explode.prefab": {
-      "time": 1717570437897.6206,
+      "time": 1719909279629.5625,
       "uuid": "f2441dc5-2e3e-4561-809a-a970669adc42"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\explode\\explodeSmall.prefab": {
-      "time": 1717570437902.7612,
+      "time": 1719909188151.24,
       "uuid": "cdc690dc-3f58-444c-a776-8dd19d2f982f"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\cloud\\effectsTextures136.png": {
@@ -625,11 +625,11 @@
       "uuid": "d7e0de69-fffb-4fc2-b86a-ef68170f5dd0"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\tailFlame\\tailFlame.prefab": {
-      "time": 1717570437940.962,
+      "time": 1719900215396.515,
       "uuid": "cc4ed36a-1bdc-4019-af98-0f617aca3b6d"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\uiAni\\fightBoxSettlement.anim": {
-      "time": 1677637498000,
+      "time": 1719910454780.294,
       "uuid": "85961562-cd9f-46d3-b38c-244b3e47b126"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\tailFlame\\flame01.png": {
@@ -812,7 +812,7 @@
       "time": 1718958017678.7673
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\scene\\aieplane.scene": {
-      "time": 1719571904658.712,
+      "time": 1719913674884.8823,
       "uuid": "de9077b2-4d7f-4d21-b1b1-d7b1cf1f2eb0"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\background\\bg.mtl.meta": {
@@ -829,13 +829,6 @@
       "time": 1719306227869.7244,
       "uuid": "cdfb03c0-2a5b-4818-bfe0-5d1d2b88c441"
     },
-    "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\plane\\SlefPlane.ts.meta": {
-      "time": 1719299841572.852
-    },
-    "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\plane\\SlefPlane.ts": {
-      "time": 1719482657705.5027,
-      "uuid": "cd111414-b6f9-4771-a6cf-f8190cf6ebbb"
-    },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\bullet.meta": {
       "time": 1719384109516.3635
     },
@@ -847,7 +840,7 @@
       "time": 1719384239509.0208
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\bullet\\Bullet.ts": {
-      "time": 1719570020374.378,
+      "time": 1719908842444.9236,
       "uuid": "295751b1-8131-47f3-91db-1b15078cede9"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\bullet\\bullet01.mtl.meta": {
@@ -861,14 +854,14 @@
       "time": 1719386647832.286
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\framework": {
-      "time": 1719468424536.3645,
+      "time": 1719902222002.1797,
       "uuid": "ad8cefb1-8d39-4645-9fc0-32ec3be3a172"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\framework\\GameManager.ts.meta": {
       "time": 1719386679335.6035
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\framework\\GameManager.ts": {
-      "time": 1719571588195.614,
+      "time": 1719912975828.9617,
       "uuid": "976af95c-04e7-4ba4-9859-2eb827b1f5cd"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\bullet\\bullet02.mtl.meta": {
@@ -903,21 +896,21 @@
       "time": 1719390654830.242
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\bullet\\bullet02.prefab": {
-      "time": 1719570978333.696,
+      "time": 1719912234536.7026,
       "uuid": "b554d77b-1943-4d4a-b894-18065c3a7510"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\bullet\\bullet03.prefab.meta": {
       "time": 1719390657568.6592
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\bullet\\bullet03.prefab": {
-      "time": 1719572077286.4597,
+      "time": 1719910847698.125,
       "uuid": "8ae8ac73-ced6-4c2b-99ff-5d67c786358a"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\bullet\\bullet04.prefab.meta": {
       "time": 1719390659884.693
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\bullet\\bullet04.prefab": {
-      "time": 1719571002101.6565,
+      "time": 1719910854208.4731,
       "uuid": "1a8f7887-e251-49ab-b6f5-267a8179ea98"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\bullet\\bullet05.prefab.meta": {
@@ -931,29 +924,57 @@
       "time": 1719393728321.6855
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\bullet\\bullet01.prefab": {
-      "time": 1719569680986.6562,
+      "time": 1719911137772.557,
       "uuid": "5bab7526-d494-4984-bcbb-678c48997fc0"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\plane\\EnemyPlane.ts.meta": {
       "time": 1719459497386.7725
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\plane\\EnemyPlane.ts": {
-      "time": 1719570828092.7124,
+      "time": 1719908356081.3833,
       "uuid": "1f3cc6e7-ebb5-424f-9e20-eab29e42fffd"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\framework\\Constant.ts.meta": {
       "time": 1719468424537.361
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\framework\\Constant.ts": {
-      "time": 1719560631046.1204,
+      "time": 1719912986166.3337,
       "uuid": "66a7f7ac-29f1-4d03-be95-45cd53b73c4c"
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\bullet\\BulletProp.ts.meta": {
       "time": 1719542923297.008
     },
     "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\bullet\\BulletProp.ts": {
-      "time": 1719562695770.444,
+      "time": 1719908881447.8276,
       "uuid": "7d351556-0d50-4f38-bdb9-838fcfe71256"
+    },
+    "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\plane\\SelfPlane.ts.meta": {
+      "time": 1719299841572.852
+    },
+    "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\plane\\SelfPlane.ts": {
+      "time": 1719913638419.8096,
+      "uuid": "cd111414-b6f9-4771-a6cf-f8190cf6ebbb"
+    },
+    "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\framework\\AudioManager.ts.meta": {
+      "time": 1719901431456.5955
+    },
+    "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\framework\\AudioManager.ts": {
+      "time": 1719902164601.0444,
+      "uuid": "21e149af-dd29-4b85-b0e4-2ec75bd8cb99"
+    },
+    "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\framework\\PoolManager.ts.meta": {
+      "time": 1719901460895.4297
+    },
+    "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\framework\\PoolManager.ts": {
+      "time": 1719907386956.914,
+      "uuid": "1482e9d9-0fa3-425e-9e84-7942bdb82363"
+    },
+    "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\Explode.ts.meta": {
+      "time": 1719908518985.3242
+    },
+    "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\Explode.ts": {
+      "time": 1719908576726.08,
+      "uuid": "e037b319-a5f0-4b22-8850-d67acc72f32d"
     }
   },
   "missing": {
@@ -998,9 +1019,9 @@
       "removeTime": 1719383649047
     },
     "cd111414-b6f9-4771-a6cf-f8190cf6ebbb": {
-      "path": "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\SlefPlane.ts",
-      "time": 1719305844066.855,
-      "removeTime": 1719308815529
+      "path": "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\plane\\SlefPlane.ts",
+      "time": 1719482657705.5027,
+      "removeTime": 1719813593894
     },
     "6de6c544-4452-47ef-9fa3-fff29dbdd4f1": {
       "path": "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\ui\\UIMain-001.ts",
@@ -1156,6 +1177,16 @@
       "path": "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\effect\\bullet\\bullet01.prefab",
       "time": 1719393085051.708,
       "removeTime": 1719393287996
+    },
+    "dec2d938-063a-42e9-8346-93775b31519b": {
+      "path": "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\res\\animation.anim",
+      "time": 1717385314535.094,
+      "removeTime": 1719805709669
+    },
+    "1482e9d9-0fa3-425e-9e84-7942bdb82363": {
+      "path": "F:\\cocos\\cocos_game\\game\\03\\airplane\\assets\\script\\framework\\PollManager.ts",
+      "time": 1719901460893.4324,
+      "removeTime": 1719902222003
     }
   }
 }

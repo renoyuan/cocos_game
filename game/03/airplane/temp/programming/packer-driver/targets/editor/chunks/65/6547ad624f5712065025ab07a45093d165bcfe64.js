@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider, Constant, _dec, _class, _crd, ccclass, property, BulletProp;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider, Constant, PoolManager, _dec, _class, _crd, ccclass, property, BulletProp;
 
   function _reportPossibleCrUseOfConstant(extras) {
     _reporterNs.report("Constant", "../framework/Constant", _context.meta, extras);
@@ -9,6 +9,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
   function _reportPossibleCrUseOfGameManager(extras) {
     _reporterNs.report("GameManager", "../framework/GameManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfPoolManager(extras) {
+    _reporterNs.report("PoolManager", "../framework/PoolManager", _context.meta, extras);
   }
 
   return {
@@ -23,6 +27,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Collider = _cc.Collider;
     }, function (_unresolved_2) {
       Constant = _unresolved_2.Constant;
+    }, function (_unresolved_3) {
+      PoolManager = _unresolved_3.PoolManager;
     }],
     execute: function () {
       _crd = true;
@@ -69,8 +75,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           pos = this.node.position;
 
           if (pos.z > 40) {
-            console.log("BulletProp destroy");
-            this.node.destroy();
+            // console.log("BulletProp destroy")
+            // this.node.destroy();
+            (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
+              error: Error()
+            }), PoolManager) : PoolManager).instance().putNode(this.node);
           }
         }
 

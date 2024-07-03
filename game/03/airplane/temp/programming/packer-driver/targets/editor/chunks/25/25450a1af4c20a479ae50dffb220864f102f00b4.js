@@ -1,7 +1,7 @@
-System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider, Constant, _dec, _class, _class2, _descriptor, _crd, ccclass, property, OUTOFBOUNCE, EnemyPlane;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Collider, Constant, PoolManager, _dec, _class, _class2, _descriptor, _crd, ccclass, property, OUTOFBOUNCE, EnemyPlane;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,6 +17,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
     _reporterNs.report("GameManager", "../framework/GameManager", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfPoolManager(extras) {
+    _reporterNs.report("PoolManager", "../framework/PoolManager", _context.meta, extras);
+  }
+
   return {
     setters: [function (_unresolved_) {
       _reporterNs = _unresolved_;
@@ -29,6 +33,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       Collider = _cc.Collider;
     }, function (_unresolved_2) {
       Constant = _unresolved_2.Constant;
+    }, function (_unresolved_3) {
+      PoolManager = _unresolved_3.PoolManager;
     }],
     execute: function () {
       _crd = true;
@@ -66,15 +72,17 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             this._currCreateBulletTime += deltaTime;
 
             if (this._currCreateBulletTime > this.createBulletTime) {
-              this._gameManager.createEnemyBullet(this.node.position);
+              this._gameManager.createEnemyBullet(this.node.position); // console.log("createEnemyBullet")
 
-              console.log("createEnemyBullet");
+
               this._currCreateBulletTime = 0;
             }
           }
 
           if (movePos > OUTOFBOUNCE) {
-            this.node.destroy();
+            (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
+              error: Error()
+            }), PoolManager) : PoolManager).instance().putNode(this.node); // this.node.destroy();
           }
         }
 
@@ -104,9 +112,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             error: Error()
           }), Constant) : Constant).ColliderType.BULLET) {
             console.log("BOOM destroy  enemy");
-            this.node.destroy();
+
+            this._gameManager.playAudioEffect('enemy');
+
+            (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
+              error: Error()
+            }), PoolManager) : PoolManager).instance().putNode(this.node); // this.node.destroy();
 
             this._gameManager.addScore();
+
+            this._gameManager.createEnemyEffect(this.node.position);
           }
         }
 
