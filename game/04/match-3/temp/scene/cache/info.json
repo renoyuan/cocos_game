@@ -1,0 +1,12 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz",
+        "version": "Windows 10 Home China"
+    },
+    "sceneListMap": {
+        "c6f999c3-1cc3-4476-94d8-23fc914f0e42": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\scene\\Login.scene",
+        "27826609-7dc5-4b08-98e9-402ce0a0ba8e": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\scene\\Game.scene"
+    },
+    "deviceMd5": "34da8b85e7d81bf088096f49b8f0b9a1"
+}

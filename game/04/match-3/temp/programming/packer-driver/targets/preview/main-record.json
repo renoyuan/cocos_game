@@ -1,0 +1,4653 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 7926.118099927902,
+      "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/profiler",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 14
+            },
+            "end": {
+              "line": 13,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 14
+            },
+            "end": {
+              "line": 14,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 14
+            },
+            "end": {
+              "line": 15,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 14
+            },
+            "end": {
+              "line": 17,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/video",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 14
+            },
+            "end": {
+              "line": 19,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 26062685.289699912,
+      "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
+      "imports": [
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 139
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/res/migration/use_v2.0.x_cc.Toggle_event.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 103
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/GameController.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 95
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/LoginController.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
+              "column": 96
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/CellView.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 83
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/EffecLayer.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/GridView.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "end": {
+              "line": 10,
+              "column": 83
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/CellModel.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 7
+            },
+            "end": {
+              "line": 11,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/Const.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 7
+            },
+            "end": {
+              "line": 12,
+              "column": 81
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/GameModel.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 85
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/unitTest/UnitTest.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 87
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/AudioUtils.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/ModelUtils.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 86
+            }
+          }
+        },
+        {
+          "value": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/Toast.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "end": {
+              "line": 17,
+              "column": 81
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/res/migration/use_v2.0.x_cc.Toggle_event.mjs?cjs=&original=.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/GameController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/LoginController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/CellView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/EffecLayer.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/GridView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/CellModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/Const.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/GameModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/unitTest/UnitTest.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/AudioUtils.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/ModelUtils.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/Toast.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1717385314777.662,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "c8b6a709c03b1f3a3069932b4b22bfbc5834b962",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/ModelUtils.ts": {
+      "mTimestamp": {
+        "mtime": 1719972240492.5605,
+        "uuid": "5a4d0ac4-b338-4636-a486-fc47064108b9"
+      },
+      "chunkId": "45da1aa00ef8dc65729ff3541b11398f6fba3206",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Controller/GameController.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240359.1511,
+      "chunkId": "b7eece2407a17305472de64a455445983ee21e71",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./GameController.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./GameController.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./GameController.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 50
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Controller/GameController.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Controller/GameController.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Controller/GameController.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1720144867307,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Controller/GameController.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240359.1511,
+        "uuid": "5ac6422a-d7a9-41aa-b1d9-d36e3a151719"
+      },
+      "chunkId": "c711770d74baa883b9370a93e7fa474e13823a62"
+    },
+    "cce:/internal/ml/cjs-loader.mjs": {
+      "mTimestamp": 1720144867307,
+      "chunkId": "a0d063530de23ddade53e1a935bf64c81277c061",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Controller/LoginController.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240377.6423,
+      "chunkId": "101df5fdb4e00e8775c30cf31f500ac2221ef662",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./LoginController.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./LoginController.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "./LoginController.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Controller/LoginController.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Controller/LoginController.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Controller/LoginController.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Controller/LoginController.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240377.6423,
+        "uuid": "5f484e41-bace-4042-865a-90aeca01786d"
+      },
+      "chunkId": "258235ced36b8907b3a815618ff1b00a889d1010"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/CellModel.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240398.3984,
+      "chunkId": "1d2838819b8b54cf3c7b38d09e1b903f6d6fd263",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./CellModel.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./CellModel.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 30
+            }
+          }
+        },
+        {
+          "value": "./CellModel.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/CellModel.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/CellModel.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/CellModel.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/CellModel.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240398.3984,
+        "uuid": "dae88182-7af0-4c68-aee5-42a86e99ef06"
+      },
+      "chunkId": "3c6da7607adefce530d537df10ab47c99b6e6aef"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/ConstValue.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240414.3562,
+      "chunkId": "ff3fc09cf4ae192e6694e89b23ee50be886b537a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./ConstValue.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./ConstValue.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./ConstValue.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/ConstValue.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/ConstValue.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/ConstValue.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/ConstValue.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240414.3562,
+        "uuid": "f90887ac-19b3-41b4-998d-689b33d06ab8"
+      },
+      "chunkId": "dd74fb80a435b02de3796324fe93a79f4e1ba679"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/GameModel.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240431.58,
+      "chunkId": "4e6b4251fbe54b118bf298f7bde272d2a83799ee",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./GameModel.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./GameModel.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 30
+            }
+          }
+        },
+        {
+          "value": "./GameModel.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/GameModel.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/GameModel.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/GameModel.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Model/GameModel.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240431.58,
+        "uuid": "cc4421da-3250-44fd-92a2-ed6fd850ac1d"
+      },
+      "chunkId": "7ebfd3581d8040ab3f8b9c58acc5f3296e09a1ad"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/UnitTest/GameModelTest.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240454.4595,
+      "chunkId": "95fe431196106a3ce24b6eaadac9853489a60652",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./GameModelTest.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 56
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./GameModelTest.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 34
+            }
+          }
+        },
+        {
+          "value": "./GameModelTest.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/UnitTest/GameModelTest.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/UnitTest/GameModelTest.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/UnitTest/GameModelTest.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/UnitTest/GameModelTest.js": {
+      "mTimestamp": {
+        "mtime": 1719972240454.4595,
+        "uuid": "16fcef65-3a4a-40ed-adaf-ba198c903319"
+      },
+      "chunkId": "7e20cdbe2cb1a9a64415ac705271de8ddf596d61",
+      "imports": [
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "commonjs",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/AudioUtils.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240474.8704,
+      "chunkId": "a7bbfcddc0db80682ea0bb3f8c284c788158f21f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./AudioUtils.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./AudioUtils.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./AudioUtils.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/AudioUtils.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/AudioUtils.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/AudioUtils.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/AudioUtils.js": {
+      "mTimestamp": {
+        "mtime": 1719972240474.8704,
+        "uuid": "fe151cbe-4769-45bd-ab3b-e9dc9a87651f"
+      },
+      "chunkId": "b6e1bfed7d780c57ae1fc5494bc898716d28dee0",
+      "imports": [
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "commonjs",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/Toast.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240512.2468,
+      "chunkId": "5ab9525d3c0cb0398486b0a4d7cd027cc9e4280f",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./Toast.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./Toast.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 26
+            }
+          }
+        },
+        {
+          "value": "./Toast.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/Toast.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/Toast.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/Toast.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/Utils/Toast.js": {
+      "mTimestamp": {
+        "mtime": 1719972240512.2468,
+        "uuid": "7775bbd6-2b21-4d09-ae3a-e51f84998534"
+      },
+      "chunkId": "12ddea2232a4de071e4ce5e314136d75531645af",
+      "imports": [
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "commonjs",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/CellView.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240533.99,
+      "chunkId": "8f4ac0acc27c1d4cede6647ca3aaa245d36e61ed",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./CellView.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./CellView.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "./CellView.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 44
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/CellView.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/CellView.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/CellView.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/CellView.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240533.99,
+        "uuid": "fbf190b1-e29b-4557-ad94-67bfaa249a50"
+      },
+      "chunkId": "218d9d52ecde1fae1cbd00f9e16466bd40e3ee85"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/EffectLayer.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240551.4875,
+      "chunkId": "e3fd7257486f93cd3b2cc7eefc58dadaa71c20a5",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./EffectLayer.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./EffectLayer.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 32
+            }
+          }
+        },
+        {
+          "value": "./EffectLayer.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/EffectLayer.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/EffectLayer.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/EffectLayer.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/EffectLayer.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240551.4875,
+        "uuid": "0e9259b2-9f47-488e-a75a-a354e98a917d"
+      },
+      "chunkId": "824b9957a7c909a01bc2035a67f16af4d411315c"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/GridView.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240567.4993,
+      "chunkId": "2cab0a424f36eeb87ef0adb21a9cc6dd8d748655",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./GridView.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./GridView.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "./GridView.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 44
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/GridView.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/GridView.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/GridView.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/Script/View/GridView.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240567.4993,
+        "uuid": "d0d1f0e3-f6b9-43c7-9414-b4ffb6b68415"
+      },
+      "chunkId": "e80e7e4b9725b62d5d20610c2a042db8c3004757"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/res/migration/use_v2.0.x_cc.Toggle_event.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972241671.114,
+      "chunkId": "242e155853109ef02fdf2f0c1417394975646397",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./use_v2.0.x_cc.Toggle_event.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./use_v2.0.x_cc.Toggle_event.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "./use_v2.0.x_cc.Toggle_event.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 62
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/res/migration/use_v2.0.x_cc.Toggle_event.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/res/migration/use_v2.0.x_cc.Toggle_event.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/res/migration/use_v2.0.x_cc.Toggle_event.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/res/migration/use_v2.0.x_cc.Toggle_event.js": {
+      "mTimestamp": {
+        "mtime": 1719972241671.114,
+        "uuid": "6a67bf47-d487-40b8-977a-3c89e99ef894"
+      },
+      "chunkId": "84d03501856c9f92a80555f275402ddf9912c3ef",
+      "imports": [
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "commonjs",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Login.ts": {
+      "mTimestamp": {
+        "mtime": 1719991055502.6548,
+        "uuid": "ef6ed0de-6c94-43c1-a3a7-12a1097ef43d"
+      },
+      "chunkId": "cefc12b64eebe6c3997677fc4fcc8c770ce01036",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/Login.ts": {
+      "mTimestamp": {
+        "mtime": 1719991055502.6548,
+        "uuid": "ef6ed0de-6c94-43c1-a3a7-12a1097ef43d"
+      },
+      "chunkId": "1c6c09db9dde74b643a61ca11143757159f58ff3",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/LoginController.ts": {
+      "mTimestamp": {
+        "mtime": 1720086786886.7522,
+        "uuid": "ef6ed0de-6c94-43c1-a3a7-12a1097ef43d"
+      },
+      "chunkId": "4fbcf6143103fb52859feebe21af050cdc85c37d",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 94
+            },
+            "end": {
+              "line": 1,
+              "column": 98
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/GridView.ts": {
+      "mTimestamp": {
+        "mtime": 1720170085957.45,
+        "uuid": "63561fce-edf3-4724-9770-2bb78121c8a9"
+      },
+      "chunkId": "4514b2d587caffdfed7db22675702e90c3c90b82",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "../model/Const",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 60
+            },
+            "end": {
+              "line": 3,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/Const.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/EffecLayer.ts": {
+      "mTimestamp": {
+        "mtime": 1720149543801.624,
+        "uuid": "59d92cba-2444-4936-9d24-8a7eb64f8e40"
+      },
+      "chunkId": "0395f7564f21d674eb134e840fac4514b88238b0",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/UnitTest/Controller/GameController.ts": {
+      "mTimestamp": {
+        "mtime": 1720061804779.1802,
+        "uuid": "74d07b0e-4ac3-4e60-8496-c44a5f603352"
+      },
+      "chunkId": "1add97063f47f4de0a32ac242632afe4cb470fc5",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/UnitTest/Controller/LoginController.ts": {
+      "mTimestamp": {
+        "mtime": 1720058265458.3833,
+        "uuid": "ef6ed0de-6c94-43c1-a3a7-12a1097ef43d"
+      },
+      "chunkId": "00a34eb655efdd5476032add2b09a3007a2b6baf",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 94
+            },
+            "end": {
+              "line": 1,
+              "column": 98
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/UnitTest/View/EffecLayer.ts": {
+      "mTimestamp": {
+        "mtime": 1720062712204.7688,
+        "uuid": "59d92cba-2444-4936-9d24-8a7eb64f8e40"
+      },
+      "chunkId": "a7fdf875394090c91e0d7d87cfaab5a43f99998e",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/UnitTest/View/GridView.ts": {
+      "mTimestamp": {
+        "mtime": 1720062093129.6558,
+        "uuid": "63561fce-edf3-4724-9770-2bb78121c8a9"
+      },
+      "chunkId": "148d9bf8c334f20e5c51556f7c22e0587181fcb4",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/UnitTest/UnitTest.ts": {
+      "mTimestamp": {
+        "mtime": 1720063538640.3801,
+        "uuid": "69f2858d-b46e-455b-ba5f-d82c17a8d4fe"
+      },
+      "chunkId": "ad725ba3e279fe0046c3253c7f529471ba2096ff",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/GameModel.ts": {
+      "mTimestamp": {
+        "mtime": 1720167128088.2852,
+        "uuid": "d2eb8cf4-2c82-433d-81f6-bdcf1b44ee8f"
+      },
+      "chunkId": "0dcd59bd9f693e8fd09323af36b24cf425fb6dc2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 75
+            },
+            "end": {
+              "line": 1,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "./CellModel",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 22
+            },
+            "end": {
+              "line": 3,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "../utils/ModelUtils",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 48
+            },
+            "end": {
+              "line": 4,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "./Const",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 87
+            },
+            "end": {
+              "line": 5,
+              "column": 96
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/CellModel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/ModelUtils.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/Const.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/unitTest/UnitTest.ts": {
+      "mTimestamp": {
+        "mtime": 1720063538640.3801,
+        "uuid": "69f2858d-b46e-455b-ba5f-d82c17a8d4fe"
+      },
+      "chunkId": "b52f0a1807da6c44744619572bf514253cf03972",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Utils/Toast.ts": {
+      "mTimestamp": {
+        "mtime": 1720063964417.201,
+        "uuid": "b3241b22-e0d0-4510-a5b1-bc19148805f0"
+      },
+      "chunkId": "a018af8029afbb6f04f52af2f03109f15ff7f526",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/Toast.ts": {
+      "mTimestamp": {
+        "mtime": 1720162127500.6616,
+        "uuid": "b3241b22-e0d0-4510-a5b1-bc19148805f0"
+      },
+      "chunkId": "9f310f95a883dc926411fa34e10ee410ad0fdebb",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/Const.ts": {
+      "mTimestamp": {
+        "mtime": 1720146588382.7637,
+        "uuid": "f0524fbd-4c34-47bf-8a3d-3ec089f9f38b"
+      },
+      "chunkId": "10d6963ebbb02776298ffcc2748205d1a10db0d5",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/ModelUtils.ts": {
+      "mTimestamp": {
+        "mtime": 1720166655075.3484,
+        "uuid": "6ac2e1e5-0549-4264-a56e-109d2023ac58"
+      },
+      "chunkId": "90875f046db5bb4ff0fd5a4c4dfd8d1d714e0c5a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/GameController.ts": {
+      "mTimestamp": {
+        "mtime": 1720167671523.889,
+        "uuid": "74d07b0e-4ac3-4e60-8496-c44a5f603352"
+      },
+      "chunkId": "889752235ed96e08c65fe26dd6e4c64d6b7b0909",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "../model/GameModel",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/GameModel.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/CellModel.ts": {
+      "mTimestamp": {
+        "mtime": 1720167695264.2058,
+        "uuid": "0d76586c-21e5-4f32-bb97-912fdc468610"
+      },
+      "chunkId": "f9bbd41235640d641bea468c20a425722f1c8f6d",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./Const",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 61
+            },
+            "end": {
+              "line": 1,
+              "column": 70
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 74
+            },
+            "end": {
+              "line": 2,
+              "column": 78
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/Const.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/AudioUtils.mjs?cjs=&original=.js": {
+      "mTimestamp": 1720149933126.4976,
+      "chunkId": "1f748ec3da5d0cbd9bdd57c12143329289f6a8b8",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./AudioUtils.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./AudioUtils.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./AudioUtils.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/AudioUtils.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/AudioUtils.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/AudioUtils.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/AudioUtils.js": {
+      "mTimestamp": {
+        "mtime": 1720149933126.4976,
+        "uuid": "6b6a59d4-291c-40d0-9d82-bb680b78f93b"
+      },
+      "chunkId": "73f293b4d0835bd2c931abcaf47fd9d3ed5a1033",
+      "imports": [
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "commonjs",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/ModelUtils%20copy.ts": {
+      "mTimestamp": {
+        "mtime": 1719972240492.5605,
+        "uuid": "a54d831e-356f-4849-979d-4292f84066fa"
+      },
+      "chunkId": "aeb3b3e5c613d0d5287a84c17b0daa97f867b3e8",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/GameController.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240359.1511,
+      "chunkId": "6a6366255f33c5c0e9cf232b3dbde082bc883fe2",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./GameController.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 57
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./GameController.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 35
+            }
+          }
+        },
+        {
+          "value": "./GameController.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 50
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/GameController.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/GameController.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/GameController.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/GameController.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240359.1511,
+        "uuid": "0892f384-1e68-4a32-875c-a4661229ed7a"
+      },
+      "chunkId": "26d1b31c7780109256eaf37746c35305ad0d743c"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/LoginController.mjs?cjs=&original=.js": {
+      "mTimestamp": 1720000098173.3386,
+      "chunkId": "c19a33fc367b07cba3105cbffb766fb9849c203c",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./LoginController.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./LoginController.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "./LoginController.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/LoginController.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/LoginController.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/LoginController.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/Controller/LoginController.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1720000098173.3386,
+        "uuid": "475fe694-3759-492d-8296-bd612ad43c74"
+      },
+      "chunkId": "8445a797dad3fd44bd5ad72f6c41c03c6d42947e"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/CellView.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240533.99,
+      "chunkId": "6c8c7ce44bb7c84290f3c3a3908eb489adfcad22",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./CellView.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./CellView.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "./CellView.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 44
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/CellView.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/CellView.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/CellView.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/CellView.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240533.99,
+        "uuid": "7994db45-4e20-41e2-8620-70da164bb54f"
+      },
+      "chunkId": "3d800fce39328177146a491d2fc714f1c64abed7"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/EffectLayer.mjs?cjs=&original=.js": {
+      "mTimestamp": 1720150360813.9592,
+      "chunkId": "53e0a1a0caf65df95a339cf06ab0daf80de714e3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./EffectLayer.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./EffectLayer.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 32
+            }
+          }
+        },
+        {
+          "value": "./EffectLayer.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 47
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/EffectLayer.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/EffectLayer.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/EffectLayer.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/EffectLayer.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1720150360813.9592,
+        "uuid": "1bd64c87-87c7-42d1-8f95-3b0ff3f2fa91"
+      },
+      "chunkId": "de12ddf112ba271dd5316442402802ed10dffa9c"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/GridView.mjs?cjs=&original=.js": {
+      "mTimestamp": 1720150297395.469,
+      "chunkId": "35ecf423b9b6e1ad93478c6b5e8664e39aa3edad",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./GridView.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./GridView.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "./GridView.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 44
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/GridView.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/GridView.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/GridView.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/GridView.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1720150297395.469,
+        "uuid": "7ce30871-9968-4c54-81cb-05b8e498add9"
+      },
+      "chunkId": "35321df4a76dc4ce8d3f692e63c1069e688f628b"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/CellModel.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240398.3984,
+      "chunkId": "0e8343670e255bbde34bafff9d473fa2b0148b03",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./CellModel.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./CellModel.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 30
+            }
+          }
+        },
+        {
+          "value": "./CellModel.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/CellModel.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/CellModel.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/CellModel.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/CellModel.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240398.3984,
+        "uuid": "29652b70-64f5-45ea-bb82-c24f0b4ea48e"
+      },
+      "chunkId": "9835957a59b56028e7b88b747adc05ac37fb8de7"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/ConstValue.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240414.3562,
+      "chunkId": "1cbe94971bc6aa9c0ea8a30a964107c52ff7a96e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./ConstValue.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./ConstValue.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./ConstValue.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/ConstValue.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/ConstValue.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/ConstValue.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/ConstValue.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240414.3562,
+        "uuid": "8d565086-c454-4dd9-9f3d-50a255e528c0"
+      },
+      "chunkId": "c280fecc60e8ded3534c87bc094e70e5e5d2a62d"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/GameModel.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240431.58,
+      "chunkId": "457671fe17b67233a9996d436b0767ccb75fee60",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./GameModel.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./GameModel.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 30
+            }
+          }
+        },
+        {
+          "value": "./GameModel.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/GameModel.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/GameModel.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/GameModel.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/GameModel.js": {
+      "erroneous": true,
+      "mTimestamp": {
+        "mtime": 1719972240431.58,
+        "uuid": "6335821b-7c5a-4e94-bc9e-6a3462b337e9"
+      },
+      "chunkId": "dbfe3961254677850d72c4706652301dddacedfa"
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/Toast.mjs?cjs=&original=.js": {
+      "mTimestamp": 1719972240512.2468,
+      "chunkId": "2ef223d075824ba683d49145808526b344031420",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "./Toast.js",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 36
+            },
+            "end": {
+              "line": 2,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 19
+            },
+            "end": {
+              "line": 3,
+              "column": 52
+            }
+          }
+        },
+        {
+          "value": "./Toast.js",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 26
+            }
+          }
+        },
+        {
+          "value": "./Toast.js",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 29
+            },
+            "end": {
+              "line": 9,
+              "column": 41
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/Toast.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/Toast.js"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/Toast.js"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/Toast.js": {
+      "mTimestamp": {
+        "mtime": 1719972240512.2468,
+        "uuid": "e6ad0888-ed41-4fac-87e3-c9ce39c0d1ac"
+      },
+      "chunkId": "0661c7c5f0776ee2939f0dd8bd6fafbfd17fcaa2",
+      "imports": [
+        {
+          "value": "cce:/internal/ml/cjs-loader.mjs",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 23
+            },
+            "end": {
+              "line": 1,
+              "column": 56
+            }
+          }
+        }
+      ],
+      "type": "commonjs",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/ml/cjs-loader.mjs"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/GameController.ts": {
+      "mTimestamp": {
+        "mtime": 1720163699217.8193,
+        "uuid": "c262033e-e8cd-4e13-9a87-865b52842cbd"
+      },
+      "chunkId": "7bee5a6a6ac82aed974053d81265bba3367a7697",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/View/CellView.ts": {
+      "mTimestamp": {
+        "mtime": 1720170353561.5596,
+        "uuid": "faa04b42-9368-4927-9a79-5054cb0aebc3"
+      },
+      "chunkId": "c8656f650bb4709f499b57b61ba11a054344892b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "../model/Const",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 60
+            },
+            "end": {
+              "line": 3,
+              "column": 76
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/model/Const.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///F:/cocos/cocos_game/game/04/match-3/assets/script/utils/AudioUtils.ts": {
+      "mTimestamp": {
+        "mtime": 1720167922130.4036,
+        "uuid": "ba4c7f92-5237-4e40-8928-eac8fc340018"
+      },
+      "chunkId": "eddb0ca66e694ace6d8c8f150cb9a3a0e6582a90",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 65
+            },
+            "end": {
+              "line": 1,
+              "column": 69
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    }
+  }
+}

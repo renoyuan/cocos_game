@@ -1,0 +1,47 @@
+{
+  "ver": "1.0.22",
+  "importer": "texture",
+  "imported": true,
+  "uuid": "81d9bef8-8b0d-49e5-bcc8-05fa6ccb3a80",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "kai_231_bomb_yellow": {
+      "ver": "1.0.6",
+      "uuid": "5b9d7938-5d5f-4848-a02a-9dc0c0a6f35e",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "81d9bef8-8b0d-49e5-bcc8-05fa6ccb3a80",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 780,
+      "height": 130,
+      "rawWidth": 780,
+      "rawHeight": 130,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    }
+  },
+  "userData": {
+    "wrapModeS": "repeat",
+    "wrapModeT": "repeat",
+    "minfilter": "linear",
+    "magfilter": "linear",
+    "mipfilter": "none",
+    "anisotropy": 0
+  }
+}

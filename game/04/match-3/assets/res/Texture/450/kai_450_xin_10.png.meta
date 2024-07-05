@@ -1,0 +1,47 @@
+{
+  "ver": "1.0.22",
+  "importer": "texture",
+  "imported": true,
+  "uuid": "cf10b50a-e07e-43dc-a63f-eff965b497e6",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "kai_450_xin_10": {
+      "ver": "1.0.6",
+      "uuid": "25b921af-bb9f-4883-b4ea-bf9b618c79a3",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "cf10b50a-e07e-43dc-a63f-eff965b497e6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 73,
+      "height": 72,
+      "rawWidth": 73,
+      "rawHeight": 72,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {},
+      "imported": false,
+      "files": [],
+      "userData": {},
+      "displayName": "",
+      "id": "",
+      "name": ""
+    }
+  },
+  "userData": {
+    "wrapModeS": "repeat",
+    "wrapModeT": "repeat",
+    "minfilter": "linear",
+    "magfilter": "linear",
+    "mipfilter": "none",
+    "anisotropy": 0
+  }
+}

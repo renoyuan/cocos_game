@@ -1,0 +1,1368 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res.meta": {
+      "time": 1719978306437.9172
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res": {
+      "time": 1719978462702.138,
+      "uuid": "133ce64c-05ec-4ee4-b0d6-f17277c660ab"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\scene.meta": {
+      "time": 1719978290811.1145
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\scene\\Game.scene.meta": {
+      "time": 1719975547388.9634
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\scene\\Login.scene.meta": {
+      "time": 1719975513223.4702
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\scene": {
+      "time": 1719978295985.017,
+      "uuid": "83822d1f-e29a-4b4e-9aa2-9aab7858c8e8"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\scene\\Game.scene": {
+      "time": 1720171597410.3655,
+      "uuid": "27826609-7dc5-4b08-98e9-402ce0a0ba8e"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\scene\\Login.scene": {
+      "time": 1720144850940.5562,
+      "uuid": "c6f999c3-1cc3-4476-94d8-23fc914f0e42"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip.meta": {
+      "time": 1719978462708.123
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\migration.meta": {
+      "time": 1719978462708.123
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music.meta": {
+      "time": 1719978462708.123
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs.meta": {
+      "time": 1719978462708.123
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture.meta": {
+      "time": 1719978462709.1145
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bear.meta": {
+      "time": 1719978462716.096
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bird.meta": {
+      "time": 1719978462716.096
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bomb.meta": {
+      "time": 1719978462717.0938
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\cat.meta": {
+      "time": 1719978462718.0913
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\chicken.meta": {
+      "time": 1719978462719.0884
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\crush.meta": {
+      "time": 1719978462719.0884
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\fox.meta": {
+      "time": 1719978462720.085
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\frog.meta": {
+      "time": 1719978462721.0823
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\horse.meta": {
+      "time": 1719978462721.0823
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231.meta": {
+      "time": 1719989953745.2683
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450.meta": {
+      "time": 1719989953745.2683
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells.meta": {
+      "time": 1719989953746.2703
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login.meta": {
+      "time": 1719989953747.2632
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\ui.meta": {
+      "time": 1719989953747.2632
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals.meta": {
+      "time": 1719989953779.4624
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip": {
+      "time": 1719978391410.7026,
+      "uuid": "c020eddb-9c0d-41ae-ba3f-b48f64e53d0d"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\migration": {
+      "time": 1719978391423.6638,
+      "uuid": "63948142-4a68-4c81-97e1-f69692e516f2"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music": {
+      "time": 1719978391477.5288,
+      "uuid": "177922c2-80c2-4f0d-a8a0-274fdfd734e7"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs": {
+      "time": 1719978391495.4812,
+      "uuid": "d8ec2c13-ef31-4b49-9524-1f7ee697908b"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture": {
+      "time": 1719989953747.2632,
+      "uuid": "3a0719a8-3c03-447c-9c8f-d5c24a764b75"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bear": {
+      "time": 1719978391344.8774,
+      "uuid": "443a0071-5f4b-4216-a7de-6e862c7d870d"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bird": {
+      "time": 1719978391353.85,
+      "uuid": "e8a934f9-894a-4739-9f68-02fb98a86cb6"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bomb": {
+      "time": 1719978391359.8335,
+      "uuid": "91504bc0-aee7-4f0a-a08c-f637ef1849b0"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\cat": {
+      "time": 1719978391371.803,
+      "uuid": "328b9cf1-afb8-44f4-bdfe-96795e6c2f0a"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\chicken": {
+      "time": 1719978391382.7727,
+      "uuid": "84624ac8-74a3-438e-96bd-135fca0b98d7"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\crush": {
+      "time": 1719978391387.764,
+      "uuid": "7ffcce94-2c47-452a-9377-38bd11659aae"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\fox": {
+      "time": 1719978391398.7354,
+      "uuid": "d37c0386-cdc7-48b9-8359-02ea40cec6da"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\frog": {
+      "time": 1719978391408.7083,
+      "uuid": "e4cb5ca3-2a74-4cd9-a9a3-1ee8af198ed5"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\horse": {
+      "time": 1719978391419.6743,
+      "uuid": "9341bb8c-086e-4785-b22a-59047cb5116a"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231": {
+      "time": 1719989953758.4082,
+      "uuid": "6d2dfd29-7c62-476d-9c1a-1254d4fbef7a"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450": {
+      "time": 1719989953778.4653,
+      "uuid": "2f706155-eb82-42aa-a030-ca06f147b3a6"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells": {
+      "time": 1719989953779.4624,
+      "uuid": "5bdd918f-27a0-4f05-a305-a8aea3f90f56"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login": {
+      "time": 1719990807207.7686,
+      "uuid": "9ee52326-f61f-47b4-baf6-391c5ac98a21"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\ui": {
+      "time": 1719989953783.7192,
+      "uuid": "7f613861-c63c-43bb-96bb-16b85e6865c8"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals": {
+      "time": 1719989953817.2554,
+      "uuid": "737c52e6-c34a-4686-b0f3-465c393c039e"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\migration\\use_v2.0.x_cc.Toggle_event.js.meta": {
+      "time": 1719978462778.9294
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\click.bubble.mp3.meta": {
+      "time": 1719978462806.9333
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\contnuousMatch11.mp3.meta": {
+      "time": 1719978462807.9294
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\contnuousMatch3.mp3.meta": {
+      "time": 1719978462800.885
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\contnuousMatch5.mp3.meta": {
+      "time": 1719978462801.8782
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\contnuousMatch7.mp3.meta": {
+      "time": 1719978462807.9294
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\contnuousMatch9.mp3.meta": {
+      "time": 1719978462819.8967
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\drop.mp3.meta": {
+      "time": 1719978462819.8967
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate1.mp3.meta": {
+      "time": 1719978462825.885
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate2.mp3.meta": {
+      "time": 1719978462822.8906
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate3.mp3.meta": {
+      "time": 1719978462821.892
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate4.mp3.meta": {
+      "time": 1719978462836.8074
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate5.mp3.meta": {
+      "time": 1719978462835.8113
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate6.mp3.meta": {
+      "time": 1719978462838.8027
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate7.mp3.meta": {
+      "time": 1719978462839.803
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate8.mp3.meta": {
+      "time": 1719978462842.7922
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\gamescenebgm.mp3.meta": {
+      "time": 1719978462853.7637
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap.mp3.meta": {
+      "time": 1719978462852.7656
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\SwapFun.mp3.meta": {
+      "time": 1719978462857.7546
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_colorcolor_cleanAll.mp3.meta": {
+      "time": 1719978462852.7656
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_colorcolor_swap.mp3.meta": {
+      "time": 1719978462856.759
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_colorline.mp3.meta": {
+      "time": 1719978462866.7278
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_lineline.mp3.meta": {
+      "time": 1719978462866.7278
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_wrapline.mp3.meta": {
+      "time": 1719978462868.724
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_wrapwrap.mp3.meta": {
+      "time": 1719978462869.7202
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\worldscenebgm.mp3.meta": {
+      "time": 1719978462869.7202
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Bear.prefab.meta": {
+      "time": 1719978462874.7075
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Bird.prefab.meta": {
+      "time": 1719978462875.7046
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\BombWhite.prefab.meta": {
+      "time": 1719978462876.703
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Cat.prefab.meta": {
+      "time": 1719978462879.6946
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Chicken.prefab.meta": {
+      "time": 1719978462880.569
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Crush.prefab.meta": {
+      "time": 1719978462899.8276
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Fox.prefab.meta": {
+      "time": 1719978462899.8276
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Frog.prefab.meta": {
+      "time": 1719978462902.8188
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Horse.prefab.meta": {
+      "time": 1719978462904.8137
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bear\\click.anim.meta": {
+      "time": 1719978462913.1594
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bear\\column.anim.meta": {
+      "time": 1719978462909.8018
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bear\\line.anim.meta": {
+      "time": 1719978462916.1626
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bear\\wrap.anim.meta": {
+      "time": 1719978462918.1577
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bird\\bird.anim.meta": {
+      "time": 1719978462919.156
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bird\\click.anim.meta": {
+      "time": 1719978462929.1287
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bird\\effect.anim.meta": {
+      "time": 1719978462927.134
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bomb\\effect_col.anim.meta": {
+      "time": 1719978462931.1233
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bomb\\effect_line.anim.meta": {
+      "time": 1719978462933.118
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\cat\\click.anim.meta": {
+      "time": 1719978462933.118
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\cat\\column.anim.meta": {
+      "time": 1719978462939.105
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\cat\\line.anim.meta": {
+      "time": 1719978462940.1116
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\cat\\wrap.anim.meta": {
+      "time": 1719978462944.0916
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\chicken\\click.anim.meta": {
+      "time": 1719978462947.0815
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\chicken\\column.anim.meta": {
+      "time": 1719978462945.0876
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\chicken\\line.anim.meta": {
+      "time": 1719978462951.0696
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\chicken\\wrap.anim.meta": {
+      "time": 1719978462950.072
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\crush\\effect.anim.meta": {
+      "time": 1719978462953.0645
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\fox\\click.anim.meta": {
+      "time": 1719978462954.061
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\fox\\column.anim.meta": {
+      "time": 1719978462956.057
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\fox\\line.anim.meta": {
+      "time": 1719978462961.0444
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\fox\\wrap.anim.meta": {
+      "time": 1719978462962.0425
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\frog\\click.anim.meta": {
+      "time": 1719978462964.0369
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\frog\\column.anim.meta": {
+      "time": 1719978462965.0337
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\frog\\line.anim.meta": {
+      "time": 1719978462967.0283
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\frog\\wrap.anim.meta": {
+      "time": 1719978462969.0232
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\horse\\click.anim.meta": {
+      "time": 1719978462970.0205
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\horse\\column.anim.meta": {
+      "time": 1719978462973.0142
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\horse\\line.anim.meta": {
+      "time": 1719978462976.004
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\horse\\wrap.anim.meta": {
+      "time": 1719978462984.9792
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_bomb_white.png.meta": {
+      "time": 1719989953750.2827
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_bomb_yellow.png.meta": {
+      "time": 1719989953751.4277
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_10.png.meta": {
+      "time": 1719989953752.4243
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_11.png.meta": {
+      "time": 1719989953752.4243
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_12.png.meta": {
+      "time": 1719989953754.4214
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_13.png.meta": {
+      "time": 1719989953756.4146
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_14.png.meta": {
+      "time": 1719989953757.412
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_15.png.meta": {
+      "time": 1719989953759.4055
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_0.png.meta": {
+      "time": 1720062163533.8533
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_1.png.meta": {
+      "time": 1719989953761.234
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_10.png.meta": {
+      "time": 1719989953761.234
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_11.png.meta": {
+      "time": 1719989953762.2305
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_13.png.meta": {
+      "time": 1719989953763.2285
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_14.png.meta": {
+      "time": 1719989953764.2249
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_15.png.meta": {
+      "time": 1719989953764.2249
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_16.png.meta": {
+      "time": 1719989953765.223
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_17.png.meta": {
+      "time": 1719989953766.2195
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_18.png.meta": {
+      "time": 1719989953767.218
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_2.png.meta": {
+      "time": 1719989953768.2146
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_20.png.meta": {
+      "time": 1719989953769.212
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_21.png.meta": {
+      "time": 1719989953769.7227
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_22.png.meta": {
+      "time": 1719989953770.2273
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_23.png.meta": {
+      "time": 1719989953771.4856
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_24.png.meta": {
+      "time": 1719989953773.4778
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_25.png.meta": {
+      "time": 1719989953774.4795
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_3.png.meta": {
+      "time": 1719989953775.473
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_4.png.meta": {
+      "time": 1719989953775.473
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_5.png.meta": {
+      "time": 1719989953776.4702
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_6.png.meta": {
+      "time": 1719989953776.4702
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_7.png.meta": {
+      "time": 1719989953777.4692
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_8.png.meta": {
+      "time": 1719989953778.4653
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_9.png.meta": {
+      "time": 1719989953779.4624
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\loading.png.meta": {
+      "time": 1719990783604.5508
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\loading_bg.png.meta": {
+      "time": 1719990781332.447
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\loginButton.png.meta": {
+      "time": 1719990764626.532
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\ui\\main_background.jpg.meta": {
+      "time": 1720061883891.5002
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\bear.plist.meta": {
+      "time": 1719989953787.7249
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\bear.png.meta": {
+      "time": 1719989953789.2349
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\bird.plist.meta": {
+      "time": 1719989953791.2654
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\bird.png.meta": {
+      "time": 1719989953793.255
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\cat.plist.meta": {
+      "time": 1719989953796.2468
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\cat.png.meta": {
+      "time": 1719989953797.2446
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\chicken.plist.meta": {
+      "time": 1719989953801.6682
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\chicken.png.meta": {
+      "time": 1719989953802.665
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\fox.plist.meta": {
+      "time": 1719989953806.6638
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\fox.png.meta": {
+      "time": 1719989953807.6526
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\frog.plist.meta": {
+      "time": 1719989953811.2751
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\frog.png.meta": {
+      "time": 1719989953812.2678
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\horse.plist.meta": {
+      "time": 1719989953816.2568
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\horse.png.meta": {
+      "time": 1719989953818.2532
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\migration\\use_v2.0.x_cc.Toggle_event.js": {
+      "time": 1719972241671.114,
+      "uuid": "6a67bf47-d487-40b8-977a-3c89e99ef894"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\contnuousMatch3.mp3": {
+      "time": 1719972239676.5713,
+      "uuid": "11bc0559-f090-40a9-a942-83ae7dcfa748"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\contnuousMatch5.mp3": {
+      "time": 1719972239694.548,
+      "uuid": "0238574a-c0e5-456d-87db-59fe5a40fc30"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\click.bubble.mp3": {
+      "time": 1719972239642.6797,
+      "uuid": "b0c7278f-5a0b-4b77-acd9-1f92b427a817"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\contnuousMatch7.mp3": {
+      "time": 1719972239710.834,
+      "uuid": "b546d660-da8a-46bc-bb69-7e2b9058db7f"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\contnuousMatch11.mp3": {
+      "time": 1719972239659.1985,
+      "uuid": "44585ce7-7246-4d69-9a5c-16f61d1e9160"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\contnuousMatch9.mp3": {
+      "time": 1719972239727.815,
+      "uuid": "737d6c3e-50c5-40a9-bdcf-6787c21ffd91"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\drop.mp3": {
+      "time": 1719972239744.4915,
+      "uuid": "bf9e398d-109e-43e4-86cd-071fe3e92c69"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate3.mp3": {
+      "time": 1719972239798.318,
+      "uuid": "6d9868f5-e611-430b-8401-9e71e10d0948"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate2.mp3": {
+      "time": 1719972239779.6646,
+      "uuid": "c5be7612-2e19-482a-a29d-e0a967fccc8c"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate1.mp3": {
+      "time": 1719972239762.244,
+      "uuid": "f2f00aed-0a7f-4a92-8a50-fbef542f8cf5"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate5.mp3": {
+      "time": 1719972239850.3162,
+      "uuid": "f8a6668a-a02b-44bb-9b98-cea197c60bd2"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate4.mp3": {
+      "time": 1719972239832.4722,
+      "uuid": "767a9bd6-6257-4307-a8f0-56709c6c70e6"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate6.mp3": {
+      "time": 1719972239868.7273,
+      "uuid": "4fe10ab8-c7d1-45bb-8f71-a142f1146a5e"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate7.mp3": {
+      "time": 1719972239887.4548,
+      "uuid": "8b46062c-dcaa-4b60-b292-d2e779c4b103"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\eliminate8.mp3": {
+      "time": 1719972239905.1404,
+      "uuid": "c01bc791-087a-41cd-8c6b-5fd4bc0f40aa"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_colorcolor_cleanAll.mp3": {
+      "time": 1719972239964.7666,
+      "uuid": "51b7b7a6-b8ec-4c5f-988a-6884b2606b4c"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap.mp3": {
+      "time": 1719972239947.6655,
+      "uuid": "fa4c7d39-e32c-4d24-a6f7-b4e33ebc266b"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\gamescenebgm.mp3": {
+      "time": 1719972239928.157,
+      "uuid": "f0bbf861-9d72-4734-b012-26ba8614bf11"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_colorcolor_swap.mp3": {
+      "time": 1719972239985.7812,
+      "uuid": "ef959e87-aa3d-4f89-865f-ab5d1076db5a"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\SwapFun.mp3": {
+      "time": 1719972239626.6238,
+      "uuid": "b49a4ea7-0646-441e-b94f-cc80a14bdcac"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_colorline.mp3": {
+      "time": 1719972240005.1726,
+      "uuid": "2100560f-dd1b-4e82-9ce8-ee0d3ea9996e"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_lineline.mp3": {
+      "time": 1719972240024.5713,
+      "uuid": "75b60338-1731-4272-ac1c-2c0b48b3a264"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_wrapline.mp3": {
+      "time": 1719972240045.0273,
+      "uuid": "b2fb82c0-c340-4029-ba82-cea2e34d03e6"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\swap_wrapwrap.mp3": {
+      "time": 1719972240065.051,
+      "uuid": "7fe93c63-1be6-47cf-ae3f-d83c08d56093"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Music\\worldscenebgm.mp3": {
+      "time": 1719972240087.3745,
+      "uuid": "9c14c1f0-df76-493b-b065-95b18a8a9499"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Bear.prefab": {
+      "time": 1719978462871.7148,
+      "uuid": "f771c165-d608-444d-ab35-ddb69e5e7161"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Bird.prefab": {
+      "time": 1719978462871.7148,
+      "uuid": "eb11d0a5-91bd-4a85-bbab-523ded3b41e4"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\BombWhite.prefab": {
+      "time": 1719978462872.7144,
+      "uuid": "2e16c409-3817-4827-b6a0-5e14db230663"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Cat.prefab": {
+      "time": 1719978462872.7144,
+      "uuid": "207ca3c5-8668-45dd-984b-301bcee92775"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Chicken.prefab": {
+      "time": 1719978462872.7144,
+      "uuid": "7436af1e-4617-4e34-a0a3-8a5c78fcdbdd"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Fox.prefab": {
+      "time": 1719978462885.8647,
+      "uuid": "57de7b14-c029-4b51-bbe8-d0b097f0cf45"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Crush.prefab": {
+      "time": 1719978462885.8647,
+      "uuid": "3b260bf3-fddb-415d-9d29-4247d176144e"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Frog.prefab": {
+      "time": 1719978462887.8586,
+      "uuid": "f7e7b94c-d68d-44c1-b10f-280846f838a2"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Prefabs\\Horse.prefab": {
+      "time": 1719978462891.8486,
+      "uuid": "91a25021-24f8-4f1e-afa7-b2a98fa7d144"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bear\\column.anim": {
+      "time": 1719972239120.5054,
+      "uuid": "2e558d11-f20d-428a-9cc8-62c53b3f73ab"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bear\\click.anim": {
+      "time": 1719972239106.3257,
+      "uuid": "03f2f4e6-a296-4ecc-94fc-9544f795a1ea"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bear\\line.anim": {
+      "time": 1719972239138.3833,
+      "uuid": "a62f92f4-de2e-4f84-93c3-c5868bed7be1"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bear\\wrap.anim": {
+      "time": 1719972239153.1653,
+      "uuid": "89166f52-e94e-4fc3-9984-f1dbfa92b091"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bird\\bird.anim": {
+      "time": 1719972239173.454,
+      "uuid": "86cf9e28-5a31-48a4-84e4-dcb09d656244"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bird\\effect.anim": {
+      "time": 1719972239204.1008,
+      "uuid": "77ae291b-dd36-4f6b-b72a-b0a2c3c62104"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bird\\click.anim": {
+      "time": 1719972239188.231,
+      "uuid": "07c43aef-eb49-4e29-b49c-eda83354b739"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bomb\\effect_col.anim": {
+      "time": 1719972239224.9192,
+      "uuid": "a5a01026-17a1-4d1b-a588-a6e1619ae174"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\cat\\click.anim": {
+      "time": 1719972239262.8303,
+      "uuid": "0ff04168-002e-4851-96a7-cff459bc30a5"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\bomb\\effect_line.anim": {
+      "time": 1719972239240.3093,
+      "uuid": "a29f655c-4462-4a37-a7d6-39381913c2ac"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\cat\\column.anim": {
+      "time": 1719972239278.7195,
+      "uuid": "589876b3-6266-46cb-9744-d597c110237d"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\cat\\line.anim": {
+      "time": 1719972239295.557,
+      "uuid": "adeb5acf-dbd7-4310-86b0-bec50418e1ae"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\cat\\wrap.anim": {
+      "time": 1719972239313.448,
+      "uuid": "5e65a5bf-8f42-479e-bb64-5f6a1e3f79bc"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\chicken\\column.anim": {
+      "time": 1719972239351.386,
+      "uuid": "01ec10e7-309d-4a7e-bb8a-b2adcb979e37"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\chicken\\click.anim": {
+      "time": 1719972239334.3054,
+      "uuid": "09e57c50-7520-47d2-973d-15ab34d11af4"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\chicken\\wrap.anim": {
+      "time": 1719972239384.4148,
+      "uuid": "b47ba73c-ea60-4471-8ac7-62189b36fd45"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\chicken\\line.anim": {
+      "time": 1719972239368.1482,
+      "uuid": "cb7efc81-6666-49bc-b80a-2bbbd7e00550"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\crush\\effect.anim": {
+      "time": 1719972239404.4326,
+      "uuid": "21a7e608-0ca6-4d88-b8e2-f68e9c335eca"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\fox\\click.anim": {
+      "time": 1719972239422.444,
+      "uuid": "352d9f97-3e71-40c0-a2ac-d21800b34315"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\fox\\column.anim": {
+      "time": 1719972239436.737,
+      "uuid": "b385729a-8c29-4189-9b56-2b40bded51cf"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\fox\\line.anim": {
+      "time": 1719972239457.5168,
+      "uuid": "305c4319-c6bc-443e-ae94-140bb22ccac0"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\fox\\wrap.anim": {
+      "time": 1719972239475.1543,
+      "uuid": "e28f67e5-3c91-44b8-a8a5-8c2e19c35cf9"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\frog\\click.anim": {
+      "time": 1719972239493.8494,
+      "uuid": "7d0895cb-5a59-4ca1-ab2b-fead3e720b4c"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\frog\\column.anim": {
+      "time": 1719972239508.3667,
+      "uuid": "bcfbf09e-b994-4719-b964-edaeed00703a"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\frog\\line.anim": {
+      "time": 1719972239524.3242,
+      "uuid": "d3685e1a-c40d-45a6-9e0f-3486eabf6108"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\frog\\wrap.anim": {
+      "time": 1719972239539.0205,
+      "uuid": "6fd38151-d208-4c50-abdd-5c688915a58f"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\horse\\click.anim": {
+      "time": 1719972239559.2524,
+      "uuid": "d4f864ca-5624-4909-8b04-7a2b309cb19b"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\horse\\column.anim": {
+      "time": 1719972239574.41,
+      "uuid": "de839f38-35ff-4a3f-9080-8db36fe7d617"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_bomb_white.png": {
+      "time": 1719972240633.152,
+      "uuid": "4ce3773b-63d0-4fd1-ab33-fdd71bf72342"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\horse\\line.anim": {
+      "time": 1719972239589.5022,
+      "uuid": "7f08e8dc-4147-4b8c-b92b-3d0804afdeaf"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_bomb_yellow.png": {
+      "time": 1719972240650.945,
+      "uuid": "81d9bef8-8b0d-49e5-bcc8-05fa6ccb3a80"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\AnimationClip\\horse\\wrap.anim": {
+      "time": 1719972239604.6345,
+      "uuid": "6877223f-872c-4bac-8f4c-01737eda1c60"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_10.png": {
+      "time": 1719972240669.4758,
+      "uuid": "fe4d96aa-d3ae-4303-bd87-121722a9270c"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_11.png": {
+      "time": 1719972240691.4304,
+      "uuid": "547b021a-2ad3-40a0-8c60-7ca5c070c25a"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_12.png": {
+      "time": 1719972240708.6624,
+      "uuid": "dcf36244-b1cd-4389-a576-a84693264cb3"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_13.png": {
+      "time": 1719972240725.5322,
+      "uuid": "8ed184f8-cb98-4872-b126-6e9150a21606"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_14.png": {
+      "time": 1719972240747.6133,
+      "uuid": "dad533eb-95e9-4077-b1b3-2963ebb1d9c0"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\231\\kai_231_destroy_light_15.png": {
+      "time": 1719972240767.56,
+      "uuid": "76bdc9e3-1e56-4e16-9a83-7cc0d2dcdf61"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_0.png": {
+      "time": 1719972240789.149,
+      "uuid": "7475a2b1-5f33-487e-8c47-ad783eb65fd5"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_1.png": {
+      "time": 1719972240806.4944,
+      "uuid": "31af7275-99fd-44b4-b40a-02ea35dcca80"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_11.png": {
+      "time": 1719972240841.6362,
+      "uuid": "856f5cdc-641d-441c-982a-55abe184a74b"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_10.png": {
+      "time": 1719972240823.4534,
+      "uuid": "cf10b50a-e07e-43dc-a63f-eff965b497e6"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_13.png": {
+      "time": 1719972240859.3567,
+      "uuid": "792333e8-40bd-4b22-95d1-93657e22c55c"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_14.png": {
+      "time": 1719972240878.83,
+      "uuid": "2ebb05be-62d8-43c5-95de-d9cf3e9c01b5"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_15.png": {
+      "time": 1719972240897.361,
+      "uuid": "2a9a310a-5e51-4a44-8b7b-b8a72aa5640a"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_16.png": {
+      "time": 1719972240915.484,
+      "uuid": "23527afb-a0a6-4fc9-b3f1-f270182488dd"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_18.png": {
+      "time": 1719972240951.1387,
+      "uuid": "417d0926-424b-4e30-9fb7-45038ef75d21"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_2.png": {
+      "time": 1719972240970.6047,
+      "uuid": "6f863ac7-d1d1-41b6-b15c-d0de8ace0f69"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_20.png": {
+      "time": 1719972241051.5078,
+      "uuid": "cac56640-d3b1-49f7-a48e-04999c158477"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_17.png": {
+      "time": 1719972240934.3906,
+      "uuid": "25ff482f-edd8-4bdb-9539-3ee2b7c94a2e"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_23.png": {
+      "time": 1719972241108.7173,
+      "uuid": "f8d78819-98ac-47c0-af93-1a5ee863d767"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_21.png": {
+      "time": 1719972241070.3716,
+      "uuid": "b1e93e13-5e46-469d-8638-f43b60e80fa5"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_22.png": {
+      "time": 1719972241092.471,
+      "uuid": "1eafeeda-26bd-4691-b2dd-9c99f8fd2f6f"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_24.png": {
+      "time": 1719972241126.6687,
+      "uuid": "2dda7da6-0e92-45b9-85e1-d624775b3905"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_25.png": {
+      "time": 1719972241144.7195,
+      "uuid": "01cfd815-5c92-4a7c-ab66-cf8f51a3a3f6"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_4.png": {
+      "time": 1719972241180.5164,
+      "uuid": "bcdd4da5-c0e3-423c-aed3-5525c209baa1"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_3.png": {
+      "time": 1719972241164.9912,
+      "uuid": "b194cda6-3ab1-4b5d-beca-7689a8fea44c"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_5.png": {
+      "time": 1719972241199.0742,
+      "uuid": "a37e9c4c-7e8c-4fc0-96d3-959682c79a24"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_6.png": {
+      "time": 1719972241216.205,
+      "uuid": "f89b884d-35fd-44e0-94e5-546778dafe29"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_7.png": {
+      "time": 1719972241235.604,
+      "uuid": "5c946068-d664-4586-a0aa-1104175c00a6"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_8.png": {
+      "time": 1719972241253.4812,
+      "uuid": "fb1a73ed-54b3-4f53-a533-306552124176"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\450\\kai_450_xin_9.png": {
+      "time": 1719972241271.4316,
+      "uuid": "5f5782d9-8aa7-48ca-adc3-580013c84e6f"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\loading.png": {
+      "time": 1719972241573.4453,
+      "uuid": "e54264d4-4c17-4504-b79a-0279a5d8995d"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\loading_bg.png": {
+      "time": 1719972241590.5383,
+      "uuid": "36280ef3-d544-4483-9fbf-8e5888b49121"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\loginButton.png": {
+      "time": 1719972241627.2917,
+      "uuid": "d9645dc7-52fd-424e-b51e-9e4fbf961f9e"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\ui\\main_background.jpg": {
+      "time": 1719972241650.3965,
+      "uuid": "eb2b75b9-8f83-480a-b678-7e619c9586aa"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\bear.png": {
+      "time": 1719972241325.3835,
+      "uuid": "6e3d9dff-c9b9-4b0d-ade4-1eaf3d46cf9b"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\bird.png": {
+      "time": 1719972241363.2778,
+      "uuid": "968032ee-251b-4433-8408-b2432f4a1c27"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\cat.png": {
+      "time": 1719972241405.3145,
+      "uuid": "e4992ee6-ffa8-42ae-9acb-c22bcb9c944d"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\chicken.png": {
+      "time": 1719972241439.6665,
+      "uuid": "be9763fb-f3fb-4194-8b5b-02e8268ef9dd"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\bird.plist": {
+      "time": 1719972241340.432,
+      "uuid": "98bc59ee-42dd-46f9-93ad-4008a385d8b8"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\fox.png": {
+      "time": 1719972241477.2107,
+      "uuid": "82a4017b-df3b-428d-b272-64b27fe44b4f"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\cat.plist": {
+      "time": 1719972241383.248,
+      "uuid": "342eff0e-8176-456b-b73d-7d8a1e022886"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\frog.png": {
+      "time": 1719972241514.3704,
+      "uuid": "6d049f72-5731-4c07-853d-04cb318accb5"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\chicken.plist": {
+      "time": 1719972241420.367,
+      "uuid": "e5672f76-9e9b-48e7-a6c2-94441d9d8bd8"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\bear.plist": {
+      "time": 1719972241305.4412,
+      "uuid": "ecd1b9c1-6f61-40c7-9be2-f932dcfa0e8c"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\fox.plist": {
+      "time": 1719972241456.789,
+      "uuid": "f6078205-4c7d-4108-a413-9bcbfffac0c1"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\horse.png": {
+      "time": 1719972241551.3745,
+      "uuid": "dd64b5fb-91ed-44e5-8dd4-b9f80c0487fe"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\frog.plist": {
+      "time": 1719972241493.1765,
+      "uuid": "919aae25-fdaf-4350-a932-661dffb6b7da"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\Cells\\animals\\horse.plist": {
+      "time": 1719972241530.2952,
+      "uuid": "1e809c59-3c11-4547-be11-5ba1903f5e7d"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\login.png.meta": {
+      "time": 1719989953781.7236
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\login.png": {
+      "time": 1719972241608.3499,
+      "uuid": "8e4b5cfa-0a55-466d-92ec-1d0ddff45ae3"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script.meta": {
+      "time": 1719990399352.4116
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script": {
+      "time": 1720163719283.0999,
+      "uuid": "f8071382-9a5a-4dad-8830-24335a559651"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller.meta": {
+      "time": 1720144841215.0854
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model.meta": {
+      "time": 1720144841216.0784
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\unitTest.meta": {
+      "time": 1720144841216.0784
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils.meta": {
+      "time": 1720144841216.0784
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View.meta": {
+      "time": 1720144841216.0784
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller\\GameController.ts.meta": {
+      "time": 1720061804781.1748
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller\\LoginController.ts.meta": {
+      "time": 1719991055503.653
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\Const.ts.meta": {
+      "time": 1720065224096.2427
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\GameModel.ts.meta": {
+      "time": 1720063645926.7583
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\unitTest\\UnitTest.ts.meta": {
+      "time": 1720063538641.3777
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\ModelUtils.ts.meta": {
+      "time": 1720065335036.206
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\Toast.ts.meta": {
+      "time": 1720063964418.1987
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\EffecLayer.ts.meta": {
+      "time": 1720062712205.7664
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\GridView.ts.meta": {
+      "time": 1720062093131.651
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller": {
+      "time": 1720162748387.4622,
+      "uuid": "66bfc195-d037-4a0e-a14a-c6b253365671"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model": {
+      "time": 1720162748540.304,
+      "uuid": "0f127b59-bcd5-41e1-aeb3-22d747ea363d"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\unitTest": {
+      "time": 1720144817049.1545,
+      "uuid": "9b6c801b-a28d-46cd-b009-eed1052eec45"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils": {
+      "time": 1720170929840.1367,
+      "uuid": "65b73a0c-1d2d-4341-ba41-e1619763de78"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View": {
+      "time": 1720170929840.1367,
+      "uuid": "63decfd6-cd60-453f-b1ef-3a8b4a7d0e4b"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller\\GameController.ts": {
+      "time": 1720167671523.889,
+      "uuid": "74d07b0e-4ac3-4e60-8496-c44a5f603352"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller\\LoginController.ts": {
+      "time": 1720086786886.7522,
+      "uuid": "ef6ed0de-6c94-43c1-a3a7-12a1097ef43d"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\Const.ts": {
+      "time": 1720146588382.7637,
+      "uuid": "f0524fbd-4c34-47bf-8a3d-3ec089f9f38b"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\GameModel.ts": {
+      "time": 1720167128088.2852,
+      "uuid": "d2eb8cf4-2c82-433d-81f6-bdcf1b44ee8f"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\unitTest\\UnitTest.ts": {
+      "time": 1720063538640.3801,
+      "uuid": "69f2858d-b46e-455b-ba5f-d82c17a8d4fe"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\ModelUtils.ts": {
+      "time": 1720166655075.3484,
+      "uuid": "6ac2e1e5-0549-4264-a56e-109d2023ac58"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\Toast.ts": {
+      "time": 1720162127500.6616,
+      "uuid": "b3241b22-e0d0-4510-a5b1-bc19148805f0"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\EffecLayer.ts": {
+      "time": 1720149543801.624,
+      "uuid": "59d92cba-2444-4936-9d24-8a7eb64f8e40"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\GridView.ts": {
+      "time": 1720170085957.45,
+      "uuid": "63561fce-edf3-4724-9770-2bb78121c8a9"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\CellModel.ts.meta": {
+      "time": 1720150112515.0027
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\CellModel.ts": {
+      "time": 1720167695264.2058,
+      "uuid": "0d76586c-21e5-4f32-bb97-912fdc468610"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\AudioUtils.ts.meta": {
+      "time": 1720170929842.1313
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\CellView.ts.meta": {
+      "time": 1720170929843.1296
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\AudioUtils.ts": {
+      "time": 1720167922130.4036,
+      "uuid": "ba4c7f92-5237-4e40-8928-eac8fc340018"
+    },
+    "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\CellView.ts": {
+      "time": 1720170353561.5596,
+      "uuid": "faa04b42-9368-4927-9a79-5054cb0aebc3"
+    }
+  },
+  "missing": {
+    "c6f999c3-1cc3-4476-94d8-23fc914f0e42": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Scene\\Login.scene",
+      "time": 1719975773136.3032,
+      "removeTime": 1719978316440
+    },
+    "27826609-7dc5-4b08-98e9-402ce0a0ba8e": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Scene\\Game.scene",
+      "time": 1719975547387.4631,
+      "removeTime": 1719978316440
+    },
+    "83822d1f-e29a-4b4e-9aa2-9aab7858c8e8": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Scene",
+      "time": 1719978295985.017,
+      "removeTime": 1719978316439
+    },
+    "65d69540-0e35-41a6-9d81-714545806020": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\login.jpg",
+      "time": 1719972241608.3499,
+      "removeTime": 1719989371510
+    },
+    "8c13a6fc-f203-4e24-80d6-40e835ab447e": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\login_bg.mtl",
+      "time": 1717385314548.7913,
+      "removeTime": 1719989953739
+    },
+    "aa575ddc-8716-4cd5-9d03-f42990c834c7": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script",
+      "time": 1719978410773.1528,
+      "removeTime": 1719990373383
+    },
+    "60c8eb32-0fd9-4c8c-a5b8-45b2c3994264": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Controller",
+      "time": 1719978410746.2207,
+      "removeTime": 1719990373383
+    },
+    "04ace91c-a992-4ded-881b-d68c7a412af6": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Model",
+      "time": 1719978410755.1958,
+      "removeTime": 1719990373383
+    },
+    "a882f68a-d7b5-4339-9cd7-7f03d63e80d8": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\UnitTest",
+      "time": 1719978410762.178,
+      "removeTime": 1719990373383
+    },
+    "2b1eb16c-4ee7-4181-8db6-d3ec21e4030c": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Utils",
+      "time": 1719978410772.154,
+      "removeTime": 1719990373383
+    },
+    "4b9ef38a-7a44-43e7-b66c-aa954db1be6d": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\View",
+      "time": 1719978410779.1343,
+      "removeTime": 1719990373383
+    },
+    "5a4d0ac4-b338-4636-a486-fc47064108b9": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Utils\\ModelUtils.ts",
+      "time": 1719972240492.5605,
+      "removeTime": 1719990373383
+    },
+    "5ac6422a-d7a9-41aa-b1d9-d36e3a151719": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Controller\\GameController.js",
+      "time": 1719972240359.1511,
+      "removeTime": 1719990373383
+    },
+    "5f484e41-bace-4042-865a-90aeca01786d": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Controller\\LoginController.js",
+      "time": 1719972240377.6423,
+      "removeTime": 1719990373384
+    },
+    "dae88182-7af0-4c68-aee5-42a86e99ef06": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Model\\CellModel.js",
+      "time": 1719972240398.3984,
+      "removeTime": 1719990373384
+    },
+    "f90887ac-19b3-41b4-998d-689b33d06ab8": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Model\\ConstValue.js",
+      "time": 1719972240414.3562,
+      "removeTime": 1719990373384
+    },
+    "cc4421da-3250-44fd-92a2-ed6fd850ac1d": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Model\\GameModel.js",
+      "time": 1719972240431.58,
+      "removeTime": 1719990373384
+    },
+    "16fcef65-3a4a-40ed-adaf-ba198c903319": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\UnitTest\\GameModelTest.js",
+      "time": 1719972240454.4595,
+      "removeTime": 1719990373384
+    },
+    "fe151cbe-4769-45bd-ab3b-e9dc9a87651f": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Utils\\AudioUtils.js",
+      "time": 1719972240474.8704,
+      "removeTime": 1719990373384
+    },
+    "7775bbd6-2b21-4d09-ae3a-e51f84998534": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\Utils\\Toast.js",
+      "time": 1719972240512.2468,
+      "removeTime": 1719990373384
+    },
+    "fbf190b1-e29b-4557-ad94-67bfaa249a50": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\View\\CellView.js",
+      "time": 1719972240533.99,
+      "removeTime": 1719990373384
+    },
+    "0e9259b2-9f47-488e-a75a-a354e98a917d": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\View\\EffectLayer.js",
+      "time": 1719972240551.4875,
+      "removeTime": 1719990373384
+    },
+    "d0d1f0e3-f6b9-43c7-9414-b4ffb6b68415": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\Script\\View\\GridView.js",
+      "time": 1719972240567.4993,
+      "removeTime": 1719990373384
+    },
+    "f8071382-9a5a-4dad-8830-24335a559651": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\UnitTest",
+      "time": 1720063472548.6243,
+      "removeTime": 1720063497711
+    },
+    "ac9ca87b-dd92-46d7-bc63-3e0041c991d3": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\res\\Texture\\login\\material.mtl",
+      "time": 1719990702132.768,
+      "removeTime": 1719990807325
+    },
+    "ef6ed0de-6c94-43c1-a3a7-12a1097ef43d": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller\\LoginController.ts",
+      "time": 1720086786886.7522,
+      "removeTime": 1720143521524
+    },
+    "f895fcb3-f206-4df7-bcc3-7d10d93f5644": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller",
+      "time": 1720061804780.1775,
+      "removeTime": 1720143521524
+    },
+    "00708d18-561d-431c-8b34-f43caeffb0d4": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View",
+      "time": 1720062712204.7688,
+      "removeTime": 1720143521524
+    },
+    "74d07b0e-4ac3-4e60-8496-c44a5f603352": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller\\GameController.ts",
+      "time": 1720065033339.556,
+      "removeTime": 1720143521524
+    },
+    "59d92cba-2444-4936-9d24-8a7eb64f8e40": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\EffecLayer.ts",
+      "time": 1720062712204.7688,
+      "removeTime": 1720143521525
+    },
+    "63561fce-edf3-4724-9770-2bb78121c8a9": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\GridView.ts",
+      "time": 1720082686764.523,
+      "removeTime": 1720143521525
+    },
+    "92e8ff60-9ed6-4a81-9157-f1f8844e3637": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\unitTest",
+      "time": 1720063538640.3801,
+      "removeTime": 1720143521524
+    },
+    "69f2858d-b46e-455b-ba5f-d82c17a8d4fe": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\unitTest\\UnitTest.ts",
+      "time": 1720063538640.3801,
+      "removeTime": 1720143521525
+    },
+    "82c513c7-3b6b-47bf-9a69-6f607dfe0f01": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils",
+      "time": 1720065335035.2097,
+      "removeTime": 1720143521524
+    },
+    "b3241b22-e0d0-4510-a5b1-bc19148805f0": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\Toast.ts",
+      "time": 1720063964417.201,
+      "removeTime": 1720143521525
+    },
+    "4599609c-b3ff-48e2-87c6-c6d2e7b9e87b": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model",
+      "time": 1720065224096.2427,
+      "removeTime": 1720143521524
+    },
+    "f0524fbd-4c34-47bf-8a3d-3ec089f9f38b": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\Const.ts",
+      "time": 1720065270855.0955,
+      "removeTime": 1720143521524
+    },
+    "d2eb8cf4-2c82-433d-81f6-bdcf1b44ee8f": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\GameModel.ts",
+      "time": 1720076548440.4153,
+      "removeTime": 1720143521524
+    },
+    "6ac2e1e5-0549-4264-a56e-109d2023ac58": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\ModelUtils.ts",
+      "time": 1720065335035.2097,
+      "removeTime": 1720143521525
+    },
+    "6b6a59d4-291c-40d0-9d82-bb680b78f93b": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\AudioUtils.js",
+      "time": 1720149933126.4976,
+      "removeTime": 1720162748387
+    },
+    "0892f384-1e68-4a32-875c-a4661229ed7a": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller\\GameController.js",
+      "time": 1719972240359.1511,
+      "removeTime": 1720162748387
+    },
+    "475fe694-3759-492d-8296-bd612ad43c74": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\Controller\\LoginController.js",
+      "time": 1720000098173.3386,
+      "removeTime": 1720162748387
+    },
+    "29652b70-64f5-45ea-bb82-c24f0b4ea48e": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\CellModel.js",
+      "time": 1719972240398.3984,
+      "removeTime": 1720162748387
+    },
+    "8d565086-c454-4dd9-9f3d-50a255e528c0": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\ConstValue.js",
+      "time": 1719972240414.3562,
+      "removeTime": 1720162748500
+    },
+    "e6ad0888-ed41-4fac-87e3-c9ce39c0d1ac": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\Toast.js",
+      "time": 1719972240512.2468,
+      "removeTime": 1720162748545
+    },
+    "6335821b-7c5a-4e94-bc9e-6a3462b337e9": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\model\\GameModel.js",
+      "time": 1719972240431.58,
+      "removeTime": 1720162748558
+    },
+    "7994db45-4e20-41e2-8620-70da164bb54f": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\CellView.js",
+      "time": 1719972240533.99,
+      "removeTime": 1720162756959
+    },
+    "1bd64c87-87c7-42d1-8f95-3b0ff3f2fa91": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\EffectLayer.js",
+      "time": 1720150360813.9592,
+      "removeTime": 1720162756960
+    },
+    "7ce30871-9968-4c54-81cb-05b8e498add9": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\View\\GridView.js",
+      "time": 1720150297395.469,
+      "removeTime": 1720162756960
+    },
+    "c262033e-e8cd-4e13-9a87-865b52842cbd": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\GameController.ts",
+      "time": 1720163699217.8193,
+      "removeTime": 1720163719308
+    },
+    "a54d831e-356f-4849-979d-4292f84066fa": {
+      "path": "F:\\cocos\\cocos_game\\game\\04\\match-3\\assets\\script\\utils\\ModelUtils copy.ts",
+      "time": 1719972240492.5605,
+      "removeTime": 1720166818260
+    }
+  }
+}
